@@ -621,7 +621,8 @@ const FOTOS_BASE = [
   { src: COMMONS('CapitolioNacionalDeColombia2004-7.jpg'), cred:'Capitolio Nacional · Kinori / Wikimedia Commons' },
   { src: COMMONS('Catedral_Primada_de_Bogotá.1.jpg'), cred:'Plaza de Bolívar, Bogotá · Wikimedia Commons' },
 ];
-const imgSegura = (src, alt='') => `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph></div>'">`;
+const respaldo = (k='') => FOTOS_BASE[[...k].reduce((a,c)=>a+c.charCodeAt(0),0) % FOTOS_BASE.length].src;
+const imgSegura = (src, alt='') => { const r = respaldo(alt); return `<img src="${esc(src || r)}" alt="${esc(alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="if(this.dataset.r){this.outerHTML='<div class=ph></div>'}else{this.dataset.r=1;this.src='${r}'}">`; };
 function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
 /* ---------- idioma ---------- */
@@ -761,7 +762,7 @@ function pintarNoticias(){
   document.getElementById('chips').innerHTML = CATS.map(c => `<button class="chip ${c[0]===FILTRO?'on':''}" data-c="${c[0]}">${d(c[0])}</button>`).join('');
   document.getElementById('lista').innerHTML = lista.length ? lista.map(n => `
     <a class="nota" href="${esc(n.u)}" target="_blank" rel="noopener">
-      <div class="mini">${n.img ? imgSegura(n.img, n.t) : '<div class="ph"></div>'}${!primera && !v.has(claveT(n.t)) ? `<span class="nueva">${d('nueva')}</span>`:''}</div>
+      <div class="mini">${imgSegura(n.img, n.t)}${!primera && !v.has(claveT(n.t)) ? `<span class="nueva">${d('nueva')}</span>`:''}</div>
       <div class="tx"><h4>${esc(n.t)}</h4><div class="meta">${esc(n.f||'')} · ${d('hace')(minDesde(n.d))}</div></div>
     </a>`).join('') : `<div class="vacio">${d('sinNotas')}</div>`;
   document.getElementById('notEstado').textContent = d('notEstado')(NOTAS.length, ACT_ROBOT ? horaCorta(ACT_ROBOT) : '—');
@@ -773,9 +774,9 @@ document.getElementById('busca').addEventListener('input', pintarNoticias);
 document.getElementById('videos').addEventListener('click', e => { const v = e.target.closest('.video'); if (v && !v.querySelector('iframe')) v.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${v.dataset.v}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`; });
 
 function pintarHoy(){
-  const conFoto = NOTAS.slice(0, 8);
+  const conFoto = [...NOTAS.filter(n => n.img), ...NOTAS.filter(n => !n.img)].slice(0, 8);
   document.getElementById('carruselHoy').innerHTML = conFoto.length ? conFoto.map(n => `
-    <a class="nota-h" href="${esc(n.u)}" target="_blank" rel="noopener">${n.img ? imgSegura(n.img, n.t) : '<div class="ph"></div>'}
+    <a class="nota-h" href="${esc(n.u)}" target="_blank" rel="noopener">${imgSegura(n.img, n.t)}
       ${E.vistos.length && !vistos().has(claveT(n.t)) ? `<span class="nueva">${d('nueva')}</span>`:''}
       <div class="cap"><h4>${esc(n.t)}</h4><div class="meta">${esc(n.f||'')} · ${d('hace')(minDesde(n.d))}</div></div></a>`).join('')
     : `<div class="vacio" style="flex:1">${d('buscando')}</div>`;
