@@ -1,0 +1,1091 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UNP al Día</title>
+<meta name="description" content="Las cifras de la UNP en un solo lugar y tus derechos de petición listos para enviar a la UNP, la Contraloría, la Procuraduría y la Fiscalía.">
+<meta name="theme-color" content="#0b1020">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="UNP al Día — tu derecho de petición, listo para enviar">
+<meta property="og:description" content="$49.375 millones en viáticos, $40.291 millones por encima de lo presupuestado y 662 escoltas sin concurso. Pide cuentas con tu propia carta.">
+<meta property="og:image" content="https://unp-al-dia.netlify.app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://unp-al-dia.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://unp-al-dia.netlify.app/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b1020; --bg2:#121a33; --card:#151f3d; --card2:#1b2850; --line:rgba(255,255,255,.09);
+  --tx:#eef2ff; --tx2:#aab4d4; --tx3:#7884aa;
+  --oro:#ffc233; --oro2:#ff9f1c; --rojo:#ff4d5e; --verde:#2ee6a6; --azul:#4da3ff;
+  --r:18px; --sombra:0 18px 40px -18px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--tx);font-family:'Archivo',system-ui,sans-serif;font-size:16px;line-height:1.5;min-height:100vh;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:-30%;z-index:-1;background:
+  radial-gradient(40% 35% at 15% 20%,rgba(255,159,28,.20),transparent 70%),
+  radial-gradient(35% 30% at 85% 30%,rgba(77,163,255,.18),transparent 70%),
+  radial-gradient(40% 35% at 60% 90%,rgba(255,77,94,.14),transparent 70%);
+  animation:aurora 22s ease-in-out infinite alternate}
+@keyframes aurora{to{transform:translate(4%,-3%) rotate(8deg) scale(1.08)}}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+.ancho{max-width:1080px;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-stretch:112%;line-height:1.08;letter-spacing:-.01em}
+h2{font-size:clamp(26px,6vw,40px);font-weight:900}
+h3{font-size:19px;font-weight:800}
+.chico{font-size:13px;color:var(--tx2)}
+.oro{color:var(--oro)} .rojo{color:var(--rojo)} .verde{color:var(--verde)}
+
+/* barra superior */
+.top{position:sticky;top:0;z-index:40;background:rgba(11,16,32,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top .ancho{display:flex;align-items:center;gap:10px;height:58px}
+.marca{font-weight:900;font-stretch:125%;font-size:19px;letter-spacing:-.02em;white-space:nowrap;cursor:pointer}
+.marca b{color:var(--oro)}
+.marca small{display:block;font-size:10px;font-weight:600;letter-spacing:.14em;color:var(--tx3);font-stretch:100%;margin-top:-2px}
+.reloj{margin-left:auto;white-space:nowrap;font-variant-numeric:tabular-nums;font-size:13px;color:var(--tx2);text-align:right;line-height:1.2}
+.reloj b{display:block;color:var(--tx);font-size:15px}
+.btn-top{border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:700;background:var(--card);transition:.2s}
+.btn-top:active{transform:scale(.95)}
+.btn-top.gira{animation:pulso 1s linear infinite}
+@keyframes pulso{50%{opacity:.4}}
+
+/* cinta */
+.cinta{background:linear-gradient(90deg,var(--rojo),var(--oro2));color:#1a0b00;font-weight:800;font-size:14px;overflow:hidden;white-space:nowrap;height:34px;display:flex;align-items:center}
+.cinta .lbl{background:#1a0b00;color:var(--oro);padding:0 12px;height:100%;display:flex;align-items:center;font-size:12px;letter-spacing:.12em;flex:none;z-index:1}
+.cinta .mov{display:inline-block;padding-left:100%;animation:cinta 70s linear infinite}
+.cinta .mov a{text-decoration:none;margin-right:42px}
+.cinta .mov a::before{content:"";display:inline-block;width:7px;height:7px;background:#1a0b00;border-radius:50%;margin-right:10px;vertical-align:middle}
+@keyframes cinta{to{transform:translateX(-100%)}}
+
+/* héroe */
+.heroe{position:relative;height:min(78vh,620px);min-height:440px;overflow:hidden;background:#000}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.2s}
+.slide.on{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.15);opacity:.62}
+.slide.on img{animation:kb 9s ease-out forwards}
+@keyframes kb{from{transform:scale(1.18) translate(2%,1%)}to{transform:scale(1.02) translate(0,0)}}
+.heroe::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,16,32,.2) 0%,rgba(11,16,32,.35) 45%,var(--bg) 98%);pointer-events:none}
+.heroe .txt{position:absolute;z-index:2;left:0;right:0;bottom:34px}
+.etq{display:inline-block;background:var(--rojo);color:#fff;font-weight:800;font-size:12px;letter-spacing:.12em;padding:5px 10px;border-radius:6px;text-transform:uppercase}
+.heroe h1{font-size:clamp(34px,9vw,72px);font-weight:900;margin:14px 0 10px;max-width:15ch;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+.heroe h1 em{font-style:normal;color:var(--oro)}
+.heroe p.sub{max-width:52ch;color:#dfe5ff;font-size:17px;text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.heroe .acc{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:800;border-radius:14px;padding:14px 20px;text-decoration:none;transition:transform .15s,box-shadow .2s;font-size:16px}
+.btn:active{transform:scale(.97)}
+.btn-oro{background:linear-gradient(135deg,var(--oro),var(--oro2));color:#1a0b00;box-shadow:0 10px 30px -10px rgba(255,159,28,.8)}
+.btn-vidrio{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(8px)}
+.btn-linea{border:1px solid var(--line);background:var(--card)}
+.btn-chico{padding:10px 14px;font-size:14px;border-radius:12px}
+.puntos{position:absolute;z-index:3;right:16px;bottom:14px;display:flex;gap:6px}
+.puntos i{width:22px;height:4px;border-radius:3px;background:rgba(255,255,255,.3);cursor:pointer;transition:.3s}
+.puntos i.on{background:var(--oro);width:36px}
+.fuente-slide{position:absolute;z-index:3;left:16px;bottom:10px;font-size:11px;color:rgba(255,255,255,.6);max-width:60%}
+
+/* pestañas */
+.tabs{position:sticky;top:58px;z-index:30;background:rgba(11,16,32,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.tabs .ancho{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-top:8px;padding-bottom:8px}
+.tabs .ancho::-webkit-scrollbar{display:none}
+.tab{white-space:nowrap;padding:9px 15px;border-radius:999px;font-weight:700;font-size:14px;color:var(--tx2);border:1px solid transparent;transition:.2s;position:relative}
+.tab.on{background:var(--tx);color:var(--bg)}
+.tab .n[hidden]{display:none}
+.tab .n{display:inline-block;min-width:19px;height:19px;line-height:19px;border-radius:10px;background:var(--rojo);color:#fff;font-size:11px;text-align:center;margin-left:6px;padding:0 5px}
+.panel{display:none;padding:28px 0 60px;animation:entra .45s ease}
+.panel.on{display:block}
+@keyframes entra{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.titulo-sec{margin-bottom:18px}
+.titulo-sec .chico{margin-top:6px;max-width:62ch}
+
+/* tarjetas */
+.card{background:linear-gradient(160deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--sombra)}
+.rejilla{display:grid;gap:14px}
+@media(min-width:720px){.r2{grid-template-columns:1fr 1fr}.r3{grid-template-columns:repeat(3,1fr)}}
+.saludo{font-size:clamp(28px,7vw,46px);font-weight:900;font-stretch:118%}
+.fecha-hoy{color:var(--tx2);margin-top:4px}
+.burbuja{display:inline-flex;align-items:center;gap:8px;margin-top:14px;background:rgba(46,230,166,.12);color:var(--verde);border:1px solid rgba(46,230,166,.35);padding:8px 14px;border-radius:999px;font-weight:700;font-size:14px}
+.burbuja::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--verde);box-shadow:0 0 0 0 rgba(46,230,166,.7);animation:latido 1.6s infinite}
+@keyframes latido{70%{box-shadow:0 0 0 10px rgba(46,230,166,0)}100%{box-shadow:0 0 0 0 rgba(46,230,166,0)}}
+
+/* carrusel horizontal */
+.carrusel{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:none;margin:0 -16px;padding-left:16px;padding-right:16px}
+.carrusel::-webkit-scrollbar{display:none}
+.nota-h{flex:0 0 78%;max-width:340px;scroll-snap-align:start;border-radius:var(--r);overflow:hidden;position:relative;height:260px;text-decoration:none;background:var(--card)}
+.nota-h img,.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.nota-h:hover img{transform:scale(1.06)}
+.nota-h .cap{position:absolute;inset:auto 0 0 0;padding:16px;background:linear-gradient(transparent,rgba(5,8,18,.95) 45%)}
+.nota-h h4{font-size:17px;font-weight:800;line-height:1.2}
+.meta{font-size:12px;color:var(--tx3);margin-top:6px}
+.nueva{position:absolute;top:12px;left:12px;background:var(--verde);color:#00291b;font-size:11px;font-weight:900;letter-spacing:.1em;padding:4px 8px;border-radius:6px}
+.ph{background:linear-gradient(135deg,#243a7a,#5b1f3b 60%,#7a4a0b)}
+
+/* cifras */
+.cifra{position:relative;overflow:hidden}
+.cifra .num{font-size:clamp(38px,10vw,60px);font-weight:900;font-stretch:125%;line-height:1;font-variant-numeric:tabular-nums;background:linear-gradient(135deg,#fff,var(--oro));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cifra .uni{font-size:15px;font-weight:700;color:var(--oro);margin-top:6px}
+.cifra p{color:var(--tx2);margin-top:10px;font-size:15px}
+.cifra .fte{font-size:12px;color:var(--tx3);margin-top:10px}
+.cifra.roja .num{background:linear-gradient(135deg,#fff,var(--rojo));-webkit-background-clip:text;background-clip:text}
+.cifra.roja .uni{color:var(--rojo)}
+.cifra::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:radial-gradient(rgba(255,194,51,.25),transparent 70%)}
+.barras{margin-top:16px;display:grid;gap:12px}
+.barra .et{display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px;font-weight:700}
+.barra .pista{height:16px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}
+.barra .lleno{height:100%;width:0;border-radius:9px;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.crec{display:flex;align-items:flex-end;gap:12px;height:190px;margin-top:20px}
+.crec .col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;height:100%}
+.crec .col i{display:block;width:100%;max-width:90px;border-radius:10px 10px 4px 4px;height:0;transition:height 1.6s cubic-bezier(.2,.8,.2,1)}
+.crec .col b{font-size:14px;font-variant-numeric:tabular-nums}
+.crec .col span{font-size:13px;color:var(--tx3)}
+.claro{border-left:4px solid var(--azul);background:rgba(77,163,255,.08);padding:16px 18px;border-radius:0 14px 14px 0;color:#d7e5ff;font-size:15px}
+.linea-t{position:relative;padding-left:26px;display:grid;gap:18px;margin-top:8px}
+.linea-t::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--oro),var(--rojo))}
+.hito{position:relative}
+.hito::before{content:"";position:absolute;left:-24px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:3px solid var(--oro)}
+.hito b{display:block;color:var(--oro);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.hito p{color:var(--tx2);font-size:15px}
+
+/* formulario y cartas */
+.paso{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:var(--oro);color:#1a0b00;font-weight:900;margin-right:10px;flex:none}
+.cab-paso{display:flex;align-items:center;margin-bottom:14px}
+.campos{display:grid;gap:12px}
+@media(min-width:720px){.campos{grid-template-columns:1fr 1fr}}
+label{display:block;font-size:13px;font-weight:700;color:var(--tx2);margin-bottom:6px}
+input,textarea,select{width:100%;font:inherit;color:var(--tx);background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:12px;padding:12px 14px;outline:none;transition:border .2s}
+input:focus,textarea:focus{border-color:var(--oro)}
+input.mal{border-color:var(--rojo)}
+textarea{min-height:90px;resize:vertical}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tx2);margin-top:12px;font-weight:500}
+.check input{width:20px;height:20px;flex:none;margin-top:1px;accent-color:var(--oro)}
+.carta{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.carta .foto{height:150px;position:relative;overflow:hidden}
+.carta .foto img{width:100%;height:100%;object-fit:cover;opacity:.75}
+.carta .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,var(--card2))}
+.carta .ent{position:absolute;left:18px;bottom:10px;z-index:1;font-weight:900;font-size:21px;font-stretch:118%}
+.carta .estado{position:absolute;right:12px;top:12px;z-index:1;font-size:11px;font-weight:900;letter-spacing:.08em;padding:5px 9px;border-radius:6px;background:rgba(0,0,0,.55)}
+.carta .estado.ok{background:var(--verde);color:#00291b}
+.carta .cuerpo{padding:16px 18px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.carta ul{padding-left:18px;color:var(--tx2);font-size:14px}
+.plazo{font-size:13px;font-weight:700;color:var(--oro)}
+.botones{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto;padding-top:6px}
+.botones .btn{padding:12px 10px;font-size:14px}
+.botones .ancho2{grid-column:1/-1}
+.progreso{display:flex;align-items:center;gap:16px}
+.anillo{--p:0;width:86px;height:86px;border-radius:50%;flex:none;display:grid;place-items:center;background:conic-gradient(var(--oro) calc(var(--p)*1%),rgba(255,255,255,.08) 0);transition:--p 1s}
+.anillo b{width:68px;height:68px;border-radius:50%;background:var(--card);display:grid;place-items:center;font-size:20px;font-weight:900}
+
+/* noticias */
+.buscador{display:flex;gap:8px;margin-bottom:12px}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-bottom:16px}
+.chips::-webkit-scrollbar{display:none}
+.chip{white-space:nowrap;padding:8px 14px;border-radius:999px;border:1px solid var(--line);font-size:14px;font-weight:700;color:var(--tx2);background:var(--card)}
+.chip.on{background:var(--oro);color:#1a0b00;border-color:var(--oro)}
+.lista{display:grid;gap:12px}
+@media(min-width:720px){.lista{grid-template-columns:1fr 1fr}}
+.nota{display:flex;gap:12px;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:transform .2s,border-color .2s;position:relative}
+.nota:hover{transform:translateY(-2px);border-color:rgba(255,194,51,.4)}
+.nota .mini{width:112px;flex:none;position:relative;min-height:112px}
+.nota .mini img,.nota .mini .ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.nota .tx{padding:12px 12px 12px 0}
+.nota h4{font-size:15px;font-weight:800;line-height:1.25}
+.nota .nueva{top:8px;left:8px;font-size:10px}
+.videos{display:grid;gap:12px;margin-top:10px}
+@media(min-width:720px){.videos{grid-template-columns:repeat(3,1fr)}}
+.video{border-radius:16px;overflow:hidden;background:#000;position:relative;aspect-ratio:16/9;cursor:pointer}
+.video img{width:100%;height:100%;object-fit:cover;opacity:.8;transition:opacity .2s}
+.video:hover img{opacity:1}
+.video .vt{position:absolute;inset:auto 0 0 0;padding:12px;background:linear-gradient(transparent,rgba(0,0,0,.9));font-weight:700;font-size:14px}
+.video .play{position:absolute;top:12px;left:12px;background:var(--rojo);color:#fff;font-size:11px;font-weight:900;letter-spacing:.1em;padding:5px 9px;border-radius:6px}
+.video iframe{width:100%;height:100%;border:0}
+.vacio{padding:26px;text-align:center;color:var(--tx2);border:1px dashed var(--line);border-radius:16px}
+
+/* seguimiento */
+.seg{display:grid;gap:12px}
+.fila-seg{display:grid;gap:10px}
+.semaforo{font-weight:900;font-size:14px;padding:6px 10px;border-radius:8px;display:inline-block}
+.s-verde{background:rgba(46,230,166,.15);color:var(--verde)}
+.s-amar{background:rgba(255,194,51,.15);color:var(--oro)}
+.s-rojo{background:rgba(255,77,94,.18);color:var(--rojo)}
+.s-azul{background:rgba(77,163,255,.15);color:var(--azul)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+details+details{margin-top:10px}
+summary{font-weight:800;cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--oro);font-weight:900}
+details[open] summary::after{content:"–"}
+details p,details li{color:var(--tx2);font-size:15px;margin-top:8px}
+details ol,details ul{padding-left:20px}
+.anuncio{display:flex;gap:16px;align-items:center;text-decoration:none;background:linear-gradient(120deg,#3b1d66,#0d3b66);border-radius:var(--r);padding:18px;border:1px solid rgba(255,255,255,.12);position:relative;overflow:hidden}
+.anuncio .sello{position:absolute;top:8px;right:10px;font-size:10px;letter-spacing:.12em;color:rgba(255,255,255,.55)}
+.anuncio b{font-size:18px;font-stretch:115%}
+.anuncio .logo{width:58px;height:58px;border-radius:14px;flex:none;background:linear-gradient(135deg,var(--oro),var(--rojo));display:grid;place-items:center;font-weight:900;color:#1a0b00;font-stretch:125%}
+footer{border-top:1px solid var(--line);padding:30px 0 90px;color:var(--tx3);font-size:13px}
+footer a{color:var(--tx2)}
+footer p+p{margin-top:8px}
+
+/* modal y aviso */
+.modal{position:fixed;inset:0;z-index:80;background:rgba(3,6,14,.75);backdrop-filter:blur(6px);display:none;align-items:flex-end;justify-content:center}
+.modal.on{display:flex;animation:entra .25s}
+.modal .caja{background:var(--bg2);width:100%;max-width:760px;max-height:92vh;border-radius:22px 22px 0 0;display:flex;flex-direction:column;border:1px solid var(--line)}
+@media(min-width:720px){.modal{align-items:center}.modal .caja{border-radius:22px}}
+.modal .cab{display:flex;align-items:center;gap:10px;padding:16px 18px;border-bottom:1px solid var(--line)}
+.modal .cab h3{flex:1}
+.modal textarea{flex:1;min-height:46vh;border:0;border-radius:0;background:#fdfcf7;color:#1b1b1b;font-family:Georgia,serif;font-size:15px;line-height:1.55;padding:20px}
+.modal .pie{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 14px calc(12px + env(safe-area-inset-bottom))}
+.aviso{position:fixed;left:50%;bottom:24px;transform:translate(-50%,40px);opacity:0;z-index:90;background:var(--tx);color:var(--bg);font-weight:800;padding:12px 18px;border-radius:12px;transition:.3s;max-width:90vw;text-align:center;font-size:14px}
+.aviso.on{transform:translate(-50%,0);opacity:1}
+.flotante{position:fixed;right:16px;bottom:18px;z-index:50;box-shadow:0 14px 34px -10px rgba(255,159,28,.9)}
+.flotante.oculto{display:none}
+#imprimir{display:none}
+@media print{
+  body *{visibility:hidden}
+  #imprimir,#imprimir *{visibility:visible}
+  #imprimir{display:block;position:absolute;left:0;top:0;width:100%;color:#000;background:#fff;font-family:Georgia,serif;font-size:12pt;line-height:1.5;white-space:pre-wrap;padding:0}
+  body::before{display:none}
+}
+@media(max-width:480px){.marca small,.reloj span{display:none}.marca{font-size:17px}.btn-top{padding:7px 10px;font-size:12px}.reloj b{font-size:14px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="ancho">
+    <div class="marca" onclick="ir('hoy')">UNP <b>al Día</b><small data-i="lema">CIUDADANOS PIDIENDO CUENTAS</small></div>
+    <div class="reloj"><b id="hora">--:--</b><span data-i="horaCol">Hora Colombia</span></div>
+    <button class="btn-top" id="btnLang" aria-label="Language">EN</button>
+    <button class="btn-top" id="btnAct" data-i="actualizar">Actualizar</button>
+  </div>
+</header>
+
+<div class="cinta"><span class="lbl" data-i="enVivo">EN VIVO</span><div style="overflow:hidden;flex:1"><div class="mov" id="cinta"></div></div></div>
+
+<section class="heroe" id="heroe">
+  <div id="slides"></div>
+  <div class="txt"><div class="ancho">
+    <span class="etq" data-i="etqHeroe">Control ciudadano</span>
+    <h1 data-i="h1"><em>$49.375 millones</em> en viáticos en un solo año</h1>
+    <p class="sub" data-i="subHeroe">Eso reportó la UNP al representante Alejandro Murcia. Aquí tienes las cifras, las noticias al minuto y tu propio derecho de petición listo para enviar a la UNP, la Contraloría, la Procuraduría y la Fiscalía.</p>
+    <div class="acc">
+      <button class="btn btn-oro" onclick="ir('cartas')" data-i="ctaCarta">Escribir mis cartas</button>
+      <button class="btn btn-vidrio" onclick="ir('caso')" data-i="ctaCifras">Ver las cifras</button>
+    </div>
+  </div></div>
+  <div class="puntos" id="puntos"></div>
+  <div class="fuente-slide" id="fuenteSlide"></div>
+</section>
+
+<nav class="tabs"><div class="ancho" id="tabs">
+  <button class="tab on" data-p="hoy" data-i="tHoy">Hoy</button>
+  <button class="tab" data-p="caso" data-i="tCaso">El caso</button>
+  <button class="tab" data-p="cartas" data-i="tCartas">Mis cartas</button>
+  <button class="tab" data-p="noticias"><span data-i="tNoticias">Noticias</span><span class="n" id="nNuevas" hidden>0</span></button>
+  <button class="tab" data-p="seguimiento" data-i="tSeg">Seguimiento</button>
+  <button class="tab" data-p="ayuda" data-i="tAyuda">Cómo funciona</button>
+</div></nav>
+
+<main class="ancho">
+
+<!-- HOY -->
+<section class="panel on" id="p-hoy">
+  <div class="saludo" id="saludo">Hola</div>
+  <div class="fecha-hoy" id="fechaHoy"></div>
+  <div class="burbuja" id="burbuja">Buscando noticias…</div>
+
+  <div style="margin-top:28px" class="cab-paso"><h3 data-i="estaPasando">Está pasando</h3></div>
+  <div class="carrusel" id="carruselHoy"></div>
+
+  <div class="rejilla r2" style="margin-top:22px">
+    <div class="card cifra" id="cifraDia"></div>
+    <div class="card">
+      <div class="progreso">
+        <div class="anillo" id="anillo"><b id="anilloN">0/4</b></div>
+        <div>
+          <h3 data-i="tuAvance">Tu avance</h3>
+          <p class="chico" id="avanceTx" style="margin-top:6px"></p>
+        </div>
+      </div>
+      <div id="proxVence" style="margin-top:16px"></div>
+      <button class="btn btn-oro btn-chico" style="margin-top:14px;width:100%" onclick="ir('cartas')" data-i="ctaCarta">Escribir mis cartas</button>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 data-i="porQueTitulo">¿Por qué una carta por persona?</h3>
+    <p class="chico" style="margin-top:8px;font-size:15px" data-i="porQueTx">Una sola carta "firmada por Colombia" no existe ante la ley. Pero cada colombiano puede enviar su propio derecho de petición y la entidad está obligada a responderle a cada uno, por escrito y dentro del plazo legal. Mil cartas son mil respuestas obligatorias.</p>
+  </div>
+
+  <a class="anuncio" href="https://vibraspositivashm.com" target="_blank" rel="noopener" style="margin-top:14px">
+    <span class="sello" data-i="publicidad">PUBLICIDAD</span>
+    <span class="logo">VP</span>
+    <span><b>Vibras Positivas HM</b><br><span class="chico" data-i="anuncioTx">Apps como esta para tu negocio, tu causa o tu comunidad. vibraspositivashm.com · 311 770 0431</span></span>
+  </a>
+</section>
+
+<!-- EL CASO -->
+<section class="panel" id="p-caso">
+  <div class="titulo-sec">
+    <h2 data-i="casoTitulo">Las cifras, una por una</h2>
+    <p class="chico" data-i="casoSub">Datos de la investigación del representante Alejandro Murcia, basada según él en la respuesta oficial de la UNP (oficio OFI-2026-00098571), y reportes de prensa.</p>
+  </div>
+
+  <div class="rejilla r2">
+    <div class="card cifra"><div class="num" data-cuenta="49375" data-pre="$">0</div><div class="uni" data-i="u1">millones en viáticos en 2025</div><p data-i="c1">Viáticos y gastos de viaje de la UNP durante 2025. A septiembre de 2026 ya sumaban $35.923 millones.</p><div class="fte">Fuente: investigación de A. Murcia vía Diario La Libertad</div></div>
+    <div class="card cifra roja"><div class="num" data-cuenta="40291" data-pre="$">0</div><div class="uni" data-i="u2">millones por encima de lo presupuestado</div><p data-i="c2">Personal de protección en 2025: apropiación inicial de $207.985 millones y ejecución de $248.276 millones.</p><div class="fte">Fuente: investigación de A. Murcia vía Diario La Libertad</div></div>
+    <div class="card cifra"><div class="num" data-cuenta="662">0</div><div class="uni" data-i="u3">escoltas vinculados sin concurso</div><p data-i="c3">Firmantes del Acuerdo de Paz de 2016 vinculados como escoltas por libre nombramiento y remoción.</p><div class="fte">Fuente: investigación de A. Murcia vía Diario La Libertad</div></div>
+    <div class="card cifra roja"><div class="num" data-cuenta="1.07" data-pre="$" data-dec="2">0</div><div class="uni" data-i="u4">billones difíciles de reconstruir</div><p data-i="c4">Según Murcia, la UNP manifestó dificultades para reconstruir la ejecución histórica de lo asignado entre 2018 y 2023.</p><div class="fte">Fuente: investigación de A. Murcia vía Diario La Libertad</div></div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 data-i="presTitulo">Presupuesto vs. lo que se gastó (personal de protección, 2025)</h3>
+    <div class="barras" id="barrasPres">
+      <div class="barra"><div class="et"><span data-i="apropiado">Presupuestado</span><span>$207.985 M</span></div><div class="pista"><div class="lleno" data-w="83.8" style="background:var(--azul)"></div></div></div>
+      <div class="barra"><div class="et"><span data-i="ejecutado">Ejecutado</span><span>$248.276 M</span></div><div class="pista"><div class="lleno" data-w="100" style="background:linear-gradient(90deg,var(--oro),var(--rojo))"></div></div></div>
+    </div>
+    <h3 style="margin-top:26px" data-i="crecTitulo">Así creció ese rubro</h3>
+    <div class="crec" id="crec">
+      <div class="col"><b>$88.948 M</b><i data-h="24.8" style="background:var(--azul)"></i><span>2018</span></div>
+      <div class="col"><b>$358.653 M</b><i data-h="100" style="background:linear-gradient(var(--rojo),var(--oro))"></i><span>2025</span></div>
+    </div>
+    <p class="chico" style="margin-top:10px" data-i="crecTx">Cuatro veces más en siete años.</p>
+  </div>
+
+  <div class="rejilla r3" style="margin-top:14px">
+    <div class="card cifra"><div class="num" data-cuenta="28200">0</div><div class="uni" data-i="u5">salarios mínimos de 2026</div><p data-i="c5">Lo que equivalen los viáticos de 2025, con el salario mínimo de 2026 de $1.750.905 (Decreto 1469 de 2025).</p></div>
+    <div class="card cifra"><div class="num" data-cuenta="135" data-pre="$">0</div><div class="uni" data-i="u6">millones por día</div><p data-i="c6">Los $49.375 millones repartidos en los 365 días de 2025.</p></div>
+    <div class="card cifra"><div class="num" data-cuenta="2355">0</div><div class="uni" data-i="u7">beneficiarios en 698 esquemas</div><p data-i="c7">Murcia dice que no hay datos desagregados para saber cuántos son dirigentes políticos.</p></div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3 data-i="otrasTitulo">Otras cifras que ya salieron en el Congreso y la prensa</h3>
+    <div class="linea-t" style="margin-top:14px">
+      <div class="hito"><b>29 sep 2026</b><p data-i="h1x">En el debate de la Comisión Segunda de la Cámara, el director de la UNP, Didier Blanco, dijo que el esquema de Juliana Guerrero costó $739 millones. (Vanguardia)</p></div>
+      <div class="hito"><b>3 oct 2026</b><p data-i="h2x">Según los estados financieros conocidos por Noticias RCN, la UNP necesita $822.000 millones adicionales aunque su presupuesto creció 91% en el gobierno Petro.</p></div>
+      <div class="hito"><b>2026</b><p data-i="h3x">Portafolio reportó que en la gestión de Augusto Rodríguez el gasto en transporte pasó de $39.754 millones a $124.632 millones.</p></div>
+      <div class="hito"><b>27 oct 2026</b><p data-i="h4x">Murcia divulga su investigación con viáticos, sobreejecución y vinculación de escoltas, y pide a la UNP información verificable.</p></div>
+    </div>
+  </div>
+
+  <div class="claro" style="margin-top:14px" data-i="claroTx">Para ser justos: estas cifras son de la investigación del congresista y aún no tienen verificación independiente. Gastar más de lo presupuestado no prueba por sí solo una irregularidad, porque pudo haber adiciones o traslados legales. La UNP protege a personas en riesgo real. Por eso las cartas de esta app no acusan a nadie: piden información y que los órganos de control revisen.</div>
+
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+    <a class="btn btn-linea btn-chico" href="https://diariolalibertad.com/wp-content/uploads/2026/10/OFI-2026-00098571_respuesta-UNP.pdf" target="_blank" rel="noopener" data-i="verOficio">Ver respuesta de la UNP (PDF)</a>
+    <button class="btn btn-oro btn-chico" onclick="ir('cartas')" data-i="ctaCarta">Escribir mis cartas</button>
+  </div>
+</section>
+
+<!-- CARTAS -->
+<section class="panel" id="p-cartas">
+  <div class="titulo-sec">
+    <h2 data-i="cartasTitulo">Tus derechos de petición, listos en 2 minutos</h2>
+    <p class="chico" data-i="cartasSub">Llenas tus datos una sola vez y la app arma las 4 cartas. Cada una sale desde tu propio correo hacia el correo oficial de la entidad. Las cartas van en español porque se dirigen a autoridades colombianas.</p>
+  </div>
+
+  <div class="card">
+    <div class="cab-paso"><span class="paso">1</span><h3 data-i="paso1">Tus datos</h3></div>
+    <div class="campos">
+      <div><label for="fNombre" data-i="lNombre">Nombre completo *</label><input id="fNombre" autocomplete="name"></div>
+      <div><label for="fCedula" data-i="lCedula">Cédula de ciudadanía *</label><input id="fCedula" inputmode="numeric" autocomplete="off"></div>
+      <div><label for="fCiudad" data-i="lCiudad">Ciudad y departamento *</label><input id="fCiudad" placeholder="Caucasia, Antioquia"></div>
+      <div><label for="fCorreo" data-i="lCorreo">Tu correo (para la respuesta) *</label><input id="fCorreo" type="email" autocomplete="email"></div>
+      <div><label for="fCel" data-i="lCel">Celular</label><input id="fCel" inputmode="tel" autocomplete="tel"></div>
+      <div><label for="fDir" data-i="lDir">Dirección (opcional)</label><input id="fDir" autocomplete="street-address"></div>
+    </div>
+    <div style="margin-top:12px"><label for="fPropio" data-i="lPropio">¿Quieres agregar algo con tus palabras? (opcional)</label><textarea id="fPropio" data-ph="phPropio" placeholder="Por ejemplo: soy comerciante, pago mis impuestos cumplidamente y quiero saber cómo se usa esa plata."></textarea></div>
+    <label class="check"><input type="checkbox" id="fGuardar" checked><span data-i="lGuardar">Guardar mis datos solo en este teléfono para no escribirlos otra vez. No se envían a ningún servidor.</span></label>
+  </div>
+
+  <div class="cab-paso" style="margin-top:26px"><span class="paso">2</span><h3 data-i="paso2">Envía cada carta</h3></div>
+  <p class="chico" style="margin:-6px 0 14px" data-i="paso2Tx">Toca "Enviar con mi correo". Se abre tu correo con todo escrito: solo revisas y le das enviar. Luego marca "Ya la envié" para seguir el plazo.</p>
+  <div class="rejilla r2" id="cartas"></div>
+</section>
+
+<!-- NOTICIAS -->
+<section class="panel" id="p-noticias">
+  <div class="titulo-sec">
+    <h2 data-i="notTitulo">Noticias al minuto</h2>
+    <p class="chico" id="notEstado"></p>
+  </div>
+  <div class="buscador"><input id="busca" type="search" data-ph="phBusca" placeholder="Buscar en las noticias…"></div>
+  <div class="chips" id="chips"></div>
+  <div class="lista" id="lista"></div>
+  <div id="bloqueVideos" hidden>
+    <h3 style="margin:30px 0 4px" data-i="videosTitulo">Videos</h3>
+    <div class="videos" id="videos"></div>
+  </div>
+</section>
+
+<!-- SEGUIMIENTO -->
+<section class="panel" id="p-seguimiento">
+  <div class="titulo-sec">
+    <h2 data-i="segTitulo">Seguimiento a tus peticiones</h2>
+    <p class="chico" data-i="segSub">La app cuenta los días hábiles con los festivos de Colombia. Información y documentos: 10 días hábiles. Peticiones generales: 15 días hábiles (Ley 1755 de 2015).</p>
+  </div>
+  <div class="seg" id="seg"></div>
+  <details style="margin-top:20px">
+    <summary data-i="tutTitulo">¿No te respondieron a tiempo? Acción de tutela</summary>
+    <p data-i="tutTx1">Si se vence el plazo sin respuesta de fondo, se vulnera tu derecho fundamental de petición (art. 23 de la Constitución) y puedes presentar una acción de tutela. No necesitas abogado.</p>
+    <ol>
+      <li data-i="tut1">Copia la tutela que arma la app con el botón de abajo.</li>
+      <li data-i="tut2">Adjunta la carta que enviaste y el pantallazo del correo enviado con fecha.</li>
+      <li data-i="tut3">Envíala por la página de la Rama Judicial (procesojudicial.ramajudicial.gov.co, opción Tutela en línea) o radícala en la oficina judicial de tu municipio.</li>
+    </ol>
+    <button class="btn btn-linea btn-chico" style="margin-top:12px" onclick="copiarTutela()" data-i="copiarTutela">Copiar tutela</button>
+  </details>
+</section>
+
+<!-- AYUDA -->
+<section class="panel" id="p-ayuda">
+  <div class="titulo-sec"><h2 data-i="ayudaTitulo">Cómo funciona</h2></div>
+  <details open><summary data-i="q1">¿Qué es un derecho de petición?</summary><p data-i="a1">Es tu derecho a pedirle respetuosamente a cualquier autoridad información o una actuación, y a recibir una respuesta clara, de fondo y a tiempo. Está en el artículo 23 de la Constitución y lo regula la Ley 1755 de 2015. Es gratis y no necesitas abogado.</p></details>
+  <details><summary data-i="q2">¿Por qué a estas 4 entidades?</summary><ul>
+    <li data-i="a2a">UNP: es la que tiene la información de los viáticos, el presupuesto y las vinculaciones.</li>
+    <li data-i="a2b">Contraloría: vigila cómo se gasta la plata pública (control fiscal).</li>
+    <li data-i="a2c">Procuraduría: vigila la conducta de los servidores públicos (control disciplinario).</li>
+    <li data-i="a2d">Fiscalía: evalúa si los hechos ameritan una investigación penal.</li></ul></details>
+  <details><summary data-i="q3">¿Sirve si lo mando por correo y sin firma a mano?</summary><p data-i="a3">Sí. Las entidades reciben peticiones por correo electrónico y el correo con tu nombre y cédula vale como mensaje de datos (Ley 527 de 1999). Si prefieres, usa "Guardar PDF", fírmalo y adjúntalo. También puedes radicar en los formularios web oficiales de la lista de abajo.</p></details>
+  <details><summary data-i="q4">¿Qué pasa con mis datos?</summary><p data-i="a4">Se quedan en tu teléfono. La app no tiene servidor y no recoge nombres ni cédulas. La carta sale desde tu propio correo directo a la entidad.</p></details>
+  <details><summary data-i="q5">¿La carta acusa a alguien?</summary><p data-i="a5">No. Cita cifras públicas, dice de dónde salen y pide información y verificación. Así es más fuerte: la entidad no puede responder que la acusas sin pruebas.</p></details>
+  <details><summary data-i="q6">Correos y formularios oficiales</summary><ul>
+    <li>UNP: correspondencia@unp.gov.co · atencionalusuario@unp.gov.co · <a href="https://pqrs.unp.gov.co/Solicitud/Create" target="_blank" rel="noopener">pqrs.unp.gov.co</a></li>
+    <li>Contraloría: cgr@contraloria.gov.co · <a href="https://www.contraloria.gov.co/atencion-al-ciudadano/denuncias-y-otras-solicitudes-pqrd" target="_blank" rel="noopener">contraloria.gov.co</a></li>
+    <li>Procuraduría: quejas@procuraduria.gov.co · <a href="https://www.procuraduria.gov.co/SedeElectronica/" target="_blank" rel="noopener">Sede Electrónica</a></li>
+    <li>Fiscalía: ges.documentalpqrs@fiscalia.gov.co · <a href="https://www.fiscalia.gov.co/colombia/servicios-de-informacion-al-ciudadano/buzon-de-quejas-y-reclamos/" target="_blank" rel="noopener">Buzón PQRS</a></li></ul></details>
+  <details><summary data-i="q7">Fuentes</summary><ul>
+    <li><a href="https://diariolalibertad.com/2026/10/27/unp-bajo-cuestionamientos-por-viaticos-presupuesto-y-contratacion-de-escoltas/" target="_blank" rel="noopener">Diario La Libertad, 27 oct 2026</a></li>
+    <li><a href="https://diariolalibertad.com/wp-content/uploads/2026/10/OFI-2026-00098571_respuesta-UNP.pdf" target="_blank" rel="noopener">Respuesta UNP OFI-2026-00098571 (PDF)</a></li>
+    <li><a href="https://www.vanguardia.com/colombia/2026/09/29/didier-blanco-revela-que-se-fueron-739-millones-en-el-esquema-de-seguridad-de-juliana-guerrero/" target="_blank" rel="noopener">Vanguardia, 29 sep 2026</a></li>
+    <li><a href="https://www.noticiasrcn.com/colombia/estados-financieros-de-la-unp-revelan-deficit-elevados-costos-y-una-flota-duplicada-en-gobierno-petro-1068079" target="_blank" rel="noopener">Noticias RCN, 3 oct 2026</a></li>
+    <li><a href="https://www.portafolio.co/economia/la-millonaria-crisis-que-deja-la-unp-deficit-de-2-4-billones-y-mas-de-400-camionetas-nuevas-498956" target="_blank" rel="noopener">Portafolio</a></li>
+    <li><a href="https://www.portafolio.co/economia/gobierno/salario-minimo-de-2026-sigue-en-1-750-905-y-gobierno-descarta-devolucion-de-dinero-a-trabajadores-504218" target="_blank" rel="noopener">Salario mínimo 2026: $1.750.905 (Portafolio)</a></li></ul></details>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px">
+    <button class="btn btn-oro btn-chico" onclick="compartir()" data-i="compartir">Compartir la app por WhatsApp</button>
+  </div>
+</section>
+</main>
+
+<footer><div class="ancho">
+  <p data-i="pie1">UNP al Día es una app ciudadana no oficial hecha por Vibras Positivas HM. No pertenece a la UNP, a ningún partido ni a ningún congresista.</p>
+  <p data-i="pie2">Las cifras se atribuyen a sus fuentes. Fotos de noticias: de cada medio, con enlace a la nota. Fotos de Bogotá: Wikimedia Commons.</p>
+  <p id="pieAct"></p>
+</div></footer>
+
+<button class="btn btn-oro flotante" id="flotante" onclick="ir('cartas')" data-i="ctaFlot">Enviar mis cartas</button>
+
+<div class="modal" id="modal"><div class="caja">
+  <div class="cab"><h3 id="mTitulo">Carta</h3><button class="btn btn-linea btn-chico" onclick="cerrarModal()" data-i="cerrar">Cerrar</button></div>
+  <p class="chico" style="padding:10px 18px 0" data-i="editable">Puedes corregir o agregar texto antes de enviar.</p>
+  <textarea id="mTexto" spellcheck="true" style="margin-top:10px"></textarea>
+  <div class="pie">
+    <button class="btn btn-oro btn-chico" id="mEnviar" data-i="enviarCorreo">Enviar con mi correo</button>
+    <button class="btn btn-linea btn-chico" id="mGmail" data-i="abrirGmail">Abrir en Gmail</button>
+    <button class="btn btn-linea btn-chico" id="mCopiar" data-i="copiar">Copiar</button>
+    <button class="btn btn-linea btn-chico" id="mPdf" data-i="pdf">Guardar PDF</button>
+  </div>
+</div></div>
+<div class="aviso" id="aviso"></div>
+<div id="imprimir"></div>
+
+<script>
+/* =========================================================
+   UNP al Día — Vibras Positivas HM
+   ========================================================= */
+const TZ = 'America/Bogota';
+const URL_APP = 'https://unp-al-dia.netlify.app';
+
+/* ---------- textos ES / EN ---------- */
+const T = {
+ es:{},
+ en:{
+  lema:'CITIZENS ASKING FOR ACCOUNTABILITY', horaCol:'Colombia time', actualizar:'Refresh', enVivo:'LIVE',
+  etqHeroe:'Citizen oversight', h1:'<em>COP 49,375 million</em> in travel expenses in a single year',
+  subHeroe:'That is what Colombia\'s National Protection Unit (UNP) reported to Representative Alejandro Murcia. Here are the figures, minute-by-minute news and your own formal petition, ready to send to the UNP, the Comptroller, the Inspector General and the Attorney General.',
+  ctaCarta:'Write my letters', ctaCifras:'See the figures', ctaFlot:'Send my letters',
+  tHoy:'Today', tCaso:'The case', tCartas:'My letters', tNoticias:'News', tSeg:'Tracking', tAyuda:'How it works',
+  estaPasando:'Happening now', tuAvance:'Your progress',
+  porQueTitulo:'Why one letter per person?',
+  porQueTx:'A single letter "signed by Colombia" does not exist legally. But every Colombian can send their own petition, and the agency must answer each one in writing within the legal deadline. A thousand letters mean a thousand mandatory answers.',
+  publicidad:'ADVERTISEMENT', anuncioTx:'Apps like this one for your business, cause or community. vibraspositivashm.com · +57 311 770 0431',
+  casoTitulo:'The figures, one by one',
+  casoSub:'Data from the investigation by Representative Alejandro Murcia, based, he says, on the UNP\'s official reply (letter OFI-2026-00098571), plus press reports. Amounts in Colombian pesos.',
+  u1:'million in travel expenses in 2025', c1:'UNP travel and per-diem spending in 2025. By September 2026 it had already reached COP 35,923 million.',
+  u2:'million above the budget', c2:'Protection staff in 2025: initial budget of COP 207,985 million, actual spending of COP 248,276 million.',
+  u3:'bodyguards hired without a merit exam', c3:'Signatories of the 2016 Peace Agreement hired as bodyguards through discretionary appointment.',
+  u4:'trillion hard to reconstruct', c4:'According to Murcia, the UNP said it had trouble reconstructing historical spending of what was allocated from 2018 to 2023.',
+  presTitulo:'Budget vs. actual spending (protection staff, 2025)', apropiado:'Budgeted', ejecutado:'Spent',
+  crecTitulo:'How that line item grew', crecTx:'Four times more in seven years.',
+  u5:'2026 monthly minimum wages', c5:'What the 2025 travel expenses equal, using the 2026 minimum wage of COP 1,750,905 (Decree 1469 of 2025).',
+  u6:'million per day', c6:'COP 49,375 million spread over the 365 days of 2025.',
+  u7:'beneficiaries in 698 protection schemes', c7:'Murcia says there is no breakdown showing how many are political leaders.',
+  otrasTitulo:'Other figures already aired in Congress and the press',
+  h1x:'At the House Second Committee debate, UNP director Didier Blanco said Juliana Guerrero\'s security scheme cost COP 739 million. (Vanguardia)',
+  h2x:'According to financial statements obtained by Noticias RCN, the UNP needs COP 822,000 million more even though its budget grew 91% under the Petro government.',
+  h3x:'Portafolio reported that under Augusto Rodríguez, transport spending rose from COP 39,754 million to COP 124,632 million.',
+  h4x:'Murcia releases his investigation on travel expenses, overspending and bodyguard hiring, and asks the UNP for verifiable information.',
+  claroTx:'To be fair: these figures come from the congressman\'s investigation and have not been independently verified. Spending above the initial budget does not by itself prove wrongdoing, since there may have been legal additions or transfers. The UNP protects people at real risk. That is why the letters in this app accuse no one: they ask for information and for oversight bodies to review.',
+  verOficio:'See the UNP reply (PDF)',
+  cartasTitulo:'Your petitions, ready in 2 minutes',
+  cartasSub:'Fill in your details once and the app drafts all 4 letters. Each one goes from your own email to the agency\'s official address. The letters stay in Spanish because they are addressed to Colombian authorities.',
+  paso1:'Your details', lNombre:'Full name *', lCedula:'Colombian ID number (cédula) *', lCiudad:'City and department *', lCorreo:'Your email (for the reply) *', lCel:'Mobile', lDir:'Address (optional)',
+  lPropio:'Want to add something in your own words? (optional, in Spanish)', phPropio:'For example: I am a shop owner, I pay my taxes on time and I want to know how that money is used.',
+  lGuardar:'Save my details only on this phone so I don\'t have to type them again. Nothing is sent to any server.',
+  paso2:'Send each letter', paso2Tx:'Tap "Send with my email". Your email app opens with everything filled in: just review and send. Then tap "I sent it" to track the deadline.',
+  notTitulo:'News by the minute', phBusca:'Search the news…', videosTitulo:'Videos',
+  segTitulo:'Tracking your petitions', segSub:'The app counts business days using Colombian holidays. Information and documents: 10 business days. General petitions: 15 business days (Law 1755 of 2015).',
+  tutTitulo:'No answer in time? File a tutela', tutTx1:'If the deadline passes without a substantive answer, your fundamental right of petition (Art. 23 of the Constitution) has been violated and you can file a tutela. You do not need a lawyer.',
+  tut1:'Copy the tutela the app drafts with the button below.', tut2:'Attach the letter you sent and a screenshot of the sent email with its date.', tut3:'File it on the Judicial Branch website (procesojudicial.ramajudicial.gov.co, Tutela en línea) or at the court office in your town.',
+  copiarTutela:'Copy tutela',
+  ayudaTitulo:'How it works',
+  q1:'What is a derecho de petición?', a1:'It is your right to respectfully ask any authority for information or action, and to get a clear, substantive and timely answer. It is in Article 23 of the Constitution and regulated by Law 1755 of 2015. It is free and you do not need a lawyer.',
+  q2:'Why these 4 agencies?', a2a:'UNP: it holds the information on travel expenses, budget and hiring.', a2b:'Comptroller General: oversees how public money is spent (fiscal control).', a2c:'Inspector General (Procuraduría): oversees the conduct of public servants (disciplinary control).', a2d:'Attorney General (Fiscalía): assesses whether the facts warrant a criminal investigation.',
+  q3:'Is it valid by email and without a handwritten signature?', a3:'Yes. Agencies accept petitions by email, and an email with your name and ID counts as a data message (Law 527 of 1999). If you prefer, use "Save PDF", sign it and attach it. You can also use the official web forms listed below.',
+  q4:'What happens to my data?', a4:'It stays on your phone. The app has no server and collects no names or ID numbers. The letter goes from your own email straight to the agency.',
+  q5:'Does the letter accuse anyone?', a5:'No. It cites public figures, says where they come from and asks for information and verification. That makes it stronger: the agency cannot reply that you are accusing without evidence.',
+  q6:'Official emails and forms', q7:'Sources', compartir:'Share the app on WhatsApp',
+  pie1:'UNP al Día is an unofficial citizen app made by Vibras Positivas HM. It does not belong to the UNP, any party or any congressman.',
+  pie2:'Figures are attributed to their sources. News photos: from each outlet, linked to the story. Bogotá photos: Wikimedia Commons.',
+  cerrar:'Close', editable:'You can edit or add text before sending.', enviarCorreo:'Send with my email', abrirGmail:'Open in Gmail', copiar:'Copy', pdf:'Save PDF'
+ }
+};
+// Textos que arma el JavaScript
+const D = {
+ es:{buenos:['Buenas noches','Buenos días','Buenas tardes','Buenas noches'], nuevas:n=>n===1?'1 noticia nueva desde tu última visita':`${n} noticias nuevas desde tu última visita`, alDia:'Estás al día con las noticias', delCaso:n=>`${n} noticias del caso para leer hoy`, buscando:'Buscando noticias…',
+  avance:(n)=>n===0?'Todavía no has enviado ninguna carta. Te toma dos minutos.':n===4?'Enviaste las 4 cartas. Ahora toca esperar la respuesta.':`Llevas ${n} de 4 cartas enviadas.`,
+  vence:(e,d)=>`Próxima respuesta: ${e}, a más tardar el ${d}`, cifraDia:'Cifra del día',
+  verCarta:'Ver carta', enviar:'Enviar con mi correo', gmail:'Gmail', copiar:'Copiar', pdf:'PDF', yaEnvie:'Ya la envié', enviada:'ENVIADA', pendiente:'PENDIENTE', pide:'Qué pide', plazo:n=>`Deben responder en ${n} días hábiles`,
+  faltan:'Llena tus datos arriba primero', copiado:'Copiado', actualizado:h=>`Actualizado ${h}`, sinRed:'Sin conexión: mostrando lo último guardado',
+  todas:'Todas', viaticos:'Viáticos', escoltas:'Escoltas', plata:'Presupuesto', control:'Control y justicia',
+  hace:(m)=>m<60?`hace ${m} min`:m<1440?`hace ${Math.round(m/60)} h`:`hace ${Math.round(m/1440)} d`, nueva:'NUEVA',
+  notEstado:(n,h)=>`${n} noticias · robot actualizado ${h} · búsqueda en vivo al abrir`, sinNotas:'No hay noticias con ese filtro.',
+  segVacio:'Aún no has marcado ninguna carta como enviada. Cuando envíes una, toca "Ya la envié" y aquí verás el plazo.',
+  enviadaEl:d=>`Enviada el ${d}`, radicado:'Número de radicado (cuando te llegue)', venceEl:d=>`Vence el ${d}`, quedan:n=>n===1?'Queda 1 día hábil':`Quedan ${n} días hábiles`, venceHoy:'Vence hoy', vencida:'Plazo vencido: puedes presentar tutela', respondida:'Ya respondieron', marcarResp:'Ya me respondieron', deshacer:'Desmarcar', pieAct:h=>`Noticias actualizadas por el robot: ${h} (hora Colombia).`, compartirTx:'Yo ya mandé mi derecho de petición sobre los gastos de la UNP. Manda el tuyo en 2 minutos:', reintenta:'Abre el correo y vuelve aquí para marcar "Ya la envié".'},
+ en:{buenos:['Good evening','Good morning','Good afternoon','Good evening'], nuevas:n=>n===1?'1 new story since your last visit':`${n} new stories since your last visit`, alDia:'You are up to date with the news', delCaso:n=>`${n} stories on the case to read today`, buscando:'Looking for news…',
+  avance:(n)=>n===0?'You have not sent any letter yet. It takes two minutes.':n===4?'You sent all 4 letters. Now wait for the answers.':`You have sent ${n} of 4 letters.`,
+  vence:(e,d)=>`Next answer due: ${e}, by ${d}`, cifraDia:'Figure of the day',
+  verCarta:'View letter', enviar:'Send with my email', gmail:'Gmail', copiar:'Copy', pdf:'PDF', yaEnvie:'I sent it', enviada:'SENT', pendiente:'PENDING', pide:'What it asks', plazo:n=>`They must answer within ${n} business days`,
+  faltan:'Fill in your details above first', copiado:'Copied', actualizado:h=>`Updated ${h}`, sinRed:'Offline: showing the last saved news',
+  todas:'All', viaticos:'Travel expenses', escoltas:'Bodyguards', plata:'Budget', control:'Oversight & justice',
+  hace:(m)=>m<60?`${m} min ago`:m<1440?`${Math.round(m/60)} h ago`:`${Math.round(m/1440)} d ago`, nueva:'NEW',
+  notEstado:(n,h)=>`${n} stories · robot updated ${h} · live search on open`, sinNotas:'No stories match that filter.',
+  segVacio:'You have not marked any letter as sent yet. When you send one, tap "I sent it" and the deadline shows up here.',
+  enviadaEl:d=>`Sent on ${d}`, radicado:'Filing number (when you get it)', venceEl:d=>`Due ${d}`, quedan:n=>n===1?'1 business day left':`${n} business days left`, venceHoy:'Due today', vencida:'Deadline passed: you can file a tutela', respondida:'Answered', marcarResp:'They answered', deshacer:'Undo', pieAct:h=>`News updated by the robot: ${h} (Colombia time).`, compartirTx:'I already sent my formal petition about UNP spending. Send yours in 2 minutes:', reintenta:'Open your email and come back to tap "I sent it".'}
+};
+let LANG = 'es';
+const d = k => D[LANG][k];
+
+/* ---------- almacenamiento seguro ---------- */
+const KEY = 'unp-al-dia.v1';
+function leer(){ try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } }
+function guardar(){ try { localStorage.setItem(KEY, JSON.stringify(E)); } catch {} }
+const E = Object.assign({ datos:{}, guardarDatos:true, enviadas:{}, vistos:[], ultimaVisita:0, lang:null }, leer());
+
+/* ---------- utilidades de fecha (siempre hora Colombia) ---------- */
+function partesBogota(f = new Date()){
+  const p = {}; new Intl.DateTimeFormat('en-CA',{timeZone:TZ,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})
+    .formatToParts(f).forEach(x => p[x.type] = x.value);
+  return { y:+p.year, m:+p.month, d:+p.day, h:+p.hour % 24, min:+p.minute, ymd:`${p.year}-${p.month}-${p.day}` };
+}
+const hoyYMD = () => partesBogota().ymd;
+function fechaLarga(ymd, lang = 'es'){
+  const [y,m,dd] = ymd.split('-').map(Number);
+  return new Date(Date.UTC(y,m-1,dd,12)).toLocaleDateString(lang === 'es' ? 'es-CO' : 'en-US',{timeZone:'UTC',day:'numeric',month:'long',year:'numeric'});
+}
+const horaCorta = (f) => new Date(f).toLocaleString(LANG === 'es' ? 'es-CO' : 'en-US',{timeZone:TZ,hour:'numeric',minute:'2-digit',day:'numeric',month:'short'});
+// Festivos de Colombia (Ley Emiliani) 2026–2028
+const FESTIVOS = new Set(['2026-11-02','2026-11-16','2026-12-08','2026-12-25',
+ '2027-01-01','2027-01-11','2027-03-22','2027-03-25','2027-03-26','2027-05-01','2027-05-10','2027-05-31','2027-06-07','2027-07-05','2027-07-20','2027-08-07','2027-08-16','2027-10-18','2027-11-01','2027-11-15','2027-12-08','2027-12-25',
+ '2028-01-01','2028-01-10','2028-03-20','2028-04-13','2028-04-14','2028-05-01','2028-05-29','2028-06-19','2028-06-26','2028-07-03','2028-07-20','2028-08-07','2028-08-21','2028-10-16','2028-11-06','2028-11-13','2028-12-08','2028-12-25']);
+const aUTC = ymd => { const [y,m,dd] = ymd.split('-').map(Number); return new Date(Date.UTC(y,m-1,dd)); };
+const aYMD = f => f.toISOString().slice(0,10);
+const habil = f => { const w = f.getUTCDay(); return w !== 0 && w !== 6 && !FESTIVOS.has(aYMD(f)); };
+function sumarHabiles(ymd, n){ const f = aUTC(ymd); let c = 0; while (c < n){ f.setUTCDate(f.getUTCDate()+1); if (habil(f)) c++; } return aYMD(f); }
+function habilesEntre(desde, hasta){ // días hábiles después de 'desde' hasta 'hasta' inclusive
+  const a = aUTC(desde), b = aUTC(hasta); let c = 0; if (b <= a) return 0;
+  while (a < b){ a.setUTCDate(a.getUTCDate()+1); if (habil(a)) c++; } return c; }
+
+/* ---------- fotos reales ---------- */
+const COMMONS = f => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=1400`;
+const FOTOS_BASE = [
+  { src: COMMONS('El_Capitolio_Nacional_(Bogotá,_Colombia)_1.jpg'), cred:'Capitolio Nacional, Bogotá · Rikimedia / Wikimedia Commons' },
+  { src: COMMONS('Fachada_Capitolio.jpg'), cred:'Fachada del Capitolio · Wikimedia Commons' },
+  { src: COMMONS('Estatua_de_la_plaza_de_Bolívar_en_Bogotá.JPG'), cred:'Plaza de Bolívar · Wikimedia Commons' },
+  { src: COMMONS('CapitolioNacionalDeColombia2004-7.jpg'), cred:'Capitolio Nacional · Kinori / Wikimedia Commons' },
+  { src: COMMONS('Catedral_Primada_de_Bogotá.1.jpg'), cred:'Plaza de Bolívar, Bogotá · Wikimedia Commons' },
+];
+const imgSegura = (src, alt='') => `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph></div>'">`;
+function esc(s=''){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+/* ---------- idioma ---------- */
+function aplicarIdioma(){
+  document.documentElement.lang = LANG;
+  document.querySelectorAll('[data-i]').forEach(el => {
+    const k = el.dataset.i;
+    if (!el.dataset.es) el.dataset.es = el.innerHTML;
+    el.innerHTML = LANG === 'es' ? el.dataset.es : (T.en[k] ?? el.dataset.es);
+  });
+  document.querySelectorAll('[data-ph]').forEach(el => {
+    if (!el.dataset.phes) el.dataset.phes = el.placeholder;
+    el.placeholder = LANG === 'es' ? el.dataset.phes : (T.en[el.dataset.ph] ?? el.dataset.phes);
+  });
+  document.getElementById('btnLang').textContent = LANG === 'es' ? 'EN' : 'ES';
+  pintarTodo();
+}
+document.getElementById('btnLang').onclick = () => { LANG = LANG === 'es' ? 'en' : 'es'; E.lang = LANG; guardar(); aplicarIdioma(); };
+
+/* ---------- reloj y saludo ---------- */
+function reloj(){
+  const p = partesBogota();
+  document.getElementById('hora').textContent = new Date().toLocaleTimeString(LANG==='es'?'es-CO':'en-US',{timeZone:TZ,hour:'numeric',minute:'2-digit'});
+  const franja = p.h < 5 ? 0 : p.h < 12 ? 1 : p.h < 19 ? 2 : 3;
+  const nombre = (E.datos.nombre || '').trim().split(' ')[0];
+  document.getElementById('saludo').textContent = d('buenos')[franja] + (nombre ? `, ${nombre}` : '');
+  const f = new Date().toLocaleDateString(LANG==='es'?'es-CO':'en-US',{timeZone:TZ,weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  document.getElementById('fechaHoy').textContent = f.charAt(0).toUpperCase() + f.slice(1);
+}
+
+/* ---------- pestañas ---------- */
+function ir(p){
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.p === p));
+  document.querySelectorAll('.panel').forEach(x => x.classList.toggle('on', x.id === 'p-'+p));
+  document.getElementById('flotante').classList.toggle('oculto', p === 'cartas');
+  const top = document.querySelector('.tabs').getBoundingClientRect().top + scrollY - 58;
+  if (scrollY > top || p !== 'hoy') scrollTo({ top: Math.max(top, 0), behavior:'smooth' });
+  if (p === 'caso') animarCifras();
+  if (p === 'noticias') { marcarVistas(); }
+  history.replaceState(null,'','#'+p);
+}
+document.getElementById('tabs').addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) ir(b.dataset.p); });
+
+/* ---------- cifras animadas ---------- */
+function animarCifras(){
+  document.querySelectorAll('#p-caso [data-cuenta]').forEach(el => {
+    const fin = parseFloat(el.dataset.cuenta), dec = +(el.dataset.dec || 0), t0 = performance.now(), dur = 1700;
+    const paso = t => { const k = Math.min((t - t0)/dur, 1), v = fin * (1 - Math.pow(1-k, 4));
+      el.textContent = (el.dataset.pre || '') + v.toLocaleString('es-CO',{minimumFractionDigits:dec,maximumFractionDigits:dec});
+      if (k < 1) requestAnimationFrame(paso); };
+    requestAnimationFrame(paso);
+  });
+  setTimeout(() => {
+    document.querySelectorAll('#barrasPres .lleno').forEach(b => b.style.width = b.dataset.w + '%');
+    document.querySelectorAll('#crec i').forEach(b => b.style.height = (b.dataset.h * 1.4) + 'px');
+  }, 150);
+}
+const CIFRAS_DIA = [
+  {n:'$49.375 M', es:'en viáticos y gastos de viaje de la UNP en 2025.', en:'in UNP travel expenses in 2025.'},
+  {n:'$40.291 M', es:'por encima de lo presupuestado para personal de protección en 2025.', en:'above the 2025 budget for protection staff.'},
+  {n:'662', es:'firmantes de paz vinculados como escoltas sin concurso de méritos.', en:'peace signatories hired as bodyguards without a merit exam.'},
+  {n:'$135 M', es:'por día: así se ven los viáticos de 2025 repartidos en el año.', en:'per day: 2025 travel expenses spread over the year.'},
+  {n:'28.200', es:'salarios mínimos de 2026 caben en los viáticos de 2025.', en:'2026 minimum wages fit into 2025 travel expenses.'},
+  {n:'x4', es:'creció el rubro de personal de protección entre 2018 y 2025.', en:'growth of the protection staff budget from 2018 to 2025.'},
+  {n:'$739 M', es:'costó el esquema de seguridad de Juliana Guerrero, según el director de la UNP.', en:'cost of Juliana Guerrero\'s security scheme, according to the UNP director.'},
+];
+function pintarCifraDia(){
+  const p = partesBogota(); const dia = Math.floor((Date.UTC(p.y,p.m-1,p.d) - Date.UTC(p.y,0,0)) / 864e5);
+  const c = CIFRAS_DIA[dia % CIFRAS_DIA.length];
+  document.getElementById('cifraDia').innerHTML = `<div class="chico" style="font-weight:800;letter-spacing:.1em;text-transform:uppercase">${d('cifraDia')}</div><div class="num" style="margin-top:8px">${c.n}</div><p>${c[LANG]}</p><button class="btn btn-linea btn-chico" style="margin-top:14px" onclick="ir('caso')">${LANG==='es'?'Ver todas las cifras':'See all figures'}</button>`;
+}
+
+/* ---------- noticias: robot + búsqueda en vivo ---------- */
+let NOTAS = [], VIDEOS = [], ACT_ROBOT = null, FILTRO = 'todas';
+const CATS = [['todas'],['viaticos',/vi[aá]tico|gastos? de viaje|comisi[oó]n/i],['escoltas',/escolta|firmante|vincul|concurso|esquema/i],['plata',/presupuest|d[eé]ficit|millones|billones|ejecuci|camioneta|flota/i],['control',/contralor|procurad|fiscal|juez|jueza|tutela|debate|congres|c[aá]mara|senado|murcia/i]];
+const RELEVANTE = /(unidad nacional de protecci[oó]n|\bunp\b)/i;
+const claveT = t => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9 ]/g,'').split(' ').filter(w=>w.length>3).slice(0,8).join(' ');
+
+async function conTiempo(url, ms=9000){
+  const c = new AbortController(); const t = setTimeout(()=>c.abort(), ms);
+  try { const r = await fetch(url,{signal:c.signal,cache:'no-store'}); if(!r.ok) throw 0; return await r.json(); } finally { clearTimeout(t); }
+}
+async function cargarRobot(){
+  try { const j = await conTiempo('data/noticias.json?t=' + Date.now()); ACT_ROBOT = j.actualizado; return { items:j.items||[], videos:j.videos||[] }; }
+  catch { return null; }
+}
+async function busquedaEnVivo(){
+  // GDELT: noticias de medios en español de los últimos 7 días, con foto
+  const q = encodeURIComponent('("Unidad Nacional de Protección" OR "UNP Colombia") sourcelang:spanish');
+  try {
+    const j = await conTiempo(`https://api.gdeltproject.org/api/v2/doc/doc?query=${q}&mode=artlist&format=json&maxrecords=40&sort=datedesc&timespan=7d`, 10000);
+    return (j.articles||[]).filter(a => RELEVANTE.test(a.title)).map(a => {
+      const s = a.seendate || ''; const iso = s.length >= 15 ? `${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}T${s.slice(9,11)}:${s.slice(11,13)}:${s.slice(13,15)}Z` : new Date().toISOString();
+      return { t:a.title, u:a.url, f:a.domain, d:iso, img:a.socialimage||'', r:'' };
+    });
+  } catch { return []; }
+}
+function unir(listas){
+  const m = new Map();
+  listas.flat().forEach(n => { if(!n || !n.t) return; const k = claveT(n.t); if(!k) return; const p = m.get(k);
+    if (!p) m.set(k, {...n}); else if (!p.img && n.img) p.img = n.img; });
+  return [...m.values()].sort((a,b)=> new Date(b.d) - new Date(a.d));
+}
+let CACHE_NOTAS = null;
+async function actualizar(manual){
+  const btn = document.getElementById('btnAct'); btn.classList.add('gira');
+  document.getElementById('burbuja').textContent = d('buscando');
+  const [robot, vivo] = await Promise.all([cargarRobot(), busquedaEnVivo()]);
+  if (robot || vivo.length){
+    NOTAS = unir([vivo, robot ? robot.items : []]);
+    VIDEOS = robot ? robot.videos : VIDEOS;
+    try { localStorage.setItem(KEY+'.notas', JSON.stringify({NOTAS, VIDEOS, ACT_ROBOT})); } catch {}
+  } else {
+    try { const c = JSON.parse(localStorage.getItem(KEY+'.notas')); if (c){ NOTAS = c.NOTAS; VIDEOS = c.VIDEOS; ACT_ROBOT = c.ACT_ROBOT; } } catch {}
+    if (manual) aviso(d('sinRed'));
+  }
+  btn.classList.remove('gira');
+  pintarTodo();
+  if (manual) aviso(d('actualizado')(new Date().toLocaleTimeString(LANG==='es'?'es-CO':'en-US',{timeZone:TZ,hour:'numeric',minute:'2-digit'})));
+}
+document.getElementById('btnAct').onclick = () => actualizar(true);
+
+const vistos = () => new Set(E.vistos || []);
+function nuevasCount(){ const v = vistos(); return NOTAS.filter(n => !v.has(claveT(n.t))).length; }
+function marcarVistas(){ E.vistos = NOTAS.map(n => claveT(n.t)).slice(0,150); guardar(); setTimeout(pintarBadge, 4000); }
+function pintarBadge(){ const n = E.vistos.length ? nuevasCount() : NOTAS.length; const b = document.getElementById('nNuevas'); b.hidden = !n; b.textContent = n; return n; }
+const minDesde = f => Math.max(1, Math.round((Date.now() - new Date(f)) / 6e4));
+
+function pintarNoticias(){
+  const v = vistos(), primera = !E.vistos.length;
+  const q = (document.getElementById('busca').value || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+  const cat = CATS.find(c => c[0] === FILTRO);
+  const lista = NOTAS.filter(n => {
+    const txt = (n.t + ' ' + (n.r||'') + ' ' + (n.f||'')).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+    return (!q || txt.includes(q)) && (!cat[1] || cat[1].test(n.t + ' ' + (n.r||'')));
+  });
+  document.getElementById('chips').innerHTML = CATS.map(c => `<button class="chip ${c[0]===FILTRO?'on':''}" data-c="${c[0]}">${d(c[0])}</button>`).join('');
+  document.getElementById('lista').innerHTML = lista.length ? lista.map(n => `
+    <a class="nota" href="${esc(n.u)}" target="_blank" rel="noopener">
+      <div class="mini">${n.img ? imgSegura(n.img, n.t) : '<div class="ph"></div>'}${!primera && !v.has(claveT(n.t)) ? `<span class="nueva">${d('nueva')}</span>`:''}</div>
+      <div class="tx"><h4>${esc(n.t)}</h4><div class="meta">${esc(n.f||'')} · ${d('hace')(minDesde(n.d))}</div></div>
+    </a>`).join('') : `<div class="vacio">${d('sinNotas')}</div>`;
+  document.getElementById('notEstado').textContent = d('notEstado')(NOTAS.length, ACT_ROBOT ? horaCorta(ACT_ROBOT) : '—');
+  const bv = document.getElementById('bloqueVideos'); bv.hidden = !VIDEOS.length;
+  document.getElementById('videos').innerHTML = VIDEOS.map(x => `<div class="video" data-v="${esc(x.id)}"><img src="https://i.ytimg.com/vi/${esc(x.id)}/hqdefault.jpg" alt="" loading="lazy"><span class="play">VIDEO</span><div class="vt">${esc(x.t)}<div class="meta">${esc(x.canal||'')}</div></div></div>`).join('');
+}
+document.getElementById('chips').addEventListener('click', e => { const c = e.target.closest('.chip'); if (c){ FILTRO = c.dataset.c; pintarNoticias(); } });
+document.getElementById('busca').addEventListener('input', pintarNoticias);
+document.getElementById('videos').addEventListener('click', e => { const v = e.target.closest('.video'); if (v && !v.querySelector('iframe')) v.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${v.dataset.v}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`; });
+
+function pintarHoy(){
+  const conFoto = NOTAS.slice(0, 8);
+  document.getElementById('carruselHoy').innerHTML = conFoto.length ? conFoto.map(n => `
+    <a class="nota-h" href="${esc(n.u)}" target="_blank" rel="noopener">${n.img ? imgSegura(n.img, n.t) : '<div class="ph"></div>'}
+      ${E.vistos.length && !vistos().has(claveT(n.t)) ? `<span class="nueva">${d('nueva')}</span>`:''}
+      <div class="cap"><h4>${esc(n.t)}</h4><div class="meta">${esc(n.f||'')} · ${d('hace')(minDesde(n.d))}</div></div></a>`).join('')
+    : `<div class="vacio" style="flex:1">${d('buscando')}</div>`;
+  const n = pintarBadge();
+  document.getElementById('burbuja').textContent = !NOTAS.length ? d('buscando') : !E.vistos.length ? d('delCaso')(NOTAS.length) : n ? d('nuevas')(n) : d('alDia');
+  document.getElementById('cinta').innerHTML = NOTAS.slice(0, 12).map(n => `<a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.t)}</a>`).join('') || `<a>${LANG==='es'?'$49.375 millones en viáticos · $40.291 millones por encima del presupuesto · 662 escoltas sin concurso':'COP 49,375 million in travel expenses · COP 40,291 million over budget · 662 bodyguards without a merit exam'}</a>`;
+  document.getElementById('pieAct').textContent = ACT_ROBOT ? d('pieAct')(horaCorta(ACT_ROBOT)) : '';
+  // avance
+  const env = ENTIDADES.filter(x => E.enviadas[x.id]).length;
+  document.getElementById('anillo').style.setProperty('--p', env * 25);
+  document.getElementById('anillo').style.background = `conic-gradient(var(--oro) ${env*25}%, rgba(255,255,255,.08) 0)`;
+  document.getElementById('anilloN').textContent = `${env}/4`;
+  document.getElementById('avanceTx').textContent = d('avance')(env);
+  const prox = ENTIDADES.filter(x => E.enviadas[x.id] && !E.enviadas[x.id].respondida)
+    .map(x => ({ x, v: sumarHabiles(E.enviadas[x.id].fecha, x.plazo) })).sort((a,b) => a.v.localeCompare(b.v))[0];
+  document.getElementById('proxVence').innerHTML = prox ? `<span class="semaforo ${prox.v < hoyYMD() ? 's-rojo':'s-amar'}">${d('vence')(prox.x.corto, fechaLarga(prox.v, LANG))}</span>` : '';
+  pintarCifraDia();
+}
+
+/* ---------- héroe con fotos reales ---------- */
+let SLIDE = 0, TIMER = null;
+function pintarHeroe(){
+  const deNotas = NOTAS.filter(n => n.img).slice(0, 4).map(n => ({ src:n.img, cred: n.f ? `Foto: ${n.f}` : '' }));
+  const fotos = [...deNotas, ...FOTOS_BASE].slice(0, 6);
+  document.getElementById('slides').innerHTML = fotos.map((f,i) => `<div class="slide ${i===0?'on':''}" data-c="${esc(f.cred)}"><img src="${esc(f.src)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('.slide').remove()"></div>`).join('');
+  SLIDE = 0; pasarSlide(0);
+  clearInterval(TIMER); TIMER = setInterval(() => pasarSlide(SLIDE + 1), 6500);
+}
+function pasarSlide(i){
+  const s = [...document.querySelectorAll('.slide')]; if (!s.length) return;
+  SLIDE = (i + s.length) % s.length;
+  s.forEach((x,k) => x.classList.toggle('on', k === SLIDE));
+  document.getElementById('puntos').innerHTML = s.map((_,k) => `<i class="${k===SLIDE?'on':''}" onclick="pasarSlide(${k})"></i>`).join('');
+  document.getElementById('fuenteSlide').textContent = s[SLIDE].dataset.c || '';
+}
+(() => { let x0 = null; const h = document.getElementById('heroe');
+  h.addEventListener('touchstart', e => x0 = e.touches[0].clientX, {passive:true});
+  h.addEventListener('touchend', e => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 50) pasarSlide(SLIDE + (dx < 0 ? 1 : -1)); x0 = null; }); })();
+
+/* ---------- cartas de derecho de petición ---------- */
+const ENTIDADES = [
+ { id:'unp', ent:'Unidad Nacional de Protección (UNP)', corto:'UNP', plazo:10,
+   to:'correspondencia@unp.gov.co', cc:'atencionalusuario@unp.gov.co',
+   dest:'Señores\nUNIDAD NACIONAL DE PROTECCIÓN – UNP\nAtn. Director General y Secretaría General\nCarrera 44 No. 20-21, Bogotá D.C.\ncorrespondencia@unp.gov.co',
+   foto:null,
+   pide:{es:['Detalle de los viáticos 2025 y 2026','Soporte de los $40.291 millones extra','Requisitos y formación de los 662 escoltas'],en:['Breakdown of 2025–2026 travel expenses','Support for the extra COP 40,291 million','Requirements and training of the 662 bodyguards']},
+   asunto:'Derecho de petición de información – viáticos, ejecución presupuestal y vinculación de personal de protección de la UNP',
+   peticiones:[
+    'Informar el valor total ejecutado en viáticos y gastos de viaje durante la vigencia 2025 y entre el 1 de enero y el 30 de septiembre de 2026, desagregado por dependencia, número de comisiones, tipo de servidor (de planta o contratista) y destino, con la anonimización que sea estrictamente necesaria para proteger la seguridad de las personas protegidas.',
+    'Explicar y soportar las modificaciones presupuestales (adiciones, traslados o reducciones) que permitieron ejecutar $248.276 millones frente a una apropiación inicial de $207.985 millones para personal de protección en 2025, con copia de los actos administrativos correspondientes.',
+    'Informar el fundamento legal de la vinculación de 662 personas como escoltas mediante la modalidad de libre nombramiento y remoción, los requisitos exigidos, las pruebas aplicadas, la capacitación recibida por cada cohorte y la dependencia o funcionario que adoptó dichas decisiones.',
+    'Informar qué acciones adelanta la entidad para reconstruir y publicar la ejecución presupuestal de los recursos asignados entre 2018 y 2023, y en qué fecha estará disponible esa información.',
+    'Si alguna información tiene carácter reservado, indicar de manera precisa la norma legal que lo fundamenta, conforme al artículo 25 de la Ley 1437 de 2011 (sustituido por la Ley 1755 de 2015) y al artículo 28 de la Ley 1712 de 2014, y entregar la parte que no esté sujeta a reserva.'] },
+ { id:'cgr', ent:'Contraloría General de la República', corto:'Contraloría', plazo:15,
+   to:'cgr@contraloria.gov.co', cc:'',
+   dest:'Señores\nCONTRALORÍA GENERAL DE LA REPÚBLICA\nCarrera 69 No. 44-35, Bogotá D.C.\ncgr@contraloria.gov.co',
+   foto:1,
+   pide:{es:['Si hay auditorías sobre estos gastos','Que se incluyan en la vigilancia fiscal','Resultado de la última auditoría a la UNP'],en:['Whether there are audits on this spending','That it be included in fiscal oversight','Result of the latest UNP audit']},
+   asunto:'Derecho de petición – solicitud de vigilancia fiscal sobre viáticos y ejecución presupuestal de la UNP',
+   peticiones:[
+    'Informar si la Contraloría General de la República adelanta o ha adelantado auditorías, actuaciones especiales de fiscalización o indagaciones preliminares sobre la ejecución de viáticos y gastos de viaje de la UNP en 2025 y 2026, y sobre la ejecución del rubro de personal de protección en 2025.',
+    'Que, en ejercicio de la competencia del artículo 267 de la Constitución Política, la entidad evalúe incluir estos hechos en su plan de vigilancia y control fiscal o adelante una actuación especial de fiscalización, y me informe la decisión adoptada.',
+    'Informar el resultado de la última auditoría financiera practicada a la UNP, incluida la opinión sobre los estados financieros y el concepto sobre la gestión presupuestal.',
+    'Informar el número de radicado y la dependencia responsable del trámite de esta petición.'] },
+ { id:'pgn', ent:'Procuraduría General de la Nación', corto:'Procuraduría', plazo:15,
+   to:'quejas@procuraduria.gov.co', cc:'',
+   dest:'Señores\nPROCURADURÍA GENERAL DE LA NACIÓN\nCarrera 5 No. 15-80, Bogotá D.C.\nquejas@procuraduria.gov.co',
+   foto:2,
+   pide:{es:['Si hay actuaciones disciplinarias','Vigilancia preventiva a las vinculaciones','Acompañamiento a la formalización de escoltas'],en:['Whether there are disciplinary proceedings','Preventive oversight of the hiring','Monitoring of bodyguard formalization']},
+   asunto:'Derecho de petición – solicitud de vigilancia preventiva y disciplinaria sobre gastos y vinculaciones en la UNP',
+   peticiones:[
+    'Informar si la Procuraduría General de la Nación adelanta actuaciones preventivas o disciplinarias relacionadas con la ejecución de viáticos de la UNP en 2025 y 2026, con la sobreejecución del rubro de personal de protección en 2025 o con la vinculación de 662 escoltas por libre nombramiento y remoción, respetando la reserva que corresponda.',
+    'Que, en ejercicio de la función preventiva y del poder disciplinario previstos en los artículos 277 y 278 de la Constitución Política, la entidad evalúe la legalidad de dichas vinculaciones y de la ejecución presupuestal señalada, y me informe la decisión adoptada.',
+    'Que la Procuraduría acompañe de manera preventiva el proceso de formalización y selección de personal de protección que adelanta la UNP, para garantizar que se aplique el mérito y criterios objetivos.',
+    'Informar el número de radicado y la dependencia responsable del trámite de esta petición.'] },
+ { id:'fgn', ent:'Fiscalía General de la Nación', corto:'Fiscalía', plazo:15,
+   to:'ges.documentalpqrs@fiscalia.gov.co', cc:'',
+   dest:'Señores\nFISCALÍA GENERAL DE LA NACIÓN\nSubdirección de Gestión Documental\nAvenida Calle 24 No. 52-01, Bogotá D.C.\nges.documentalpqrs@fiscalia.gov.co',
+   foto:4,
+   pide:{es:['Que evalúe si hay mérito para investigar','Si ya existe una indagación','Número de radicado'],en:['To assess whether an investigation is warranted','Whether an inquiry already exists','Filing number']},
+   asunto:'Derecho de petición – puesta en conocimiento de hechos públicos sobre recursos de la UNP',
+   peticiones:[
+    'Tener en cuenta los hechos públicos aquí descritos para que la Fiscalía General de la Nación evalúe, si lo considera procedente, si ameritan el inicio de una indagación. Aclaro que no imputo conducta alguna a persona determinada y que pongo en su conocimiento información divulgada públicamente.',
+    'Informar si los hechos ya son objeto de alguna noticia criminal o indagación, en la medida en que la reserva legal lo permita.',
+    'Informar el número de radicado o de noticia criminal asignado a esta comunicación y la dependencia responsable.'] },
+];
+const HECHOS = `HECHOS
+
+1. En octubre de 2026 el representante a la Cámara Alejandro Murcia divulgó una investigación que, según el congresista, se basa en respuestas oficiales de la Unidad Nacional de Protección (UNP), entre ellas el oficio OFI-2026-00098571. Según esa investigación:
+   a) La UNP habría destinado $49.375 millones a viáticos y gastos de viaje durante 2025, y $35.923 millones acumulados a septiembre de 2026.
+   b) Para el personal de protección en 2025, la apropiación inicial fue de $207.985 millones y la ejecución llegó a $248.276 millones, es decir, $40.291 millones por encima de lo inicialmente presupuestado. Ese rubro habría pasado de $88.948 millones en 2018 a $358.653 millones en 2025.
+   c) 662 firmantes del Acuerdo de Paz de 2016 habrían sido vinculados como escoltas mediante la modalidad de libre nombramiento y remoción, sin concurso de méritos.
+   d) La entidad habría manifestado dificultades para reconstruir la ejecución histórica de $1,07 billones asignados entre 2018 y 2023.
+   e) Existirían 698 esquemas de protección para 2.355 beneficiarios, sin información desagregada suficiente.
+2. Además, en el debate de control político del 29 de septiembre de 2026 en la Comisión Segunda de la Cámara se informó que un solo esquema de protección costó $739 millones, y medios de comunicación han reportado un faltante de cerca de $822.000 millones para la operación de la entidad.
+3. Estas cifras han sido ampliamente difundidas por medios de comunicación y redes sociales. Como ciudadano(a) y contribuyente tengo un interés legítimo en conocer cómo se usan los recursos públicos.
+4. Esta petición no afirma la existencia de delitos ni de faltas. Solicito información y, cuando corresponda, la verificación propia de la competencia de esta entidad.`;
+
+function datosForm(){
+  const v = id => document.getElementById(id).value.trim();
+  return { nombre:v('fNombre'), cedula:v('fCedula'), ciudad:v('fCiudad'), correo:v('fCorreo'), cel:v('fCel'), dir:v('fDir'), propio:v('fPropio') };
+}
+function validos(){
+  const x = datosForm(); let ok = true;
+  [['fNombre',x.nombre.length>4],['fCedula',/^\d{5,11}$/.test(x.cedula.replace(/\D/g,''))],['fCiudad',x.ciudad.length>2],['fCorreo',/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(x.correo)]]
+    .forEach(([id,b]) => { document.getElementById(id).classList.toggle('mal', !b); if(!b) ok = false; });
+  return ok;
+}
+function cartaTexto(e){
+  const x = datosForm();
+  const fecha = fechaLarga(hoyYMD(), 'es');
+  const cedula = x.cedula.replace(/\D/g,'').replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+  const pet = e.peticiones.map((p,i) => `${i+1}. ${p}`).join('\n\n');
+  const propio = x.propio ? `\n\nCONSIDERACIÓN PERSONAL\n\n${x.propio}` : '';
+  return `${x.ciudad}, ${fecha}
+
+${e.dest}
+
+Asunto: ${e.asunto}
+
+Yo, ${x.nombre.toUpperCase()}, identificado(a) con cédula de ciudadanía No. ${cedula}, en ejercicio del derecho fundamental de petición consagrado en el artículo 23 de la Constitución Política, regulado por la Ley 1755 de 2015, y del derecho de acceso a la información pública de la Ley 1712 de 2014, respetuosamente presento la siguiente petición en interés general.
+
+${HECHOS}${propio}
+
+PETICIONES
+
+${pet}
+
+FUNDAMENTOS DE DERECHO
+
+Artículos 2, 23, 74 y 209 de la Constitución Política; Ley 1437 de 2011, sustituida en su Título II por la Ley 1755 de 2015; Ley 1712 de 2014. Conforme al artículo 14 de la Ley 1437 de 2011, esta petición debe resolverse dentro de los ${e.plazo === 10 ? 'diez (10)' : 'quince (15)'} días hábiles siguientes a su recepción. Si la entidad no es competente para alguno de los puntos, solicito darle traslado a la autoridad competente e informármelo, según el artículo 21 de la misma ley.
+
+NOTIFICACIONES
+
+Autorizo expresamente la notificación de la respuesta por correo electrónico (artículo 56 de la Ley 1437 de 2011):
+Correo: ${x.correo}${x.cel ? `\nCelular: ${x.cel}` : ''}${x.dir ? `\nDirección: ${x.dir}` : ''}
+Ciudad: ${x.ciudad}
+
+ANEXO
+Nota de prensa con la investigación citada: https://diariolalibertad.com/2026/10/27/unp-bajo-cuestionamientos-por-viaticos-presupuesto-y-contratacion-de-escoltas/
+
+Atentamente,
+
+
+${x.nombre}
+C.C. ${cedula}
+
+Este mensaje de datos se presenta en los términos de la Ley 527 de 1999.`;
+}
+
+function pintarCartas(){
+  document.getElementById('cartas').innerHTML = ENTIDADES.map(e => {
+    const env = E.enviadas[e.id];
+    const conFoto = NOTAS.find(n => n.img);
+    const foto = e.foto === null ? (conFoto ? conFoto.img : FOTOS_BASE[0].src) : FOTOS_BASE[e.foto].src;
+    return `<div class="card carta">
+      <div class="foto">${imgSegura(foto, e.ent)}<span class="ent">${e.corto}</span><span class="estado ${env?'ok':''}">${env ? d('enviada') : d('pendiente')}</span></div>
+      <div class="cuerpo">
+        <div class="chico" style="font-weight:800">${d('pide')}</div>
+        <ul>${e.pide[LANG].map(p => `<li>${p}</li>`).join('')}</ul>
+        <div class="plazo">${d('plazo')(e.plazo)}</div>
+        <div class="chico">${e.to}${e.cc ? ' · cc ' + e.cc : ''}</div>
+        <div class="botones">
+          <button class="btn btn-oro ancho2" data-a="enviar" data-e="${e.id}">${d('enviar')}</button>
+          <button class="btn btn-linea" data-a="ver" data-e="${e.id}">${d('verCarta')}</button>
+          <button class="btn btn-linea" data-a="gmail" data-e="${e.id}">${d('gmail')}</button>
+          <button class="btn btn-linea" data-a="copiar" data-e="${e.id}">${d('copiar')}</button>
+          <button class="btn btn-linea" data-a="pdf" data-e="${e.id}">${d('pdf')}</button>
+          <button class="btn ${env ? 'btn-linea' : 'btn-vidrio'} ancho2" data-a="ya" data-e="${e.id}">${env ? d('deshacer') + ' · ' + d('enviadaEl')(fechaLarga(env.fecha, LANG)) : d('yaEnvie')}</button>
+        </div>
+      </div></div>`; }).join('');
+}
+
+let TEXTO_EDITADO = {};
+const textoDe = id => TEXTO_EDITADO[id] || cartaTexto(ENTIDADES.find(e => e.id === id));
+function mailto(e, txt){ return `mailto:${e.to}?${e.cc ? 'cc=' + encodeURIComponent(e.cc) + '&' : ''}subject=${encodeURIComponent(e.asunto)}&body=${encodeURIComponent(txt)}`; }
+function gmailURL(e, txt){ return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(e.to)}${e.cc ? '&cc=' + encodeURIComponent(e.cc) : ''}&su=${encodeURIComponent(e.asunto)}&body=${encodeURIComponent(txt)}`; }
+async function copiarTexto(t){
+  try { await navigator.clipboard.writeText(t); } catch { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); }
+  aviso(d('copiado'));
+}
+function imprimir(t){ document.getElementById('imprimir').textContent = t; window.print(); }
+function accion(a, id){
+  const e = ENTIDADES.find(x => x.id === id);
+  if (a === 'ya'){ if (E.enviadas[id]) delete E.enviadas[id]; else E.enviadas[id] = { fecha: hoyYMD(), radicado:'', respondida:false }; guardar(); pintarTodo(); return; }
+  if (!validos()){ aviso(d('faltan')); document.getElementById('fNombre').scrollIntoView({behavior:'smooth',block:'center'}); return; }
+  guardarDatos();
+  const t = textoDe(id);
+  if (a === 'enviar'){ location.href = mailto(e, t); setTimeout(() => aviso(d('reintenta')), 1200); }
+  if (a === 'gmail') window.open(gmailURL(e, t), '_blank', 'noopener');
+  if (a === 'copiar') copiarTexto(`Para: ${e.to}${e.cc ? '\nCC: ' + e.cc : ''}\nAsunto: ${e.asunto}\n\n${t}`);
+  if (a === 'pdf') imprimir(t);
+  if (a === 'ver') abrirModal(e);
+}
+document.getElementById('cartas').addEventListener('click', ev => { const b = ev.target.closest('[data-a]'); if (b) accion(b.dataset.a, b.dataset.e); });
+
+let MODAL_E = null;
+function abrirModal(e){
+  MODAL_E = e; document.getElementById('mTitulo').textContent = e.ent;
+  document.getElementById('mTexto').value = textoDe(e.id);
+  document.getElementById('modal').classList.add('on'); document.body.style.overflow = 'hidden';
+}
+function cerrarModal(){ document.getElementById('modal').classList.remove('on'); document.body.style.overflow = ''; }
+document.getElementById('mTexto').addEventListener('input', ev => { TEXTO_EDITADO[MODAL_E.id] = ev.target.value; });
+document.getElementById('mEnviar').onclick = () => { location.href = mailto(MODAL_E, document.getElementById('mTexto').value); };
+document.getElementById('mGmail').onclick = () => window.open(gmailURL(MODAL_E, document.getElementById('mTexto').value), '_blank', 'noopener');
+document.getElementById('mCopiar').onclick = () => copiarTexto(document.getElementById('mTexto').value);
+document.getElementById('mPdf').onclick = () => imprimir(document.getElementById('mTexto').value);
+document.getElementById('modal').addEventListener('click', ev => { if (ev.target.id === 'modal') cerrarModal(); });
+
+function guardarDatos(){
+  E.guardarDatos = document.getElementById('fGuardar').checked;
+  E.datos = E.guardarDatos ? datosForm() : {};
+  guardar(); reloj();
+}
+['fNombre','fCedula','fCiudad','fCorreo','fCel','fDir','fPropio'].forEach(id => document.getElementById(id).addEventListener('change', () => { TEXTO_EDITADO = {}; guardarDatos(); }));
+document.getElementById('fGuardar').addEventListener('change', guardarDatos);
+
+/* ---------- seguimiento ---------- */
+function pintarSeguimiento(){
+  const env = ENTIDADES.filter(e => E.enviadas[e.id]);
+  if (!env.length){ document.getElementById('seg').innerHTML = `<div class="vacio">${d('segVacio')}</div>`; return; }
+  const hoy = hoyYMD();
+  document.getElementById('seg').innerHTML = env.map(e => {
+    const s = E.enviadas[e.id], vence = sumarHabiles(s.fecha, e.plazo);
+    let est;
+    if (s.respondida) est = `<span class="semaforo s-azul">${d('respondida')}</span>`;
+    else if (hoy > vence) est = `<span class="semaforo s-rojo">${d('vencida')}</span>`;
+    else if (hoy === vence) est = `<span class="semaforo s-amar">${d('venceHoy')}</span>`;
+    else { const q = habilesEntre(hoy, vence); est = `<span class="semaforo ${q <= 3 ? 's-amar':'s-verde'}">${d('quedan')(q)}</span>`; }
+    return `<div class="card fila-seg">
+      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>${e.ent}</h3>${est}</div>
+      <div class="chico">${d('enviadaEl')(fechaLarga(s.fecha, LANG))} · ${d('venceEl')(fechaLarga(vence, LANG))}</div>
+      <div><label>${d('radicado')}</label><input data-rad="${e.id}" value="${esc(s.radicado||'')}"></div>
+      <button class="btn btn-linea btn-chico" data-resp="${e.id}">${s.respondida ? d('deshacer') : d('marcarResp')}</button>
+    </div>`; }).join('');
+}
+document.getElementById('seg').addEventListener('change', ev => { const id = ev.target.dataset.rad; if (id){ E.enviadas[id].radicado = ev.target.value.trim(); guardar(); } });
+document.getElementById('seg').addEventListener('click', ev => { const id = ev.target.dataset.resp; if (id){ E.enviadas[id].respondida = !E.enviadas[id].respondida; guardar(); pintarTodo(); } });
+
+function copiarTutela(){
+  const x = datosForm(); const nombre = x.nombre || '[SU NOMBRE]'; const cc = x.cedula || '[SU CÉDULA]';
+  const vencidas = ENTIDADES.filter(e => E.enviadas[e.id] && !E.enviadas[e.id].respondida && hoyYMD() > sumarHabiles(E.enviadas[e.id].fecha, e.plazo));
+  const lista = vencidas.length ? vencidas : ENTIDADES.filter(e => E.enviadas[e.id]);
+  const acc = lista.length ? lista.map(e => e.ent).join(', ') : '[ENTIDAD]';
+  const hechos = lista.length ? lista.map((e,i) => `${i+1}. El ${fechaLarga(E.enviadas[e.id].fecha)} presenté derecho de petición ante ${e.ent} por correo electrónico a ${e.to}${E.enviadas[e.id].radicado ? ', radicado No. ' + E.enviadas[e.id].radicado : ''}. El plazo legal de ${e.plazo} días hábiles venció el ${fechaLarga(sumarHabiles(E.enviadas[e.id].fecha, e.plazo))} sin que haya recibido respuesta de fondo.`).join('\n') : '1. El [FECHA] presenté derecho de petición ante [ENTIDAD] y no he recibido respuesta dentro del plazo legal.';
+  copiarTexto(`${x.ciudad || '[CIUDAD]'}, ${fechaLarga(hoyYMD())}
+
+Señor(a)
+JUEZ (REPARTO)
+E. S. D.
+
+Referencia: ACCIÓN DE TUTELA
+Accionante: ${nombre}, C.C. ${cc}
+Accionado(s): ${acc}
+
+Yo, ${nombre}, identificado(a) con cédula de ciudadanía No. ${cc}, actuando en nombre propio, presento acción de tutela con fundamento en el artículo 86 de la Constitución Política y el Decreto 2591 de 1991, para que se proteja mi derecho fundamental de petición (artículo 23 de la Constitución).
+
+HECHOS
+${hechos}
+
+PRETENSIONES
+1. Tutelar mi derecho fundamental de petición.
+2. Ordenar a ${acc} que, dentro de las cuarenta y ocho (48) horas siguientes a la notificación del fallo, dé respuesta de fondo, clara, precisa y congruente a mi petición y me la notifique.
+
+FUNDAMENTOS
+Artículos 23 y 86 de la Constitución Política; Ley 1755 de 2015; Decreto 2591 de 1991. La Corte Constitucional ha reiterado que el núcleo esencial del derecho de petición es la respuesta oportuna, de fondo y notificada al peticionario.
+
+JURAMENTO
+Manifiesto bajo la gravedad del juramento que no he presentado otra acción de tutela por los mismos hechos.
+
+PRUEBAS
+1. Copia del derecho de petición enviado.
+2. Constancia del correo enviado con fecha.
+
+NOTIFICACIONES
+Correo: ${x.correo || '[SU CORREO]'}${x.cel ? ' · Celular: ' + x.cel : ''}
+
+Atentamente,
+
+${nombre}
+C.C. ${cc}`);
+}
+
+/* ---------- varios ---------- */
+let AV;
+function aviso(t){ const a = document.getElementById('aviso'); a.textContent = t; a.classList.add('on'); clearTimeout(AV); AV = setTimeout(() => a.classList.remove('on'), 2800); }
+function compartir(){
+  const t = `${d('compartirTx')} ${URL_APP}`;
+  if (navigator.share) navigator.share({ title:'UNP al Día', text:d('compartirTx'), url:URL_APP }).catch(()=>{});
+  else window.open('https://wa.me/?text=' + encodeURIComponent(t), '_blank', 'noopener');
+}
+function pintarTodo(){ pintarHoy(); pintarNoticias(); pintarCartas(); pintarSeguimiento(); reloj(); }
+let HEROE_LISTO = false;
+
+/* ---------- arranque ---------- */
+(async function(){
+  LANG = E.lang || ((navigator.language||'es').startsWith('es') ? 'es' : 'en');
+  const map = { fNombre:'nombre', fCedula:'cedula', fCiudad:'ciudad', fCorreo:'correo', fCel:'cel', fDir:'dir', fPropio:'propio' };
+  Object.entries(map).forEach(([id,k]) => { if (E.datos[k]) document.getElementById(id).value = E.datos[k]; });
+  document.getElementById('fGuardar').checked = E.guardarDatos !== false;
+  try { const c = JSON.parse(localStorage.getItem(KEY+'.notas')); if (c){ NOTAS = c.NOTAS || []; VIDEOS = c.VIDEOS || []; ACT_ROBOT = c.ACT_ROBOT; } } catch {}
+  aplicarIdioma(); pintarHeroe(); reloj(); setInterval(reloj, 15000);
+  const ini = (location.hash || '').slice(1); if (['hoy','caso','cartas','noticias','seguimiento','ayuda'].includes(ini) && ini !== 'hoy') ir(ini);
+  await actualizar(false); pintarHeroe();
+  E.ultimaVisita = Date.now(); guardar();
+  setInterval(() => actualizar(false), 10 * 60 * 1000);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { actualizar(false); pintarHoy(); } });
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+})();
+</script>
+</body>
+</html>
