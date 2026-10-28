@@ -45,7 +45,8 @@ const CANALES_YT = [
   'ElEspectador', 'BluRadioCo', 'NoticiasUno', 'CambioColombia',
 ];
 
-const log = (ok, nombre, n = '') => console.log(`${ok ? '✓' : '✗'} ${nombre}${n !== '' ? ' — ' + n : ''}`);
+const DIAG = [];
+const log = (ok, nombre, n = '') => { const l = `${ok ? '✓' : '✗'} ${nombre}${n !== '' ? ' — ' + n : ''}`; DIAG.push(l); console.log(l); };
 
 async function traer(url, ms = 15000) {
   const ctrl = new AbortController();
@@ -136,6 +137,65 @@ async function fotoDe(url) {
   } catch { return ''; }
 }
 
+// Google Noticias esconde el enlace real; este decodificador lo recupera
+async function enlaceReal(url) {
+  const id = (url.match(/\/articles\/([^?/]+)/) || [])[1];
+  if (!id) return '';
+  try {
+    const html = await traer(`https://news.google.com/articles/${id}`, 12000);
+    const sg = (html.match(/data-n-a-sg="([^"]+)"/) || [])[1];
+    const ts = (html.match(/data-n-a-ts="([^"]+)"/) || [])[1];
+    if (!sg || !ts) return '';
+    const interno = JSON.stringify(['garturlreq', [['X', 'X', ['X', 'X'], null, null, 1, 1, 'US:en', null, 1, null, null, null, null, null, 0, 1], 'X', 'X', 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0], id, +ts, sg]);
+    const cuerpo = 'f.req=' + encodeURIComponent(JSON.stringify([[['Fbv4je', interno, null, 'generic']]]));
+    const r = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute', {
+      method: 'POST', body: cuerpo,
+      headers: { 'content-type': 'application/x-www-form-urlencoded;charset=UTF-8', 'user-agent': UA },
+    });
+    const txt = await r.text();
+    const bloque = txt.split('\n\n')[1];
+    const real = JSON.parse(JSON.parse(bloque)[0][2])[1];
+    return /^https?:\/\//.test(real) ? real : '';
+  } catch { return ''; }
+}
+
+function buscarVideos(nodo, out) {
+  if (!nodo || typeof nodo !== 'object') return;
+  if (nodo.videoRenderer && nodo.videoRenderer.videoId) {
+    const v = nodo.videoRenderer;
+    out.push({
+      id: v.videoId,
+      t: (v.title?.runs || []).map(x => x.text).join('') || v.title?.simpleText || '',
+      canal: (v.ownerText?.runs || [])[0]?.text || '',
+      hace: v.publishedTimeText?.simpleText || '',
+    });
+    return;
+  }
+  for (const k in nodo) buscarVideos(nodo[k], out);
+}
+const CANALES_OK = /caracol|rcn|semana|tiempo|espectador|blu|noticias uno|cambio|ntn24|infobae|cm&|canal 1|teleantioquia|telemedell|la fm|w radio|citytv|pulzo|kienyke|caracol radio|el colombiano|canal capital|senado|c[aá]mara|congreso|unp/i;
+async function videosBusqueda() {
+  const out = [];
+  for (const q of ['UNP Unidad Nacional de Protección', 'UNP escoltas', 'UNP viáticos Murcia']) {
+    try {
+      // sp=EgIIBA%3D%3D: videos subidos este mes
+      const html = await traer(`https://www.youtube.com/results?search_query=${encodeURIComponent(q)}&sp=EgIIBA%3D%3D&hl=es&gl=CO`);
+      const m = html.match(/var ytInitialData = (\{[\s\S]*?\});<\/script>/);
+      if (!m) throw new Error('sin datos');
+      const lista = []; buscarVideos(JSON.parse(m[1]), lista);
+      const buenos = lista.filter(v => FILTRO_FUERTE.test(v.t) && CANALES_OK.test(v.canal));
+      buenos.forEach(v => { v.d = haceAFecha(v.hace); delete v.hace; });
+      out.push(...buenos); log(true, 'YouTube búsqueda: ' + q, buenos.length + ' de ' + lista.length);
+    } catch (e) { log(false, 'YouTube búsqueda: ' + q, e.message); }
+  }
+  return out;
+}
+function haceAFecha(t = '') {
+  const n = parseInt((t.match(/\d+/) || [1])[0]);
+  const ms = /minuto|minute/.test(t) ? 6e4 : /hora|hour/.test(t) ? 36e5 : /semana|week/.test(t) ? 6048e5 : /mes|month/.test(t) ? 2592e6 : 864e5;
+  return new Date(Date.now() - n * ms).toISOString();
+}
+
 async function videosYouTube() {
   const out = [];
   for (const canal of CANALES_YT) {
@@ -161,7 +221,7 @@ async function main() {
   let anterior = { items: [], videos: [] };
   try { anterior = JSON.parse(await readFile(SALIDA, 'utf8')); } catch {}
 
-  const [g, b, m, v] = await Promise.all([googleNoticias(), bingNoticias(), mediosRSS(), videosYouTube()]);
+  const [g, b, m, v, vb] = await Promise.all([googleNoticias(), bingNoticias(), mediosRSS(), videosYouTube(), videosBusqueda()]);
 
   // Unir, filtrar y quitar repetidas (prefiere la versión con foto y con enlace directo)
   const mapa = new Map();
@@ -180,13 +240,19 @@ async function main() {
     .sort((a, b) => new Date(b.d) - new Date(a.d))
     .slice(0, MAX_NOTAS);
 
-  // Fotos reales: busca og:image de las notas sin foto (máximo 25 por corrida)
-  const sinFoto = items.filter(n => !n.img).slice(0, 25);
+  // Enlaces reales de Google Noticias (máximo 30 por corrida; los ya resueltos se guardan)
+  const porResolver = items.filter(n => /news\.google\.com/.test(n.u)).slice(0, 30);
+  let resueltos = 0;
+  for (const n of porResolver) { const r = await enlaceReal(n.u); if (r) { n.u = r; resueltos++; } }
+  log(resueltos > 0 || !porResolver.length, 'Enlaces reales de Google Noticias', resueltos + ' de ' + porResolver.length);
+
+  // Fotos reales: busca og:image de las notas sin foto (máximo 40 por corrida)
+  const sinFoto = items.filter(n => !n.img && !/news\.google\.com/.test(n.u)).slice(0, 40);
   await Promise.all(sinFoto.map(async n => { n.img = await fotoDe(n.u); }));
   log(true, 'Fotos encontradas', items.filter(n => n.img).length + ' de ' + items.length);
 
   const vistos = new Set();
-  const videos = [...v, ...(anterior.videos || [])]
+  const videos = [...v, ...vb, ...(anterior.videos || [])]
     .filter(x => x.id && !vistos.has(x.id) && vistos.add(x.id))
     .sort((a, b) => new Date(b.d) - new Date(a.d))
     .slice(0, MAX_VIDEOS);
@@ -198,7 +264,7 @@ async function main() {
     return;
   }
   await mkdir(new URL('../data/', import.meta.url), { recursive: true });
-  const datos = { actualizado: new Date().toISOString(), total: items.length, items, videos };
+  const datos = { actualizado: new Date().toISOString(), total: items.length, items, videos, diagnostico: DIAG };
   await writeFile(SALIDA, JSON.stringify(datos, null, 1));
   console.log(`Guardadas ${items.length} noticias y ${videos.length} videos.`);
 }
