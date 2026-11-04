@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T19:07:30.378Z",
+ "actualizado": "2026-11-04T00:05:14.455Z",
  "total": 70,
  "items": [
   {
@@ -99,14 +99,6 @@
    "r": "María Fernanda Cabal cuestiona gasto de $49.375 millones en viáticos de la UNP para firmantes de paz &nbsp;&nbsp; Diario La Libertad"
   },
   {
-   "t": "Primicia | UNP le retiró el esquema de protección al ‘narcochofer’ que transportó droga en camionetas oficiales y ahora colabora con Fiscalía | El Colombiano",
-   "u": "https://www.elcolombiano.com/colombia/unp-le-retirara-esquema-de-proteccion-al-narcochofer-BL42855127",
-   "f": "El Colombiano",
-   "d": "2026-10-28T01:31:57.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.DoVHY-ySkdN1Cs1yYJNkZA&pid=News",
-   "r": "Primicia | UNP le retiró el esquema de protección al ‘narcochofer’ que transportó droga en camionetas oficiales y ahora colabora con Fiscalía | El Colombiano &nbsp;&nbsp; El Colombiano"
-  },
-  {
    "t": "UNP bajo la lupa: viáticos millonarios, escoltas y cuestionamientos al proceso de paz",
    "u": "https://diariolalibertad.com/2026/10/27/unp-bajo-la-lupa-viaticos-millonarios-escoltas-y-cuestionamientos-al-proceso-de-paz/",
    "f": "",
@@ -119,7 +111,7 @@
    "u": "https://diariolalibertad.com/2026/10/27/unp-bajo-cuestionamientos-por-viaticos-presupuesto-y-contratacion-de-escoltas/",
    "f": "",
    "d": "2026-10-27T17:59:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.ZBlwT30IQiHFdimteSazSw&pid=News",
+   "img": "http://www.bing.com/th?id=ONUT.j1ciBhr0If_U78Xg22ASjg&pid=News",
    "r": "La Unidad Nacional de Protección (UNP) quedó en el centro de un nuevo debate por el manejo de recursos públicos y la vinculación de personal encargado de ..."
   },
   {
@@ -129,6 +121,14 @@
    "d": "2026-10-27T16:22:38.000Z",
    "img": "https://www.ambitojuridico.com/sites/default/files/node/deflt/field_image/1970-01/emedi141909seguridad20unp-1509242299.jpg",
    "r": "UNP deberá pagar más de $ 2.400 millones por entrega tardía de vehículos alquilados para seguridad &nbsp;&nbsp; Ámbito Jurídico"
+  },
+  {
+   "t": "Primicia | UNP le retiró el esquema de protección al ‘narcochofer’ que transportó droga en camionetas oficiales y ahora colabora con Fiscalía",
+   "u": "https://www.elcolombiano.com/colombia/unp-le-retirara-esquema-de-proteccion-al-narcochofer-BL42855127",
+   "f": "",
+   "d": "2026-10-27T13:24:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.DoVHY-ySkdN1Cs1yYJNkZA&pid=News",
+   "r": "La Unidad Nacional de Protección (UNP), por orden del nuevo director Didier Fabián Blanco, ha desmontado varios esquemas de protección de personajes ..."
   },
   {
    "t": "COMUNICADO OFICIAL: Por instrucción presidencial, Gobierno nacional y UNP articulan acciones para fortalecer la protección de los líderes sociales en Colombia",
@@ -323,14 +323,6 @@
    "r": "Escolta de la UNP murió en atentado &nbsp;&nbsp; HSB Noticias"
   },
   {
-   "t": "UNP retira el esquema de seguridad de Armando Benedetti y su familia. ¿Qué pasó?",
-   "u": "https://noscogiolanoche.com/unp-retira-el-esquema-de-seguridad-de-armando-benedetti-y-su-familia-que-paso/",
-   "f": "Nos Cogió la Noche",
-   "d": "2026-10-19T20:43:10.000Z",
-   "img": "https://noscogiolanoche.com/wp-content/uploads/2026/10/Armando-Benedetti-Foto-Presidencia.jpg",
-   "r": "UNP retira el esquema de seguridad de Armando Benedetti y su familia. ¿Qué pasó? &nbsp;&nbsp; Nos Cogió la Noche"
-  },
-  {
    "t": "Crean unidad especial para investigar falsas amenazas con las que piden esquemas de protección",
    "u": "https://www.semana.com/confidenciales/articulo/crean-unidad-especial-para-investigar-falsas-amenazas-con-las-que-piden-esquemas-de-proteccion/202635/",
    "f": "Revista Semana",
@@ -385,6 +377,14 @@
    "d": "2026-10-19T07:00:00.000Z",
    "img": "https://www.elinformador.com.co/images/stories/redes_sociales/2026/10-octubre/19%20benedetti.jpg",
    "r": "Benedetti denuncia retiro de su esquema de seguridad y advierte sobre posibles riesgos para su familia &nbsp;&nbsp; EL INFORMADOR - Santa Marta, Colombia"
+  },
+  {
+   "t": "UNP retira el esquema de seguridad de Armando Benedetti y su familia. ¿Qué pasó?",
+   "u": "https://noscogiolanoche.com/unp-retira-el-esquema-de-seguridad-de-armando-benedetti-y-su-familia-que-paso/",
+   "f": "Nos Cogió la Noche",
+   "d": "2026-10-19T07:00:00.000Z",
+   "img": "https://noscogiolanoche.com/wp-content/uploads/2026/10/Armando-Benedetti-Foto-Presidencia.jpg",
+   "r": "UNP retira el esquema de seguridad de Armando Benedetti y su familia. ¿Qué pasó? &nbsp;&nbsp; Nos Cogió la Noche"
   },
   {
    "t": "Benedetti denuncia retiro de esquema de seguridad de UNP",
@@ -574,13 +574,13 @@
    "id": "ZYK9YJxYf8c",
    "t": "Proyecto de ley busca que escoltas de la UNP tengan los mismos beneficios pensionales que otros t...",
    "canal": "RCN Mundo",
-   "d": "2026-10-31T19:07:17.259Z"
+   "d": "2026-11-01T00:05:09.625Z"
   },
   {
    "id": "p7-7-oZyYNs",
    "t": "Proyecto busca cerrar la puerta a excombatientes de las FARC como escoltas de la UNP",
    "canal": "LA FM Colombia",
-   "d": "2026-10-31T19:07:16.741Z"
+   "d": "2026-11-01T00:05:09.624Z"
   },
   {
    "id": "QnPMELkzGRA",
@@ -622,7 +622,7 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-10-28T19:07:17.259Z"
+   "d": "2026-10-29T00:05:10.110Z"
   },
   {
    "id": "f_svJiTnjJY",
@@ -634,37 +634,37 @@
    "id": "nRYCGChfcwE",
    "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
    "canal": "NTN24",
-   "d": "2026-10-22T19:07:17.259Z"
+   "d": "2026-10-23T00:05:10.110Z"
   }
  ],
  "diagnostico": [
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
   "✓ RSS Infobae — 0",
   "✓ Bing Noticias: UNP escoltas viáticos — 11",
-  "✓ RSS Semana — 0",
   "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
-  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 2 de 20",
+  "✓ RSS Semana — 0",
   "✓ Google Noticias: UNP viáticos — 9",
-  "✓ Google Noticias: UNP escoltas — 35",
-  "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
+  "✗ YouTube @NoticiasCaracol — HTTP 404",
   "✓ RSS El Espectador — 0",
+  "✓ Google Noticias: UNP escoltas — 34",
+  "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
   "✗ RSS El Colombiano — HTTP 404",
   "✓ Google Noticias: UNP presupuesto — 9",
-  "✓ YouTube @NoticiasRCN — 0",
-  "✗ YouTube @RevistaSemana — HTTP 404",
   "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✓ Google Noticias: Alejandro Murcia UNP — 2",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 17",
+  "✗ YouTube @NoticiasRCN — HTTP 404",
+  "✗ YouTube @RevistaSemana — HTTP 404",
   "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 50",
+  "✗ YouTube @eltiempo — HTTP 404",
   "✗ RSS Blu Radio — HTTP 404",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
+  "✗ YouTube @ElEspectador — HTTP 404",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ YouTube @ElEspectador — 0",
   "✗ RSS La FM — HTTP 404",
-  "✓ YouTube @BluRadioCo — 0",
+  "✗ YouTube @BluRadioCo — HTTP 404",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
   "✓ Enlaces reales de Google Noticias — 0 de 0",
