@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T15:08:22.271Z",
+ "actualizado": "2026-11-04T21:25:18.412Z",
  "total": 70,
  "items": [
   {
@@ -99,6 +99,14 @@
    "r": "María Fernanda Cabal cuestiona gasto de $49.375 millones en viáticos de la UNP para firmantes de paz &nbsp;&nbsp; Diario La Libertad"
   },
   {
+   "t": "Primicia | UNP le retiró el esquema de protección al ‘narcochofer’ que transportó droga en camionetas oficiales y ahora colabora con Fiscalía | El Colombiano",
+   "u": "https://www.elcolombiano.com/colombia/unp-le-retirara-esquema-de-proteccion-al-narcochofer-BL42855127",
+   "f": "El Colombiano",
+   "d": "2026-10-28T01:31:57.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.DoVHY-ySkdN1Cs1yYJNkZA&pid=News",
+   "r": "Primicia | UNP le retiró el esquema de protección al ‘narcochofer’ que transportó droga en camionetas oficiales y ahora colabora con Fiscalía | El Colombiano &nbsp;&nbsp; El Colombiano"
+  },
+  {
    "t": "UNP bajo la lupa: viáticos millonarios, escoltas y cuestionamientos al proceso de paz",
    "u": "https://diariolalibertad.com/2026/10/27/unp-bajo-la-lupa-viaticos-millonarios-escoltas-y-cuestionamientos-al-proceso-de-paz/",
    "f": "",
@@ -121,14 +129,6 @@
    "d": "2026-10-27T16:22:38.000Z",
    "img": "https://www.ambitojuridico.com/sites/default/files/node/deflt/field_image/1970-01/emedi141909seguridad20unp-1509242299.jpg",
    "r": "UNP deberá pagar más de $ 2.400 millones por entrega tardía de vehículos alquilados para seguridad &nbsp;&nbsp; Ámbito Jurídico"
-  },
-  {
-   "t": "Primicia | UNP le retiró el esquema de protección al ‘narcochofer’ que transportó droga en camionetas oficiales y ahora colabora con Fiscalía",
-   "u": "https://www.elcolombiano.com/colombia/unp-le-retirara-esquema-de-proteccion-al-narcochofer-BL42855127",
-   "f": "",
-   "d": "2026-10-27T13:24:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.DoVHY-ySkdN1Cs1yYJNkZA&pid=News",
-   "r": "La Unidad Nacional de Protección (UNP), por orden del nuevo director Didier Fabián Blanco, ha desmontado varios esquemas de protección de personajes ..."
   },
   {
    "t": "COMUNICADO OFICIAL: Por instrucción presidencial, Gobierno nacional y UNP articulan acciones para fortalecer la protección de los líderes sociales en Colombia",
@@ -259,20 +259,20 @@
    "r": "Revelan video de persona que usa escoltas de Unidad de Protección para hacer mercado en Colombia &nbsp;&nbsp; Pulzo"
   },
   {
-   "t": "Congresista del Pacto Histórico habría utilizado escoltas de la UNP para hacer mercado según video publicado en redes: “Qué vergüenza”",
-   "u": "https://www.infobae.com/colombia/2026/10/20/congresista-del-pacto-historico-habria-utilizado-escoltas-de-la-unp-para-hacer-mercado-segun-video-publicado-en-redes-que-verguenza/",
-   "f": "Infobae",
-   "d": "2026-10-20T07:00:00.000Z",
-   "img": "https://www.infobae.com/resizer/v2/S2K3A4XTOJFODGVXDR5FYCJ7YY.png?auth=b7425677bb5a6916fdf91e49fbcd744184b8cb3476a76ab270e9330197b2c10b&smart=true&width=1024&height=512&quality=85",
-   "r": "Congresista del Pacto Histórico habría utilizado escoltas de la UNP para hacer mercado según video publicado en redes: “Qué vergüenza” &nbsp;&nbsp; Infobae"
-  },
-  {
    "t": "Tras un duro trino del presidente De La Espriella, Benedetti denunció que la UNP le retiró su esquema de protección",
    "u": "https://ifmnoticias.com/gobierno/tras-un-duro-trino-del-presidente-de-la-espriella-benedetti-denuncia-que-la-unp-/",
    "f": "IFM Noticias",
    "d": "2026-10-20T07:00:00.000Z",
    "img": "https://storage.googleapis.com/ifmnoticias-media/articles/juzgado-abrio-desacato-contra-benedetti-por-incumplir-orden-de-rectificacion-1773855766815.webp",
    "r": "Tras un duro trino del presidente De La Espriella, Benedetti denunció que la UNP le retiró su esquema de protección &nbsp;&nbsp; IFM Noticias"
+  },
+  {
+   "t": "Congresista del Pacto Histórico habría utilizado escoltas de la UNP para hacer mercado según video publicado en redes: “Qué vergüenza”",
+   "u": "https://www.infobae.com/colombia/2026/10/20/congresista-del-pacto-historico-habria-utilizado-escoltas-de-la-unp-para-hacer-mercado-segun-video-publicado-en-redes-que-verguenza/",
+   "f": "Infobae",
+   "d": "2026-10-20T07:00:00.000Z",
+   "img": "https://www.infobae.com/resizer/v2/S2K3A4XTOJFODGVXDR5FYCJ7YY.png?auth=b7425677bb5a6916fdf91e49fbcd744184b8cb3476a76ab270e9330197b2c10b&smart=true&width=1024&height=512&quality=85",
+   "r": "Congresista del Pacto Histórico habría utilizado escoltas de la UNP para hacer mercado según video publicado en redes: “Qué vergüenza” &nbsp;&nbsp; Infobae"
   },
   {
    "t": "UNP abrirá proceso sancionatorio por video de escoltas que empujaban carritos de mercado de un protegido",
@@ -568,19 +568,19 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-02T15:08:15.171Z"
+   "d": "2026-11-02T21:25:13.512Z"
   },
   {
    "id": "p7-7-oZyYNs",
    "t": "Proyecto busca cerrar la puerta a excombatientes de las FARC como escoltas de la UNP",
    "canal": "LA FM Colombia",
-   "d": "2026-11-01T15:08:14.770Z"
+   "d": "2026-11-01T21:25:13.097Z"
   },
   {
    "id": "ZYK9YJxYf8c",
    "t": "Proyecto de ley busca que escoltas de la UNP tengan los mismos beneficios pensionales que otros t...",
    "canal": "RCN Mundo",
-   "d": "2026-11-01T15:08:14.770Z"
+   "d": "2026-11-01T21:25:13.097Z"
   },
   {
    "id": "fOdTG-NnLiY",
@@ -628,7 +628,7 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-10-29T15:08:15.171Z"
+   "d": "2026-10-28T21:25:13.512Z"
   },
   {
    "id": "f_svJiTnjJY",
@@ -639,35 +639,35 @@
  ],
  "diagnostico": [
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
-  "✓ RSS Infobae — 0",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 51",
+  "✓ Google Noticias: UNP viáticos — 8",
   "✓ Bing Noticias: UNP escoltas viáticos — 11",
   "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 2 de 20",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 55",
-  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ RSS Infobae — 0",
+  "✓ Google Noticias: UNP escoltas — 35",
   "✓ RSS Semana — 0",
-  "✓ RSS El Espectador — 0",
-  "✓ Google Noticias: UNP viáticos — 9",
-  "✗ RSS El Colombiano — HTTP 404",
-  "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
-  "✓ Google Noticias: UNP escoltas — 34",
   "✓ Google Noticias: UNP presupuesto — 8",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
+  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
   "✓ Google Noticias: Alejandro Murcia UNP — 2",
-  "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 15",
+  "✓ RSS El Espectador — 0",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 13",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
+  "✗ RSS El Colombiano — HTTP 404",
   "✓ YouTube @NoticiasRCN — 0",
   "✗ YouTube @RevistaSemana — HTTP 404",
+  "✗ RSS Noticias Caracol — HTTP 404",
+  "✓ YouTube @eltiempo — 0",
   "✗ RSS Blu Radio — HTTP 404",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
-  "✓ YouTube @eltiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✗ RSS La FM — HTTP 404",
   "✓ YouTube @ElEspectador — 0",
+  "✗ RSS La FM — HTTP 404",
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 1 de 1",
+  "✓ Enlaces reales de Google Noticias — 0 de 0",
   "✓ Fotos encontradas — 66 de 70"
  ]
 }
