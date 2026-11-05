@@ -1,12 +1,20 @@
 {
- "actualizado": "2026-11-04T21:25:18.412Z",
+ "actualizado": "2026-11-05T01:40:43.715Z",
  "total": 70,
  "items": [
+  {
+   "t": "Director de la cárcel Villahermosa en Cali recibió amenazas contra su familia: retiraron su esquema de seguridad pese a riesgo extraordinario",
+   "u": "https://www.infobae.com/colombia/2026/11/04/director-de-la-carcel-villahermosa-en-cali-recibio-amenazas-contra-su-familia-retiraron-su-esquema-de-seguridad-pese-a-riesgo-extraordinario/",
+   "f": "Infobae",
+   "d": "2026-11-04T21:22:00.000Z",
+   "img": "https://www.infobae.com/resizer/v2/IIRUZTO6EJCD5BVHCZIGDN5TTQ.jpg?auth=29cd4ac05e135f5c2db7220d2cf6e0ecd28869ea413b0a25ce03d266e81136aa&smart=true&width=1024&height=512&quality=85",
+   "r": "Director de la cárcel Villahermosa en Cali recibió amenazas contra su familia: retiraron su esquema de seguridad pese a riesgo extraordinario &nbsp;&nbsp; Infobae"
+  },
   {
    "t": "El tolimense Didier Blanco será el nuevo director de la Unidad Nacional de Protección",
    "u": "https://enfoqueteve.com/el-tolimense-didier-blanco-sera-el-nuevo-director-de-la-unidad-nacional-de-proteccion/",
    "f": "Enfoque TeVe",
-   "d": "2026-11-01T09:04:06.000Z",
+   "d": "2026-10-31T10:39:39.000Z",
    "img": "https://i0.wp.com/enfoqueteve.com/wp-content/uploads/2026/07/Enfoque-TeVe-Didier-Blanco.jpg?resize=1000%2C600&ssl=1",
    "r": "El tolimense Didier Blanco será el nuevo director de la Unidad Nacional de Protección &nbsp;&nbsp; Enfoque TeVe"
   },
@@ -553,14 +561,6 @@
    "d": "2026-10-16T07:00:00.000Z",
    "img": "",
    "r": "Gobierno ordena eliminar esquemas de protección sin justificación para reducir el gasto público &nbsp;&nbsp; Análisis Urbano"
-  },
-  {
-   "t": "De La Espriella pone bajo revisión los esquemas de la UNP y advierte que eliminará los injustificados",
-   "u": "https://diariolalibertad.com/2026/10/16/de-la-espriella-pone-bajo-revision-los-esquemas-de-la-unp-y-advierte-que-eliminara-los-injustificados/",
-   "f": "Diario La Libertad",
-   "d": "2026-10-16T07:00:00.000Z",
-   "img": "https://diariolalibertad.com/wp-content/uploads/2026/10/presidente-abelardo-de-la-espriella-1200x675-1-1-960x540-1.webp",
-   "r": "De La Espriella pone bajo revisión los esquemas de la UNP y advierte que eliminará los injustificados &nbsp;&nbsp; Diario La Libertad"
   }
  ],
  "videos": [
@@ -568,19 +568,25 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-02T21:25:13.512Z"
+   "d": "2026-11-03T01:40:30.502Z"
+  },
+  {
+   "id": "nRYCGChfcwE",
+   "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
+   "canal": "NTN24",
+   "d": "2026-11-03T01:40:30.502Z"
   },
   {
    "id": "p7-7-oZyYNs",
    "t": "Proyecto busca cerrar la puerta a excombatientes de las FARC como escoltas de la UNP",
    "canal": "LA FM Colombia",
-   "d": "2026-11-01T21:25:13.097Z"
+   "d": "2026-11-02T01:40:30.079Z"
   },
   {
    "id": "ZYK9YJxYf8c",
    "t": "Proyecto de ley busca que escoltas de la UNP tengan los mismos beneficios pensionales que otros t...",
    "canal": "RCN Mundo",
-   "d": "2026-11-01T21:25:13.097Z"
+   "d": "2026-11-02T01:40:30.079Z"
   },
   {
    "id": "fOdTG-NnLiY",
@@ -628,46 +634,40 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-10-28T21:25:13.512Z"
-  },
-  {
-   "id": "f_svJiTnjJY",
-   "t": "POLÉMICA por congresista que fue grabado con escoltas de la UNP arrastrando carros de mercado",
-   "canal": "NTN24",
-   "d": "2026-10-23T03:36:50.212Z"
+   "d": "2026-10-29T01:40:30.502Z"
   }
  ],
  "diagnostico": [
-  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
+  "✓ RSS Infobae — 0",
+  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 10",
   "✓ Google Noticias: \"Unidad Nacional de Protección\" — 51",
-  "✓ Google Noticias: UNP viáticos — 8",
+  "✓ RSS Semana — 0",
   "✓ Bing Noticias: UNP escoltas viáticos — 11",
   "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 2 de 20",
-  "✓ RSS Infobae — 0",
-  "✓ Google Noticias: UNP escoltas — 35",
-  "✓ RSS Semana — 0",
-  "✓ Google Noticias: UNP presupuesto — 8",
-  "✓ YouTube @NoticiasCaracol — 0",
-  "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
-  "✓ Google Noticias: Alejandro Murcia UNP — 2",
+  "✓ Google Noticias: UNP viáticos — 7",
+  "✗ YouTube @NoticiasCaracol — HTTP 404",
   "✓ RSS El Espectador — 0",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 13",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✗ RSS El Colombiano — HTTP 404",
-  "✓ YouTube @NoticiasRCN — 0",
+  "✓ Google Noticias: UNP escoltas — 35",
+  "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
+  "✓ Google Noticias: UNP presupuesto — 8",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
+  "✓ Google Noticias: Alejandro Murcia UNP — 2",
+  "✗ YouTube @NoticiasRCN — HTTP 404",
   "✗ YouTube @RevistaSemana — HTTP 404",
   "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 12",
   "✗ RSS Blu Radio — HTTP 404",
+  "✗ YouTube @eltiempo — HTTP 404",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ YouTube @ElEspectador — 0",
+  "✗ YouTube @ElEspectador — HTTP 404",
   "✗ RSS La FM — HTTP 404",
-  "✓ YouTube @BluRadioCo — 0",
+  "✗ YouTube @BluRadioCo — HTTP 404",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 0 de 0",
+  "✓ Enlaces reales de Google Noticias — 1 de 1",
   "✓ Fotos encontradas — 66 de 70"
  ]
 }
