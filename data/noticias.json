@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T18:15:28.187Z",
+ "actualizado": "2026-11-06T23:24:10.064Z",
  "total": 70,
  "items": [
   {
@@ -86,7 +86,7 @@
    "t": "El Gobierno revisará con rigor los esquemas de protección de la UNP y eliminará los que carezcan de justificación",
    "u": "https://defensoresdelapatria.com/el-gobierno-revisara-con-rigor-los-esquemas-de-proteccion-de-la-unp-y-eliminara-los-que-carezcan-de-justificacion/",
    "f": "Defensores de la Patria",
-   "d": "2026-10-30T00:08:53.000Z",
+   "d": "2026-10-29T07:00:00.000Z",
    "img": "",
    "r": "El Gobierno revisará con rigor los esquemas de protección de la UNP y eliminará los que carezcan de justificación &nbsp;&nbsp; Defensores de la Patria"
   },
@@ -143,7 +143,7 @@
    "u": "https://diariolalibertad.com/2026/10/27/unp-bajo-cuestionamientos-por-viaticos-presupuesto-y-contratacion-de-escoltas/",
    "f": "",
    "d": "2026-10-27T17:59:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.j1ciBhr0If_U78Xg22ASjg&pid=News",
+   "img": "http://www.bing.com/th?id=ONUT.ZBlwT30IQiHFdimteSazSw&pid=News",
    "r": "La Unidad Nacional de Protección (UNP) quedó en el centro de un nuevo debate por el manejo de recursos públicos y la vinculación de personal encargado de ..."
   },
   {
@@ -568,25 +568,25 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-04T18:15:13.242Z"
+   "d": "2026-11-04T23:24:05.876Z"
   },
   {
    "id": "nRYCGChfcwE",
    "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
    "canal": "NTN24",
-   "d": "2026-11-04T18:15:13.242Z"
+   "d": "2026-11-04T23:24:05.876Z"
   },
   {
    "id": "p7-7-oZyYNs",
    "t": "Proyecto busca cerrar la puerta a excombatientes de las FARC como escoltas de la UNP",
    "canal": "LA FM Colombia",
-   "d": "2026-11-02T18:15:12.775Z"
+   "d": "2026-11-02T23:24:05.359Z"
   },
   {
    "id": "ZYK9YJxYf8c",
    "t": "Proyecto de ley busca que escoltas de la UNP tengan los mismos beneficios pensionales que otros t...",
    "canal": "RCN Mundo",
-   "d": "2026-11-02T18:15:12.775Z"
+   "d": "2026-11-02T23:24:05.359Z"
   },
   {
    "id": "fOdTG-NnLiY",
@@ -634,39 +634,39 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-10-28T18:15:13.242Z"
+   "d": "2026-10-28T23:24:05.876Z"
   }
  ],
  "diagnostico": [
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 52",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 2 de 20",
-  "✓ Google Noticias: UNP viáticos — 6",
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 9",
-  "✓ RSS Infobae — 0",
-  "✓ YouTube @NoticiasCaracol — 0",
-  "✓ Google Noticias: UNP escoltas — 34",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 53",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 2 de 20",
   "✓ Bing Noticias: UNP escoltas viáticos — 11",
+  "✓ Google Noticias: UNP viáticos — 7",
+  "✓ RSS Infobae — 0",
+  "✗ YouTube @NoticiasCaracol — HTTP 404",
+  "✓ Google Noticias: UNP escoltas — 34",
   "✓ YouTube búsqueda: UNP escoltas — 5 de 20",
   "✓ Google Noticias: UNP presupuesto — 7",
   "✓ RSS Semana — 0",
   "✓ Google Noticias: Alejandro Murcia UNP — 2",
   "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
-  "✓ YouTube @NoticiasRCN — 0",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 16",
-  "✗ YouTube @RevistaSemana — HTTP 404",
   "✓ RSS El Espectador — 0",
+  "✗ YouTube @NoticiasRCN — HTTP 404",
+  "✗ YouTube @RevistaSemana — HTTP 404",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 17",
   "✗ RSS El Colombiano — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
   "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ YouTube @ElEspectador — 0",
-  "✓ YouTube @BluRadioCo — 0",
-  "✗ YouTube @NoticiasUno — HTTP 404",
-  "✗ YouTube @CambioColombia — HTTP 404",
+  "✗ YouTube @eltiempo — HTTP 500",
   "✗ RSS Blu Radio — HTTP 404",
+  "✗ YouTube @ElEspectador — HTTP 404",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
   "✗ RSS La FM — HTTP 404",
+  "✗ YouTube @BluRadioCo — HTTP 404",
+  "✗ YouTube @NoticiasUno — HTTP 404",
+  "✗ YouTube @CambioColombia — HTTP 404",
   "✓ Enlaces reales de Google Noticias — 0 de 0",
   "✓ Fotos encontradas — 66 de 70"
  ]
