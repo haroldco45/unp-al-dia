@@ -1,7 +1,15 @@
 {
- "actualizado": "2026-11-14T15:35:42.137Z",
+ "actualizado": "2026-11-14T20:27:10.555Z",
  "total": 70,
  "items": [
+  {
+   "t": "Se acaba la feria de los esquemas de seguridad",
+   "u": "https://www.diariodelcauca.com.co/noticias/se-acaba-la-feria-de-los-esquemas-de-seguridad",
+   "f": "Diario del Cauca",
+   "d": "2026-11-14T16:19:39.000Z",
+   "img": "https://gec.hsbnoticias.com/uploads/articles/f7c0a455-d37f-451a-a96d-665638bea389.webp",
+   "r": "Se acaba la feria de los esquemas de seguridad &nbsp;&nbsp; Diario del Cauca"
+  },
   {
    "t": "Sindicato de la UNP denuncia «desborde» de esquemas de seguridad en la JEP y menciona a esposa de Iván Cepeda",
    "u": "https://www.minuto30.com/sindicato-de-la-unp-denuncia-desborde-de-esquemas-de-seguridad-en-la-jep-y-menciona-a-esposa-de-ivan-cepeda/1730400/",
@@ -129,6 +137,14 @@
    "d": "2026-11-12T16:32:18.000Z",
    "img": "https://d2yoo3qu6vrk5d.cloudfront.net/images/20261112113115/ramodefloresalsslccmdcc.jpg",
    "r": "Amenazan de muerte al alcalde de Corinto, Cauca, con ramo fúnebre tras robo de camioneta de UNP &nbsp;&nbsp; Pulzo"
+  },
+  {
+   "t": "Alejandro Ordoñez habló sobre esquemas de seguridad y sanciones",
+   "u": "https://www.infobae.com/video/colombia/alejandro-ordonez-hablo-sobre-esquemas-de-seguridad-y-sanciones/tbTKduXx/",
+   "f": "Infobae",
+   "d": "2026-11-12T16:07:35.000Z",
+   "img": "https://cdn.jwplayer.com/v2/media/tbTKduXx/poster.jpg?width=1280",
+   "r": "Alejandro Ordoñez habló sobre esquemas de seguridad y sanciones &nbsp;&nbsp; Infobae"
   },
   {
    "t": "Hombres armados detuvieron el vehículo del alcalde de Caloto, Cauca: secuestraron a un integrante de la UNP que pertenecía a su esquema de seguridad",
@@ -545,22 +561,6 @@
    "d": "2026-10-21T22:34:43.000Z",
    "img": "https://www.diariodelsur.com.co/uploads/articles/b3176137-14b8-481c-b152-356a21c839ee.webp",
    "r": "Benedetti se queda sin esquema de seguridad y cuestiona deci &nbsp;&nbsp; Diario del Sur"
-  },
-  {
-   "t": "¿Los escoltas de la UNP deben empujar carritos de mercado en Colombia? Señalan a senador del Pacto Histórico",
-   "u": "https://www.ntn24.com/noticias-actualidad/los-escoltas-de-la-unp-deben-empujar-carritos-de-mercado-en-colombia-senalan-a-senador-del-pacto-historico-660220",
-   "f": "NTN24",
-   "d": "2026-10-21T07:00:00.000Z",
-   "img": "https://intn24.lalr.co/old/Senador.png?w=1280",
-   "r": "¿Los escoltas de la UNP deben empujar carritos de mercado en Colombia? Señalan a senador del Pacto Histórico &nbsp;&nbsp; NTN24"
-  },
-  {
-   "t": "¿Son los escoltas de la UNP entrenados para llevar los carritos de mercado de sus protegidos?",
-   "u": "https://elexpreso.co/hoy/son-los-escoltas-de-la-unp-entrenados-para-llevar-los-carritos-de-mercado-de-sus-protegidos/",
-   "f": "El Expreso",
-   "d": "2026-10-20T21:30:00.000Z",
-   "img": "https://elexpreso.co/wp-content/uploads/2026/10/son-los-escoltas-de-la-unp-entrenados-para-llevar-los-carritos-de-mercado-de-sus-protegidos-alex-florez-red-social-alez-florez-x.jpg",
-   "r": "¿Son los escoltas de la UNP entrenados para llevar los carritos de mercado de sus protegidos? &nbsp;&nbsp; El Expreso"
   }
  ],
  "videos": [
@@ -574,7 +574,7 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-11T15:35:29.013Z"
+   "d": "2026-11-11T20:26:56.995Z"
   },
   {
    "id": "nRYCGChfcwE",
@@ -592,7 +592,7 @@
    "id": "IMORts2u8Hk",
    "t": "¿Cuánto costó la implementación de la paz total? UNP revela alarmantes datos",
    "canal": "Noticias RCN",
-   "d": "2026-11-09T15:35:28.596Z"
+   "d": "2026-11-09T20:26:56.534Z"
   },
   {
    "id": "p7-7-oZyYNs",
@@ -640,26 +640,26 @@
  "diagnostico": [
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 10",
   "✓ RSS Infobae — 0",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 59",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 56",
   "✓ Bing Noticias: UNP escoltas viáticos — 9",
-  "✓ Google Noticias: UNP viáticos — 4",
   "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
   "✓ RSS Semana — 0",
-  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ Google Noticias: UNP viáticos — 3",
   "✓ RSS El Espectador — 0",
-  "✓ Google Noticias: UNP escoltas — 30",
   "✗ RSS El Colombiano — HTTP 404",
-  "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
-  "✓ Google Noticias: UNP presupuesto — 5",
+  "✓ Google Noticias: UNP escoltas — 31",
+  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ YouTube búsqueda: UNP escoltas — 1 de 12",
+  "✓ Google Noticias: UNP presupuesto — 7",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✓ Google Noticias: Alejandro Murcia UNP — 1",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 1",
   "✗ RSS Noticias Caracol — HTTP 404",
   "✓ YouTube @NoticiasRCN — 0",
   "✗ YouTube @RevistaSemana — HTTP 404",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 24",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 23",
   "✗ RSS Blu Radio — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
   "✓ RSS Pulzo — 0",
+  "✓ YouTube @eltiempo — 0",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
   "✗ RSS La FM — HTTP 404",
@@ -667,7 +667,7 @@
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 1 de 1",
+  "✓ Enlaces reales de Google Noticias — 2 de 2",
   "✓ Fotos encontradas — 66 de 70"
  ]
 }
