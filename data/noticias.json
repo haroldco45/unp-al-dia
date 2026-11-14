@@ -1,7 +1,15 @@
 {
- "actualizado": "2026-11-13T21:12:37.620Z",
+ "actualizado": "2026-11-14T01:35:44.300Z",
  "total": 70,
  "items": [
+  {
+   "t": "Triángulo de espionaje en Casa de Nariño: Petro, la DNI y la UNP",
+   "u": "https://www.las2orillas.co/triangulo-de-espionaje-en-casa-de-narino-petro-la-dni-y-la-unp/",
+   "f": "Las2orillas",
+   "d": "2026-11-13T23:32:38.000Z",
+   "img": "https://www.las2orillas.co/wp-content/uploads/2026/11/JOSE-GUILLRO-MEJIA-II-311111-112111111111111111111.jpg",
+   "r": "Triángulo de espionaje en Casa de Nariño: Petro, la DNI y la UNP &nbsp;&nbsp; Las2orillas"
+  },
   {
    "t": "Ordóñez anuncia revisión de esquemas de seguridad para firmantes de paz y genera choque en la JEP",
    "u": "https://diariolalibertad.com/2026/11/13/ordonez-anuncia-revision-de-esquemas-de-seguridad-para-firmantes-de-paz-y-genera-choque-en-la-jep/",
@@ -133,10 +141,10 @@
   {
    "t": "Presión de indígenas y campesinos permitió la liberación de funcionario de la UNP secuestrado en Caloto, Cauca",
    "u": "https://www.elpais.com.co/judicial/presion-de-indigenas-y-campesinos-permitio-la-liberacion-de-funcionario-de-la-unp-secuestrado-en-caloto-cauca-1204.html",
-   "f": "El País",
-   "d": "2026-11-12T09:58:00.000Z",
+   "f": "",
+   "d": "2026-11-12T07:37:00.000Z",
    "img": "http://www.bing.com/th?id=ONUT.Y9-WtAt9ZX4Ms7xQASJWOA&pid=News",
-   "r": "Presión de indígenas y campesinos permitió la liberación de funcionario de la UNP secuestrado en Caloto, Cauca &nbsp;&nbsp; El País"
+   "r": "La rápida reacción de las comunidades indígenas y campesinas del municipio de Caloto, en el norte del Cauca, permitió que un funcionario de la Unidad Nacional de Protección, UNP, identificado como Ale ..."
   },
   {
    "t": "Reportan el secuestro de uno de los escoltas del alcalde de Caloto, Cauca: hombres armados lo sacaron de una camioneta",
@@ -553,14 +561,6 @@
    "d": "2026-10-20T07:00:00.000Z",
    "img": "http://www.bing.com/th?id=ONUT.o-mceZ6DXeS76tJijplFYg&pid=News",
    "r": "Gobierno De la Espriella anunció decisión por video de escoltas de UNP usados para hacer mercado &nbsp;&nbsp; Pulzo"
-  },
-  {
-   "t": "Revelan video de persona que usa escoltas de Unidad de Protección para hacer mercado en Colombia",
-   "u": "https://www.pulzo.com/nacion/revelan-video-escoltas-unidad-proteccion-usados-mercado-colombia-PP5335295",
-   "f": "Pulzo",
-   "d": "2026-10-20T07:00:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.3rNtNHpVZeiJAnb8xzt6VQ&pid=News",
-   "r": "Revelan video de persona que usa escoltas de Unidad de Protección para hacer mercado en Colombia &nbsp;&nbsp; Pulzo"
   }
  ],
  "videos": [
@@ -574,7 +574,7 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-10T21:12:24.453Z"
+   "d": "2026-11-11T01:35:40.545Z"
   },
   {
    "id": "nRYCGChfcwE",
@@ -638,36 +638,36 @@
   }
  ],
  "diagnostico": [
-  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 0",
-  "✓ Bing Noticias: UNP escoltas viáticos — 0",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 78",
-  "✓ RSS Infobae — 1",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
-  "✓ Google Noticias: UNP viáticos — 5",
-  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ RSS Infobae — 0",
+  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 10",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 76",
   "✓ RSS Semana — 0",
-  "✓ Google Noticias: UNP escoltas — 33",
-  "✓ YouTube búsqueda: UNP escoltas — 3 de 20",
-  "✓ Google Noticias: UNP presupuesto — 4",
-  "✓ Google Noticias: Alejandro Murcia UNP — 1",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
-  "✓ YouTube @NoticiasRCN — 0",
+  "✓ Bing Noticias: UNP escoltas viáticos — 9",
   "✓ RSS El Espectador — 0",
-  "✗ YouTube @RevistaSemana — HTTP 404",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 28",
+  "✓ Google Noticias: UNP viáticos — 5",
   "✗ RSS El Colombiano — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 8",
+  "✗ YouTube @NoticiasCaracol — HTTP 404",
+  "✓ Google Noticias: UNP escoltas — 31",
+  "✓ Google Noticias: UNP presupuesto — 5",
+  "✓ YouTube búsqueda: UNP escoltas — 1 de 12",
   "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ YouTube @ElEspectador — 0",
+  "✓ Google Noticias: Alejandro Murcia UNP — 1",
+  "✗ YouTube @NoticiasRCN — HTTP 404",
+  "✗ YouTube @RevistaSemana — HTTP 404",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 28",
   "✗ RSS Blu Radio — HTTP 404",
+  "✗ YouTube @eltiempo — HTTP 404",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
-  "✓ YouTube @BluRadioCo — 0",
-  "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✗ YouTube @CambioColombia — HTTP 404",
+  "✗ YouTube @ElEspectador — HTTP 404",
   "✗ RSS La FM — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 0 de 0",
+  "✗ YouTube @BluRadioCo — HTTP 404",
+  "✗ YouTube @NoticiasUno — HTTP 404",
+  "✗ YouTube @CambioColombia — HTTP 404",
+  "✓ Enlaces reales de Google Noticias — 1 de 1",
   "✓ Fotos encontradas — 66 de 70"
  ]
 }
