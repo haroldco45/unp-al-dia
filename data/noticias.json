@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-11-18T08:53:28.758Z",
+ "actualizado": "2026-11-18T17:49:07.684Z",
  "total": 70,
  "items": [
   {
    "t": "Dos escoltas fueron asaltados y heridos en la vía Panamerica",
    "u": "http://diariodelsur.com.co/noticias/dos-escoltas-fueron-asaltados-y-heridos-en-la-via-panamericana-sector-el-cofre-2",
-   "f": "Diario del Sur",
+   "f": "Diario del Cauca",
    "d": "2026-11-18T00:07:00.000Z",
    "img": "https://www.elpais.com.co/resizer/v2/O6JWHS5OJZE6ZEUZWSVTBYLEAU.JPG?auth=04936ba88fedb3d4a70495c4d152c772f94fd4750846c5b902123064abb01576&smart=true&quality=75&width=1280&height=720",
-   "r": "Dos escoltas fueron asaltados y heridos en la vía Panamerica &nbsp;&nbsp; Diario del Sur"
+   "r": "Dos escoltas fueron asaltados y heridos en la vía Panamerica &nbsp;&nbsp; Diario del Cauca"
   },
   {
    "t": "Dos escoltas fueron asaltados y heridos en la vía Panamericana, sector El Cofre",
@@ -27,20 +27,20 @@
    "r": "Asaltan y secuestran momentáneamente a dos escoltas de la UNP en la vía Panamericana, en Cajibío &nbsp;&nbsp; Agencia de Medios Hoy Noticias"
   },
   {
+   "t": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad",
+   "u": "https://www.elpais.com.co/judicial/dos-escoltas-de-la-unp-fueron-secuestrados-y-golpeados-para-despues-hurtarles-armas-y-un-vehiculo-de-esta-entidad-1748.html",
+   "f": "El País",
+   "d": "2026-11-17T20:07:48.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.8wmBF7UqXNtzKb2T1MxXZw&pid=News",
+   "r": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad &nbsp;&nbsp; El País"
+  },
+  {
    "t": "María Claudia Tarazona, esposa de Miguel Uribe, arremete contra expresidente Petro y lo responsabiliza por el magnicidio: 'Fue el narcopresidente'",
    "u": "https://www.eltiempo.com/justicia/delitos/maria-claudia-tarazona-esposa-de-miguel-uribe-arremete-contra-expresidente-petro-y-lo-responsabiliza-por-el-magnicidio-fue-el-narcopresidente-3601744",
    "f": "El Tiempo",
    "d": "2026-11-17T19:57:27.000Z",
    "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/14/699119cacc34f.r_d.736-332-0.jpeg",
    "r": "Así lo dijo Tarazona en un reciente evento de la UNP. El expresidente Petro, quien no es investigado por ello, ha negado tajantemente esa versión."
-  },
-  {
-   "t": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad",
-   "u": "https://www.elpais.com.co/judicial/dos-escoltas-de-la-unp-fueron-secuestrados-y-golpeados-para-despues-hurtarles-armas-y-un-vehiculo-de-esta-entidad-1748.html",
-   "f": "",
-   "d": "2026-11-17T12:07:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.8wmBF7UqXNtzKb2T1MxXZw&pid=News",
-   "r": "El hecho delictivo sucedió a la altura del sector conocido como El Cofre, Cajibío."
   },
   {
    "t": "Sindicato de la UNP cuestionó a Daniel Briceño tras el asesinato de un escolta en Norte de Santander: “Le falta un grado de respeto”",
@@ -83,14 +83,6 @@
    "r": "Revelan cómo habría operado supuesta red de espionaje desde la DNI de Petro: posibles infiltraciones en el CNE, la UNP y la Contraloría &nbsp;&nbsp; Infobae"
   },
   {
-   "t": "Sindicato de la UNP denuncia «desborde» de esquemas de seguridad en la JEP y menciona a esposa de Iván Cepeda",
-   "u": "https://www.minuto30.com/sindicato-de-la-unp-denuncia-desborde-de-esquemas-de-seguridad-en-la-jep-y-menciona-a-esposa-de-ivan-cepeda/1730400/",
-   "f": "La Linterna Azul",
-   "d": "2026-11-15T05:09:15.000Z",
-   "img": "https://staticprd.minuto30.com/wp-content/uploads/2026/11/1-pilar-rueda-jep-unp.webp",
-   "r": "Sindicato de la UNP denuncia «desborde» de esquemas de seguridad en la JEP y menciona a esposa de Iván Cepeda &nbsp;&nbsp; La Linterna Azul"
-  },
-  {
    "t": "Ataque armado cobró la vida de escolta de la UNP, perteneciente al esquema de seguridad del alcalde de El Zulia, Norte de Santander",
    "u": "https://www.infobae.com/colombia/2026/11/15/ataque-armado-cobro-la-vida-de-escolta-de-la-unp-perteneciente-al-esquema-de-seguridad-del-alcalde-de-el-zulia-norte-de-santander/",
    "f": "Infobae",
@@ -121,6 +113,14 @@
    "d": "2026-11-14T16:19:39.000Z",
    "img": "https://gec.hsbnoticias.com/uploads/articles/f7c0a455-d37f-451a-a96d-665638bea389.webp",
    "r": "Se acaba la feria de los esquemas de seguridad &nbsp;&nbsp; Diario del Cauca"
+  },
+  {
+   "t": "Sindicato de la UNP denuncia «desborde» de esquemas de seguridad en la JEP y menciona a esposa de Iván Cepeda",
+   "u": "https://www.minuto30.com/sindicato-de-la-unp-denuncia-desborde-de-esquemas-de-seguridad-en-la-jep-y-menciona-a-esposa-de-ivan-cepeda/1730400/",
+   "f": "Minuto30",
+   "d": "2026-11-14T04:34:32.000Z",
+   "img": "https://staticprd.minuto30.com/wp-content/uploads/2026/11/1-pilar-rueda-jep-unp.webp",
+   "r": "Sindicato de la UNP denuncia «desborde» de esquemas de seguridad en la JEP y menciona a esposa de Iván Cepeda &nbsp;&nbsp; Minuto30"
   },
   {
    "t": "Triángulo de espionaje en Casa de Nariño: Petro, la DNI y la UNP",
@@ -339,14 +339,6 @@
    "r": "Exdirector DNI Jorge Lemus usó camioneta UNP en polémica &nbsp;&nbsp; Estrella Digital Colombia"
   },
   {
-   "t": "Exdirector de la DNI Jorge Lemus fue grabado usando camioneta blindada y escolta de la UNP para cargar materiales: estas son las imágenes",
-   "u": "https://www.eltiempo.com/politica/partidos-politicos/exdirector-de-la-dni-jorge-lemus-fue-grabado-usando-camioneta-blindada-y-escolta-de-la-unp-para-cargar-materiales-estas-son-las-imagenes-3599814",
-   "f": "El Tiempo",
-   "d": "2026-11-10T13:25:30.000Z",
-   "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/10/6af31603f2254.r_d.975-470-0.png",
-   "r": "Exdirector de la DNI Jorge Lemus fue grabado usando camioneta blindada y escolta de la UNP para cargar materiales: estas son las imágenes &nbsp;&nbsp; El Tiempo"
-  },
-  {
    "t": "Daniel Briceño aseguró que hay que liquidar la DNI y la UNP por los escándalos durante el Gobierno Petro: “Hackers y exguerrilleros”",
    "u": "https://www.infobae.com/colombia/2026/11/10/daniel-briceno-pidio-liquidar-la-dni-y-la-unp-por-los-escandalos-durante-el-gobierno-petro-hackers-y-exguerrilleros/",
    "f": "Infobae",
@@ -361,6 +353,14 @@
    "d": "2026-11-10T12:42:00.000Z",
    "img": "https://www.infobae.com/resizer/v2/CB7NF7AHXJBM3KCGLULM7HXNXE.png?auth=78f233de8d8152f2f4c7010cc29e5bcf97630749ed573d81a4d62b3805daa55f&smart=true&width=1024&height=512&quality=85",
    "r": "Daniel Briceño pidió liquidar la DNI y la UNP por los escándalos durante el Gobierno Petro: “Hackers y exguerrilleros” &nbsp;&nbsp; Infobae"
+  },
+  {
+   "t": "Exdirector de la DNI Jorge Lemus fue grabado usando camioneta blindada y escolta de la UNP para cargar materiales: estas son las imágenes",
+   "u": "https://www.eltiempo.com/politica/partidos-politicos/exdirector-de-la-dni-jorge-lemus-fue-grabado-usando-camioneta-blindada-y-escolta-de-la-unp-para-cargar-materiales-estas-son-las-imagenes-3599814",
+   "f": "El Tiempo",
+   "d": "2026-11-10T08:00:00.000Z",
+   "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/10/6af31603f2254.r_d.975-470-0.png",
+   "r": "Exdirector de la DNI Jorge Lemus fue grabado usando camioneta blindada y escolta de la UNP para cargar materiales: estas son las imágenes &nbsp;&nbsp; El Tiempo"
   },
   {
    "t": "Stuart León denuncia amenazas de muerte y pide protección de la UNP",
@@ -431,7 +431,7 @@
    "u": "https://noticiaspiura30.pe/inicia-juicio-por-presunto-desfalco-de-maestrias-en-la-unp/",
    "f": "Noticias Piura 3.0",
    "d": "2026-11-06T02:38:17.000Z",
-   "img": "",
+   "img": "https://noticiaspiura30.pe/storage/JUICIO-EN-UNP-POR-DESFALCO.webp",
    "r": "Inicia juicio por presunto desfalco de maestrías en la UNP &nbsp;&nbsp; Noticias Piura 3.0"
   },
   {
@@ -565,34 +565,34 @@
  ],
  "videos": [
   {
-   "id": "BtC3UlHkek0",
-   "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
-   "canal": "Noticias RCN",
-   "d": "2026-11-16T08:53:23.993Z"
-  },
-  {
    "id": "nRYCGChfcwE",
    "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
    "canal": "NTN24",
-   "d": "2026-11-15T08:53:23.993Z"
+   "d": "2026-11-15T17:48:55.377Z"
   },
   {
    "id": "f_svJiTnjJY",
    "t": "POLÉMICA por congresista que fue grabado con escoltas de la UNP arrastrando carros de mercado",
    "canal": "NTN24",
-   "d": "2026-11-15T08:53:23.993Z"
+   "d": "2026-11-15T17:48:55.377Z"
+  },
+  {
+   "id": "BtC3UlHkek0",
+   "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
+   "canal": "Noticias RCN",
+   "d": "2026-11-15T17:48:55.377Z"
   },
   {
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-14T08:53:23.993Z"
+   "d": "2026-11-14T17:48:55.377Z"
   },
   {
    "id": "IMORts2u8Hk",
    "t": "¿Cuánto costó la implementación de la paz total? UNP revela alarmantes datos",
    "canal": "Noticias RCN",
-   "d": "2026-11-09T17:16:38.058Z"
+   "d": "2026-11-09T17:48:54.897Z"
   },
   {
    "id": "p7-7-oZyYNs",
@@ -638,36 +638,36 @@
   }
  ],
  "diagnostico": [
-  "✓ RSS Infobae — 0",
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 65",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
-  "✓ Bing Noticias: UNP escoltas viáticos — 11",
-  "✓ RSS Semana — 0",
-  "✓ Google Noticias: UNP viáticos — 6",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 48",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
+  "✓ Bing Noticias: UNP escoltas viáticos — 10",
+  "✓ Google Noticias: UNP viáticos — 4",
+  "✓ RSS Infobae — 0",
   "✓ Google Noticias: UNP escoltas — 26",
+  "✓ RSS Semana — 0",
   "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
-  "✓ RSS El Espectador — 0",
-  "✓ YouTube @NoticiasCaracol — 0",
   "✓ Google Noticias: UNP presupuesto — 5",
+  "✓ RSS El Espectador — 0",
   "✓ Google Noticias: Alejandro Murcia UNP — 1",
-  "✗ RSS El Colombiano — HTTP 404",
   "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 20",
-  "✓ YouTube @NoticiasRCN — 0",
-  "✗ YouTube @RevistaSemana — HTTP 404",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 17",
+  "✗ RSS El Colombiano — HTTP 404",
+  "✓ YouTube @NoticiasCaracol — 0",
   "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
   "✗ RSS Blu Radio — HTTP 404",
   "✓ RSS Pulzo — 0",
+  "✓ YouTube @NoticiasRCN — 0",
+  "✗ YouTube @RevistaSemana — HTTP 404",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ YouTube @ElEspectador — 0",
   "✗ RSS La FM — HTTP 404",
+  "✓ YouTube @eltiempo — 0",
+  "✓ YouTube @ElEspectador — 0",
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 1 de 1",
-  "✓ Fotos encontradas — 67 de 70"
+  "✓ Enlaces reales de Google Noticias — 0 de 0",
+  "✓ Fotos encontradas — 68 de 70"
  ]
 }
