@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T02:00:12.591Z",
+ "actualizado": "2026-11-21T09:37:02.252Z",
  "total": 70,
  "items": [
   {
@@ -15,7 +15,7 @@
    "u": "https://www.vanguardia.com/colombia/2026/11/20/hollman-morris-denuncio-que-bloquearon-una-camioneta-de-su-esquema-de-seguridad/",
    "f": "",
    "d": "2026-11-20T15:06:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.DutBqiPNo1_G5OfJfyD0TA&pid=News",
+   "img": "http://www.bing.com/th?id=ONUT.ochwl-nCbbSuwEqdSme7ug&pid=News",
    "r": "El periodista aseguró que el vehículo dejó de funcionar el 19 de noviembre y afirmó que no había recibido una explicación de la entidad, pese a que cuenta con medidas cautelares de la CIDH."
   },
   {
@@ -30,9 +30,9 @@
    "t": "Hollman Morris denunció que una camioneta de su esquema de seguridad fue desactivada sin previo aviso: “El riesgo extremo se mantiene”",
    "u": "https://www.infobae.com/colombia/2026/11/20/hollman-morris-denuncio-que-una-camioneta-de-su-esquema-de-seguridad-fue-desactivada-sin-previo-aviso-el-riesgo-extremo-se-mantiene/",
    "f": "Infobae",
-   "d": "2026-11-20T13:48:10.000Z",
+   "d": "2026-11-20T13:48:00.000Z",
    "img": "https://www.infobae.com/resizer/v2/GBIQ3B6MSFHCPEH5C25C5BCMJI.jpg?auth=a61109a69a6b8ea161ef9f378829a8086ebfe31407445c4109f8146a94cd2248&smart=true&width=900&height=601",
-   "r": "El exgerente de Rtvc señaló que ningún funcionario de la Unidad Nacional de Protección se ha comunicado con él para dar explicaciones"
+   "r": "Hollman Morris denunció que una camioneta de su esquema de seguridad fue desactivada sin previo aviso: “El riesgo extremo se mantiene” &nbsp;&nbsp; Infobae"
   },
   {
    "t": "Hollman Morris asegura que no se le consultó que le restarían una camioneta con escoltas a su esquema de seguridad.",
@@ -47,7 +47,7 @@
    "u": "https://www.pulzo.com/nacion/bloqueo-del-vehiculo-de-proteccion-a-hollman-morris-en-bogota-denuncia-contra-la-unp-PP5360553A",
    "f": "",
    "d": "2026-11-20T05:51:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.fVPlJmPoQCu84hXpa9RFJQ&pid=News",
+   "img": "http://www.bing.com/th?id=ONUT.owaPRNY1AzyA4vGa93HjCw&pid=News",
    "r": "Hollman Morris denunció el bloqueo de su camioneta blindada y pidió explicaciones a la UNP, cuestionando la protección brindada."
   },
   {
@@ -107,20 +107,20 @@
    "r": "Asaltan y secuestran momentáneamente a dos escoltas de la UNP en la vía Panamericana, en Cajibío &nbsp;&nbsp; Agencia de Medios Hoy Noticias"
   },
   {
-   "t": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad",
-   "u": "https://www.elpais.com.co/judicial/dos-escoltas-de-la-unp-fueron-secuestrados-y-golpeados-para-despues-hurtarles-armas-y-un-vehiculo-de-esta-entidad-1748.html",
-   "f": "El País",
-   "d": "2026-11-17T20:07:48.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.8wmBF7UqXNtzKb2T1MxXZw&pid=News",
-   "r": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad &nbsp;&nbsp; El País"
-  },
-  {
    "t": "María Claudia Tarazona, esposa de Miguel Uribe, arremete contra expresidente Petro y lo responsabiliza por el magnicidio: 'Fue el narcopresidente'",
    "u": "https://www.eltiempo.com/justicia/delitos/maria-claudia-tarazona-esposa-de-miguel-uribe-arremete-contra-expresidente-petro-y-lo-responsabiliza-por-el-magnicidio-fue-el-narcopresidente-3601744",
    "f": "El Tiempo",
    "d": "2026-11-17T19:57:27.000Z",
    "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/14/699119cacc34f.r_d.736-332-0.jpeg",
    "r": "Así lo dijo Tarazona en un reciente evento de la UNP. El expresidente Petro, quien no es investigado por ello, ha negado tajantemente esa versión."
+  },
+  {
+   "t": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad",
+   "u": "https://www.elpais.com.co/judicial/dos-escoltas-de-la-unp-fueron-secuestrados-y-golpeados-para-despues-hurtarles-armas-y-un-vehiculo-de-esta-entidad-1748.html",
+   "f": "",
+   "d": "2026-11-17T12:07:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.8wmBF7UqXNtzKb2T1MxXZw&pid=News",
+   "r": "El hecho delictivo sucedió a la altura del sector conocido como El Cofre, Cajibío."
   },
   {
    "t": "Sindicato de la UNP cuestionó a Daniel Briceño tras el asesinato de un escolta en Norte de Santander: “Le falta un grado de respeto”",
@@ -275,14 +275,6 @@
    "r": "MinInterior Alejandro Ordóñez anuncia ante la JEP, la revisión de más de 600 esquemas de seguridad &nbsp;&nbsp; LA RAZÓN.CO"
   },
   {
-   "t": "“Se acaba la feria de los esquemas de seguridad”: ministro del Interior anuncia revisión de protección de la UNP",
-   "u": "https://rionoticias.co/se-acaba-la-feria-de-los-esquemas-de-seguridad-ministro-del-interior-anuncia-revision-de-proteccion-de-la-unp/",
-   "f": "río noticias",
-   "d": "2026-11-12T22:10:25.000Z",
-   "img": "https://rionoticias.co/wp-content/uploads/2026/11/Copia-WEB-2026-11-12T111415.344.jpg",
-   "r": "“Se acaba la feria de los esquemas de seguridad”: ministro del Interior anuncia revisión de protección de la UNP &nbsp;&nbsp; río noticias"
-  },
-  {
    "t": "“En este Gobierno se acaba la feria de los esquemas de seguridad”: MinInterior en la JEP",
    "u": "https://caracol.com.co/2026/11/12/en-este-gobierno-se-acaba-la-feria-de-los-esquemas-de-seguridad-mininterior-en-la-jep/",
    "f": "Caracol Radio",
@@ -385,6 +377,14 @@
    "d": "2026-11-12T08:00:00.000Z",
    "img": "https://www.semana.com/resizer/v2/UYU6XV6N7RBUVAQ6DDP5SXWAHM.jpg?auth=d86ab7f648765aeafbcc33ff43915579d1c3802bf3d559eefd6b2aa48b77db32&smart=true&quality=75&width=1280&height=720",
    "r": "Gobierno de Abelardo De La Espriella anunció el “fin de la feria” de los esquemas de protección y seguridad &nbsp;&nbsp; Revista Semana"
+  },
+  {
+   "t": "“Se acaba la feria de los esquemas de seguridad”: ministro del Interior anuncia revisión de protección de la UNP",
+   "u": "https://rionoticias.co/se-acaba-la-feria-de-los-esquemas-de-seguridad-ministro-del-interior-anuncia-revision-de-proteccion-de-la-unp/",
+   "f": "río noticias",
+   "d": "2026-11-12T08:00:00.000Z",
+   "img": "https://rionoticias.co/wp-content/uploads/2026/11/Copia-WEB-2026-11-12T111415.344.jpg",
+   "r": "“Se acaba la feria de los esquemas de seguridad”: ministro del Interior anuncia revisión de protección de la UNP &nbsp;&nbsp; río noticias"
   },
   {
    "t": "Reportan el secuestro de uno de los escoltas del alcalde de Caloto, Cauca: hombres armados lo sacaron de una camioneta",
@@ -568,25 +568,25 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-20T02:00:08.384Z"
+   "d": "2026-11-20T09:36:58.609Z"
   },
   {
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-11-18T02:00:08.384Z"
+   "d": "2026-11-18T09:36:58.609Z"
   },
   {
    "id": "nRYCGChfcwE",
    "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
    "canal": "NTN24",
-   "d": "2026-11-17T02:00:08.384Z"
+   "d": "2026-11-17T09:36:58.609Z"
   },
   {
    "id": "f_svJiTnjJY",
    "t": "POLÉMICA por congresista que fue grabado con escoltas de la UNP arrastrando carros de mercado",
    "canal": "NTN24",
-   "d": "2026-11-17T02:00:08.384Z"
+   "d": "2026-11-17T09:36:58.609Z"
   },
   {
    "id": "IMORts2u8Hk",
@@ -640,29 +640,29 @@
  "diagnostico": [
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
   "✓ Google Noticias: \"Unidad Nacional de Protección\" — 59",
-  "✓ Bing Noticias: UNP escoltas viáticos — 9",
   "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
+  "✓ Bing Noticias: UNP escoltas viáticos — 10",
   "✓ Google Noticias: UNP viáticos — 2",
-  "✓ RSS Infobae — 1",
-  "✓ Google Noticias: UNP escoltas — 24",
+  "✓ RSS Infobae — 0",
+  "✓ Google Noticias: UNP escoltas — 23",
   "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
   "✓ Google Noticias: UNP presupuesto — 4",
-  "✓ Google Noticias: Alejandro Murcia UNP — 1",
-  "✓ RSS Semana — 0",
   "✓ YouTube @NoticiasCaracol — 0",
   "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 19",
+  "✓ Google Noticias: Alejandro Murcia UNP — 1",
+  "✓ RSS Semana — 0",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 20",
   "✓ RSS El Espectador — 0",
-  "✗ RSS El Colombiano — HTTP 404",
   "✓ YouTube @NoticiasRCN — 0",
   "✗ YouTube @RevistaSemana — HTTP 404",
+  "✗ RSS El Colombiano — HTTP 404",
   "✗ RSS Noticias Caracol — HTTP 404",
   "✓ YouTube @eltiempo — 0",
   "✗ RSS Blu Radio — HTTP 404",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
-  "✗ RSS Noticias RCN — HTTP 404",
   "✓ YouTube @ElEspectador — 0",
+  "✗ RSS Noticias RCN — HTTP 404",
   "✗ RSS La FM — HTTP 404",
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
