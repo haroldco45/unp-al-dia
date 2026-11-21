@@ -1,7 +1,15 @@
 {
- "actualizado": "2026-11-21T17:08:29.963Z",
+ "actualizado": "2026-11-21T22:17:14.232Z",
  "total": 70,
  "items": [
+  {
+   "t": "Murió con las botas puestas: Escolta de la UNP falleció de descompensación cardíaca en el Centro Comercial Mayales mientras protegía a concejal de Pelaya",
+   "u": "https://www.radioguatapuri.com/noticias/escolta-unp-oscar-ortega-muerte",
+   "f": "Radio Guatapurí",
+   "d": "2026-11-21T20:03:16.000Z",
+   "img": "https://journal.api.radioguatapuri.com/uploads/6f69429a8133ab9d.webp",
+   "r": "Murió con las botas puestas: Escolta de la UNP falleció de descompensación cardíaca en el Centro Comercial Mayales mientras protegía a concejal de Pelaya &nbsp;&nbsp; Radio Guatapurí"
+  },
   {
    "t": "El exgerente de Rtvc señaló que ningún funcionario de la Unidad Nacional de Protección se ha comunicado con él para dar explicaciones",
    "u": "https://www.facebook.com/infobaecolombia/posts/el-exgerente-de-rtvc-se%C3%B1al%C3%B3-que-ning%C3%BAn-funcionario-de-la-unidad-nacional-de-prot/1605510161591740/",
@@ -107,20 +115,20 @@
    "r": "Asaltan y secuestran momentáneamente a dos escoltas de la UNP en la vía Panamericana, en Cajibío &nbsp;&nbsp; Agencia de Medios Hoy Noticias"
   },
   {
+   "t": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad",
+   "u": "https://www.elpais.com.co/judicial/dos-escoltas-de-la-unp-fueron-secuestrados-y-golpeados-para-despues-hurtarles-armas-y-un-vehiculo-de-esta-entidad-1748.html",
+   "f": "El País",
+   "d": "2026-11-17T20:07:48.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.8wmBF7UqXNtzKb2T1MxXZw&pid=News",
+   "r": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad &nbsp;&nbsp; El País"
+  },
+  {
    "t": "María Claudia Tarazona, esposa de Miguel Uribe, arremete contra expresidente Petro y lo responsabiliza por el magnicidio: 'Fue el narcopresidente'",
    "u": "https://www.eltiempo.com/justicia/delitos/maria-claudia-tarazona-esposa-de-miguel-uribe-arremete-contra-expresidente-petro-y-lo-responsabiliza-por-el-magnicidio-fue-el-narcopresidente-3601744",
    "f": "El Tiempo",
    "d": "2026-11-17T19:57:27.000Z",
    "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/02/14/699119cacc34f.r_d.736-332-0.jpeg",
    "r": "Así lo dijo Tarazona en un reciente evento de la UNP. El expresidente Petro, quien no es investigado por ello, ha negado tajantemente esa versión."
-  },
-  {
-   "t": "Dos escoltas de la UNP fueron secuestrados y golpeados para después hurtarles armas y un vehículo de esta entidad",
-   "u": "https://www.elpais.com.co/judicial/dos-escoltas-de-la-unp-fueron-secuestrados-y-golpeados-para-despues-hurtarles-armas-y-un-vehiculo-de-esta-entidad-1748.html",
-   "f": "",
-   "d": "2026-11-17T12:07:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.8wmBF7UqXNtzKb2T1MxXZw&pid=News",
-   "r": "El hecho delictivo sucedió a la altura del sector conocido como El Cofre, Cajibío."
   },
   {
    "t": "Sindicato de la UNP cuestionó a Daniel Briceño tras el asesinato de un escolta en Norte de Santander: “Le falta un grado de respeto”",
@@ -197,10 +205,10 @@
   {
    "t": "Se acaba la feria de los esquemas de seguridad",
    "u": "https://www.diariodelcauca.com.co/noticias/se-acaba-la-feria-de-los-esquemas-de-seguridad",
-   "f": "HSB Noticias",
+   "f": "Diario del Cauca",
    "d": "2026-11-14T16:19:39.000Z",
    "img": "https://gec.hsbnoticias.com/uploads/articles/f7c0a455-d37f-451a-a96d-665638bea389.webp",
-   "r": "Se acaba la feria de los esquemas de seguridad &nbsp;&nbsp; HSB Noticias"
+   "r": "Se acaba la feria de los esquemas de seguridad &nbsp;&nbsp; Diario del Cauca"
   },
   {
    "t": "Triángulo de espionaje en Casa de Nariño: Petro, la DNI y la UNP",
@@ -285,10 +293,10 @@
   {
    "t": "Secuestran a escolta de la UNP en Caloto: hombres armados se roba",
    "u": "http://diariodelcauca.com.co/noticias/secuestran-a-escolta-de-la-unp-en-caloto-hombres-armados-se-roba",
-   "f": "Diario del Sur",
+   "f": "Diario del Cauca",
    "d": "2026-11-12T19:31:19.000Z",
    "img": "https://gec.hsbnoticias.com/uploads/articles/840864f2-e83c-44a7-b552-bd10d64728da.webp",
-   "r": "Secuestran a escolta de la UNP en Caloto: hombres armados se roba &nbsp;&nbsp; Diario del Sur"
+   "r": "Secuestran a escolta de la UNP en Caloto: hombres armados se roba &nbsp;&nbsp; Diario del Cauca"
   },
   {
    "t": "Alejandro Ordóñez reveló qué pasará con la protección para los comparecientes ante la JEP y cuestionó la política de Paz Total: “Que paguen por sus delitos”",
@@ -307,6 +315,14 @@
    "r": "Amenazan de muerte al alcalde de Corinto, Cauca, con ramo fúnebre tras robo de camioneta de UNP &nbsp;&nbsp; Pulzo"
   },
   {
+   "t": "Comunidades evitaron que funcionario de la UNP terminara secuestrado: lo rescataron mediante presión humanitaria en Caloto",
+   "u": "https://periodicovirtual.com/comunidades-evitaron-que-funcionario-de-la-unp-terminara-secuestrado-lo-rescataron-mediante-presion-humanitaria-en-caloto/",
+   "f": "Agencia de Medios Hoy Noticias",
+   "d": "2026-11-12T16:10:50.000Z",
+   "img": "https://periodicovirtual.com/content/images/2026/11/MAYOR-SECUESTRADO.jpeg",
+   "r": "Comunidades evitaron que funcionario de la UNP terminara secuestrado: lo rescataron mediante presión humanitaria en Caloto &nbsp;&nbsp; Agencia de Medios Hoy Noticias"
+  },
+  {
    "t": "Alejandro Ordoñez habló sobre esquemas de seguridad y sanciones",
    "u": "https://www.infobae.com/video/colombia/alejandro-ordonez-hablo-sobre-esquemas-de-seguridad-y-sanciones/tbTKduXx/",
    "f": "Infobae",
@@ -315,28 +331,12 @@
    "r": "Alejandro Ordoñez habló sobre esquemas de seguridad y sanciones &nbsp;&nbsp; Infobae"
   },
   {
-   "t": "Amenazan de muerte al alcalde de Corinto, Cauca, con un ramo fúnebre en su casa, después de un secuestro y robo de una camioneta de la UNP en Caloto",
-   "u": "https://www.eltiempo.com/colombia/cali/amenazan-de-muerte-al-alcalde-de-corinto-cauca-con-un-ramo-funebre-en-su-casa-despues-de-un-secuestro-y-robo-de-una-camioneta-de-la-unp-en-caloto-3600449",
-   "f": "El Tiempo",
-   "d": "2026-11-12T14:29:13.000Z",
-   "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/12/6af5cc089fed5.r_d.767-520-8752.jpeg",
-   "r": "Amenazan de muerte al alcalde de Corinto, Cauca, con un ramo fúnebre en su casa, después de un secuestro y robo de una camioneta de la UNP en Caloto &nbsp;&nbsp; El Tiempo"
-  },
-  {
    "t": "Hombres armados atacaron una camioneta del alcalde de Caloto, Cauca, y secuestraron a uno de sus escoltas; horas después fue liberado",
    "u": "https://tenemosnoticias.com/internacionales/colombia/eltiempo-com/hombres-armados-atacaron-una-camioneta-del-alcalde-de-caloto-cauca-y-secuestraron-a-uno-de-sus-escoltas-horas-despues-fue-liberado/",
    "f": "Tenemos Noticias",
    "d": "2026-11-12T12:46:01.000Z",
    "img": "",
    "r": "Hombres armados atacaron una camioneta del alcalde de Caloto, Cauca, y secuestraron a uno de sus escoltas; horas después fue liberado &nbsp;&nbsp; Tenemos Noticias"
-  },
-  {
-   "t": "Comunidades evitaron que funcionario de la UNP terminara secuestrado: lo rescataron mediante presión humanitaria en Caloto",
-   "u": "https://periodicovirtual.com/comunidades-evitaron-que-funcionario-de-la-unp-terminara-secuestrado-lo-rescataron-mediante-presion-humanitaria-en-caloto/",
-   "f": ":.Periodicovirtual.com.:",
-   "d": "2026-11-12T12:00:43.000Z",
-   "img": "https://periodicovirtual.com/content/images/2026/11/MAYOR-SECUESTRADO.jpeg",
-   "r": "Comunidades evitaron que funcionario de la UNP terminara secuestrado: lo rescataron mediante presión humanitaria en Caloto &nbsp;&nbsp; :.Periodicovirtual.com.:"
   },
   {
    "t": "El esquema de protección de la exFarc Sandra Ramírez está bajo reevaluación, confirmó la UNP",
@@ -379,6 +379,14 @@
    "r": "Gobierno de Abelardo De La Espriella anunció el “fin de la feria” de los esquemas de protección y seguridad &nbsp;&nbsp; Revista Semana"
   },
   {
+   "t": "Amenazan de muerte al alcalde de Corinto, Cauca, con un ramo fúnebre en su casa, después de un secuestro y robo de una camioneta de la UNP en Caloto",
+   "u": "https://www.eltiempo.com/colombia/cali/amenazan-de-muerte-al-alcalde-de-corinto-cauca-con-un-ramo-funebre-en-su-casa-despues-de-un-secuestro-y-robo-de-una-camioneta-de-la-unp-en-caloto-3600449",
+   "f": "El Tiempo",
+   "d": "2026-11-12T08:00:00.000Z",
+   "img": "https://imagenes2.eltiempo.com/files/og_thumbnail/files/fp/uploads/2026/11/12/6af5cc089fed5.r_d.767-520-8752.jpeg",
+   "r": "Amenazan de muerte al alcalde de Corinto, Cauca, con un ramo fúnebre en su casa, después de un secuestro y robo de una camioneta de la UNP en Caloto &nbsp;&nbsp; El Tiempo"
+  },
+  {
    "t": "“Se acaba la feria de los esquemas de seguridad”: ministro del Interior anuncia revisión de protección de la UNP",
    "u": "https://rionoticias.co/se-acaba-la-feria-de-los-esquemas-de-seguridad-ministro-del-interior-anuncia-revision-de-proteccion-de-la-unp/",
    "f": "río noticias",
@@ -406,7 +414,7 @@
    "t": "Jorge Lemus, exdirector de la DNI, fue ‘pillado’ usando camioneta blindada de la UNP para cargar materiales de construcción: “Como vehículo de acarreo”",
    "u": "https://www.infobae.com/colombia/2026/11/11/jorge-lemus-exdirector-de-la-dni-fue-pillado-usando-camioneta-blindada-de-la-unp-para-cargar-materiales-de-construccion-como-vehiculo-de-acarreo/",
    "f": "Infobae",
-   "d": "2026-11-11T19:01:00.000Z",
+   "d": "2026-11-11T08:00:00.000Z",
    "img": "https://www.infobae.com/resizer/v2/YH7D7JVPHFDLJEH7R7NEKRGQVY.jpg?auth=25679ddd7bc9f77f99e4219800f6bfffc6e30392ffef5f7264f976a3bb564b39&smart=true&width=600&height=376",
    "r": "Jorge Lemus, exdirector de la DNI, fue ‘pillado’ usando camioneta blindada de la UNP para cargar materiales de construcción: “Como vehículo de acarreo” &nbsp;&nbsp; Infobae"
   },
@@ -486,7 +494,7 @@
    "t": "¿Cuánto costó la implementación de la paz total? UNP revela alarmantes datos",
    "u": "https://www.noticiasrcn.com/colombia/documento-de-la-unp-revela-gastos-de-la-paz-total-del-gobierno-petro-1079943",
    "f": "Noticias RCN",
-   "d": "2026-11-09T01:10:50.000Z",
+   "d": "2026-11-09T01:13:40.000Z",
    "img": "https://imagenes.noticiasrcn.com/cms/2026/11/08200539/unp-paz-total.webp?w=1280",
    "r": "¿Cuánto costó la implementación de la paz total? UNP revela alarmantes datos &nbsp;&nbsp; Noticias RCN"
   },
@@ -553,14 +561,6 @@
    "d": "2026-11-04T08:00:00.000Z",
    "img": "https://www.infobae.com/resizer/v2/IIRUZTO6EJCD5BVHCZIGDN5TTQ.jpg?auth=29cd4ac05e135f5c2db7220d2cf6e0ecd28869ea413b0a25ce03d266e81136aa&smart=true&width=1024&height=512&quality=85",
    "r": "Director de la cárcel Villahermosa en Cali recibió amenazas contra su familia: retiraron su esquema de seguridad pese a riesgo extraordinario &nbsp;&nbsp; Infobae"
-  },
-  {
-   "t": "¡Escandalosa cifra! Proteger a los de las mesas de la 'Paz Total' le habría costado $34.500 millones a la UNP",
-   "u": "https://www.minuto30.com/escandalosa-cifra-proteger-a-los-de-las-mesas-de-la-paz-total-le-habria-costado-34-500-millones-a-la-unp/1726140/",
-   "f": "Minuto30",
-   "d": "2026-10-30T20:52:40.000Z",
-   "img": "https://staticprd.minuto30.com/wp-content/uploads/2026/10/simon-molina.webp",
-   "r": "¡Escandalosa cifra! Proteger a los de las mesas de la 'Paz Total' le habría costado $34.500 millones a la UNP &nbsp;&nbsp; Minuto30"
   }
  ],
  "videos": [
@@ -568,31 +568,31 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-20T17:07:55.335Z"
+   "d": "2026-11-20T22:17:10.472Z"
   },
   {
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-11-18T17:07:55.335Z"
+   "d": "2026-11-18T22:17:10.472Z"
   },
   {
    "id": "nRYCGChfcwE",
    "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
    "canal": "NTN24",
-   "d": "2026-11-17T17:07:55.335Z"
+   "d": "2026-11-17T22:17:10.472Z"
   },
   {
    "id": "f_svJiTnjJY",
    "t": "POLÉMICA por congresista que fue grabado con escoltas de la UNP arrastrando carros de mercado",
    "canal": "NTN24",
-   "d": "2026-11-17T17:07:55.335Z"
+   "d": "2026-11-17T22:17:10.472Z"
   },
   {
    "id": "IMORts2u8Hk",
    "t": "¿Cuánto costó la implementación de la paz total? UNP revela alarmantes datos",
    "canal": "Noticias RCN",
-   "d": "2026-11-09T17:07:54.873Z"
+   "d": "2026-11-09T22:17:10.051Z"
   },
   {
    "id": "p7-7-oZyYNs",
@@ -638,36 +638,36 @@
   }
  ],
  "diagnostico": [
-  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
-  "✓ Bing Noticias: UNP escoltas viáticos — 0",
   "✓ RSS Infobae — 0",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
-  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
   "✓ RSS Semana — 0",
-  "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
+  "✓ Bing Noticias: UNP escoltas viáticos — 9",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
   "✓ RSS El Espectador — 0",
-  "✓ YouTube @NoticiasRCN — 0",
-  "✗ YouTube @RevistaSemana — HTTP 404",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
   "✗ RSS El Colombiano — HTTP 404",
+  "✓ Google Noticias: UNP viáticos — 2",
+  "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
+  "✓ Google Noticias: UNP escoltas — 24",
+  "✓ YouTube @NoticiasCaracol — 0",
+  "✓ Google Noticias: UNP presupuesto — 4",
   "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
+  "✓ Google Noticias: Alejandro Murcia UNP — 1",
   "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
+  "✓ YouTube @NoticiasRCN — 0",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 19",
+  "✗ YouTube @RevistaSemana — HTTP 404",
   "✗ RSS Blu Radio — HTTP 404",
-  "✓ YouTube @ElEspectador — 0",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
+  "✓ YouTube @eltiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ YouTube @BluRadioCo — 0",
   "✗ RSS La FM — HTTP 404",
+  "✓ YouTube @ElEspectador — 0",
+  "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✗ Google Noticias: \"Unidad Nacional de Protección\" — HTTP 503",
-  "✗ Google Noticias: UNP viáticos — HTTP 503",
-  "✗ Google Noticias: UNP escoltas — HTTP 503",
-  "✗ Google Noticias: UNP presupuesto — HTTP 503",
-  "✗ Google Noticias: Alejandro Murcia UNP — HTTP 429",
-  "✗ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — HTTP 503",
-  "✓ Enlaces reales de Google Noticias — 0 de 0",
+  "✓ Enlaces reales de Google Noticias — 1 de 1",
   "✓ Fotos encontradas — 69 de 70"
  ]
 }
