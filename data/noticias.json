@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T09:37:02.252Z",
+ "actualizado": "2026-11-21T17:08:29.963Z",
  "total": 70,
  "items": [
   {
@@ -15,7 +15,7 @@
    "u": "https://www.vanguardia.com/colombia/2026/11/20/hollman-morris-denuncio-que-bloquearon-una-camioneta-de-su-esquema-de-seguridad/",
    "f": "",
    "d": "2026-11-20T15:06:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.ochwl-nCbbSuwEqdSme7ug&pid=News",
+   "img": "http://www.bing.com/th?id=ONUT.DutBqiPNo1_G5OfJfyD0TA&pid=News",
    "r": "El periodista aseguró que el vehículo dejó de funcionar el 19 de noviembre y afirmó que no había recibido una explicación de la entidad, pese a que cuenta con medidas cautelares de la CIDH."
   },
   {
@@ -47,7 +47,7 @@
    "u": "https://www.pulzo.com/nacion/bloqueo-del-vehiculo-de-proteccion-a-hollman-morris-en-bogota-denuncia-contra-la-unp-PP5360553A",
    "f": "",
    "d": "2026-11-20T05:51:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.owaPRNY1AzyA4vGa93HjCw&pid=News",
+   "img": "http://www.bing.com/th?id=ONUT.fVPlJmPoQCu84hXpa9RFJQ&pid=News",
    "r": "Hollman Morris denunció el bloqueo de su camioneta blindada y pidió explicaciones a la UNP, cuestionando la protección brindada."
   },
   {
@@ -568,31 +568,31 @@
    "id": "DeGa7gEpY6M",
    "t": "Benedetti denuncia que la UNP retiró su esquema de seguridad y el de su familia| EL TIEMPO",
    "canal": "EL TIEMPO",
-   "d": "2026-11-20T09:36:58.609Z"
+   "d": "2026-11-20T17:07:55.335Z"
   },
   {
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-11-18T09:36:58.609Z"
+   "d": "2026-11-18T17:07:55.335Z"
   },
   {
    "id": "nRYCGChfcwE",
    "t": "¿Los escoltas UNP deben empujar carros de mercado en Colombia? Señalan a senador del Pacto Histórico",
    "canal": "NTN24",
-   "d": "2026-11-17T09:36:58.609Z"
+   "d": "2026-11-17T17:07:55.335Z"
   },
   {
    "id": "f_svJiTnjJY",
    "t": "POLÉMICA por congresista que fue grabado con escoltas de la UNP arrastrando carros de mercado",
    "canal": "NTN24",
-   "d": "2026-11-17T09:36:58.609Z"
+   "d": "2026-11-17T17:07:55.335Z"
   },
   {
    "id": "IMORts2u8Hk",
    "t": "¿Cuánto costó la implementación de la paz total? UNP revela alarmantes datos",
    "canal": "Noticias RCN",
-   "d": "2026-11-09T22:59:10.685Z"
+   "d": "2026-11-09T17:07:54.873Z"
   },
   {
    "id": "p7-7-oZyYNs",
@@ -639,34 +639,34 @@
  ],
  "diagnostico": [
   "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 59",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
-  "✓ Bing Noticias: UNP escoltas viáticos — 10",
-  "✓ Google Noticias: UNP viáticos — 2",
+  "✓ Bing Noticias: UNP escoltas viáticos — 0",
   "✓ RSS Infobae — 0",
-  "✓ Google Noticias: UNP escoltas — 23",
-  "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
-  "✓ Google Noticias: UNP presupuesto — 4",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
   "✓ YouTube @NoticiasCaracol — 0",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
-  "✓ Google Noticias: Alejandro Murcia UNP — 1",
   "✓ RSS Semana — 0",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 20",
+  "✓ YouTube búsqueda: UNP escoltas — 4 de 20",
   "✓ RSS El Espectador — 0",
   "✓ YouTube @NoticiasRCN — 0",
   "✗ YouTube @RevistaSemana — HTTP 404",
   "✗ RSS El Colombiano — HTTP 404",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✗ RSS Noticias Caracol — HTTP 404",
   "✓ YouTube @eltiempo — 0",
   "✗ RSS Blu Radio — HTTP 404",
+  "✓ YouTube @ElEspectador — 0",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
-  "✓ YouTube @ElEspectador — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✗ RSS La FM — HTTP 404",
   "✓ YouTube @BluRadioCo — 0",
+  "✗ RSS La FM — HTTP 404",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
+  "✗ Google Noticias: \"Unidad Nacional de Protección\" — HTTP 503",
+  "✗ Google Noticias: UNP viáticos — HTTP 503",
+  "✗ Google Noticias: UNP escoltas — HTTP 503",
+  "✗ Google Noticias: UNP presupuesto — HTTP 503",
+  "✗ Google Noticias: Alejandro Murcia UNP — HTTP 429",
+  "✗ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — HTTP 503",
   "✓ Enlaces reales de Google Noticias — 0 de 0",
   "✓ Fotos encontradas — 69 de 70"
  ]
