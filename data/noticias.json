@@ -1,7 +1,15 @@
 {
- "actualizado": "2026-11-24T03:51:25.384Z",
+ "actualizado": "2026-11-24T14:35:54.821Z",
  "total": 70,
  "items": [
+  {
+   "t": "El periodista Daniel Coronell se refirió al anuncio de que la UNP retirará su esquema de seguridad: “El señor ministro del Interior, Alejandro Ordóñez, arremetió contra mí”",
+   "u": "https://www.infobae.com/colombia/2026/11/24/el-periodista-daniel-coronell-se-refirio-al-anuncio-de-que-la-unp-retirara-su-esquema-de-seguridad-el-senor-ministro-del-interior-alejandro-ordonez-arremetio-contra-mi/",
+   "f": "Infobae",
+   "d": "2026-11-24T14:32:55.000Z",
+   "img": "https://www.infobae.com/resizer/v2/UY2YMHUNDNEHNP352NMNDOR5JY.jpg?auth=8f337cc23f323841add291342c102349a2ac62658a99d8b251a69fd20b5df7a1&smart=true&width=1000&height=529",
+   "r": "Para el comunicador, la suspensión de las medidas protectoras ocurrió inmediatamente después de su discurso en los premios Simón Bolívar, desatando una controversia por los duros reproches públicos difundidos desde el Ministerio del Interior"
+  },
   {
    "t": "UNP bajo escrutinio tras retiro de esquemas de seguridad a Daniel Coronell, Hollman Morris y Claudia López en Colombia",
    "u": "https://www.pulzo.com/nacion/retiro-de-esquemas-de-seguridad-por-la-unp-en-colombia-por-que-afecta-a-coronell-y-claudia-lopez-PP5362612A",
@@ -25,14 +33,6 @@
    "d": "2026-11-23T23:42:10.000Z",
    "img": "https://noticiasbq.com/wp-content/uploads/2026/11/46e1e238-e76e-4aef-82f3-a19760bdc65f.jpg",
    "r": "UNP retiraría el esquema de seguridad a Hollman Morris pese a medidas de protección de la CIDH — NoticiasBQ &nbsp;&nbsp; Howl.Link"
-  },
-  {
-   "t": "Hollman Morris también se quedaría sin esquema de seguridad por decisión de la UNP",
-   "u": "https://www.minuto60.com/colombia/hollman-morris-tambien-perdera-su-esquema-seguridad-esto-se-sabe/19474",
-   "f": "Minuto60",
-   "d": "2026-11-23T23:38:39.000Z",
-   "img": "https://d33tk5b80rpokn.cloudfront.net/images/hollman-morris-se-quedaria-sin-esquema-de-seguridad-por-decision-de-la-unp-20261123-182615_20261123_182615_twitter.jpg",
-   "r": "Hollman Morris también se quedaría sin esquema de seguridad por decisión de la UNP &nbsp;&nbsp; Minuto60"
   },
   {
    "t": "HRW alerta por retiro de esquemas de protección a Claudia López y Daniel Coronell",
@@ -63,7 +63,7 @@
    "u": "https://zonacero.com/generales/human-rights-alerto-por-retiro-de-esquemas-de-proteccion-opositores-del-gobierno",
    "f": "Zona Cero",
    "d": "2026-11-23T21:52:00.000Z",
-   "img": "",
+   "img": "http://zonacero.com/sites/default/files/styles/1280_x_530_noticia_interna/public/2026-11/Claudia%20L%C3%B3pez%20y%20Daniel%20Coronell._0.jpeg?h=54cda3dc&itok=fRibyxbc",
    "r": "Human Rights alertó por retiro de esquemas de protección a opositores del Gobierno &nbsp;&nbsp; Zona Cero"
   },
   {
@@ -171,14 +171,6 @@
    "r": "UNP niega haber tocado el esquema de Petro: “No se han hecho cambios de ningún tipo” &nbsp;&nbsp; LA RAZÓN.CO"
   },
   {
-   "t": "Exclusivo | Gasto de UNP creció 137% con Petro, pero los protegidos apenas un 28% más: ¿y la plata? | El Colombiano",
-   "u": "https://www.elcolombiano.com/colombia/unp-gasto-esquemas-proteccion-congresistas-lideres-sociales-austeridad-AO43907337",
-   "f": "El Colombiano",
-   "d": "2026-11-23T10:50:07.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.PplJfxZj1H1lsupDfiziGA&pid=News",
-   "r": "Exclusivo | Gasto de UNP creció 137% con Petro, pero los protegidos apenas un 28% más: ¿y la plata? | El Colombiano &nbsp;&nbsp; El Colombiano"
-  },
-  {
    "t": "Gobierno niega reducción del esquema de seguridad de Gustavo Petro",
    "u": "https://buenaventuraenlinea.com/gobierno-niega-reduccion-esquema-seguridad-gustavo-petro/",
    "f": "Noticias De Buenaventura, Colombia Y El Mundo",
@@ -193,6 +185,14 @@
    "d": "2026-11-23T08:31:00.000Z",
    "img": "http://www.bing.com/th?id=ONUT.rBQHje_3PWrRNgE3vt2G0Q&pid=News",
    "r": "La Unidad Nacional de Protección (UNP) quedó nuevamente en el centro del debate público tras conocerse un informe que revela significativo incremento en los ..."
+  },
+  {
+   "t": "Hollman Morris también se quedaría sin esquema de seguridad por decisión de la UNP",
+   "u": "https://www.minuto60.com/colombia/hollman-morris-tambien-perdera-su-esquema-seguridad-esto-se-sabe/19474",
+   "f": "",
+   "d": "2026-11-23T07:32:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.bKxhXLNHYXHYX0jqEFuJCw&pid=News",
+   "r": "Hollman Morris se quedaría sin esquema de seguridad por decisión de la UNP, pese a las medidas de protección ordenadas por la CIDH."
   },
   {
    "t": "La Unidad Nacional de Protección disparó sus gastos en un 137% durante el gobierno Petro: en qué se gastaron la plata",
@@ -257,6 +257,14 @@
    "d": "2026-11-22T14:10:07.000Z",
    "img": "https://www.lasillavacia.com/wp-content/uploads/2026/08/GABINETE_VIDA_PETRO-1.jpg",
    "r": "El Pacto rechaza el retiro de esquemas de seguridad a miembros del partido &nbsp;&nbsp; La Silla Vacía"
+  },
+  {
+   "t": "Exclusivo | Gasto de UNP creció 137% con Petro, pero los protegidos apenas un 28% más: ¿y la plata?",
+   "u": "https://www.elcolombiano.com/colombia/unp-gasto-esquemas-proteccion-congresistas-lideres-sociales-austeridad-AO43907337",
+   "f": "",
+   "d": "2026-11-22T12:20:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.PplJfxZj1H1lsupDfiziGA&pid=News",
+   "r": "“Los líderes están siendo asesinados porque no tenemos cómo protegerlos”. Con el espejo retrovisor en mano, apuntando a los contratos de ..."
   },
   {
    "t": "Expresidente Petro y el Pacto Histórico denuncian reducción y retiro de esquemas de seguridad",
@@ -553,14 +561,6 @@
    "d": "2026-11-13T04:34:21.000Z",
    "img": "https://gec.hsbnoticias.com/uploads/articles/451d5db3-28f3-40f8-911b-50f960def67c.webp",
    "r": "Secuestran a escolta de la UNP en Cauca: horas después recuperó su libertad &nbsp;&nbsp; Diario del Cauca"
-  },
-  {
-   "t": "Alejandro Ordóñez anuncia revisión de más de 600 esquemas de seguridad para firmantes de paz",
-   "u": "https://diariolalibertad.com/2026/11/12/alejandro-ordonez-anuncia-revision-de-mas-de-600-esquemas-de-seguridad-para-firmantes-de-paz/",
-   "f": "Diario La Libertad",
-   "d": "2026-11-13T02:32:30.000Z",
-   "img": "https://diariolalibertad.com/wp-content/uploads/2026/11/Captura-de-pantalla-2026-11-12-a-las-9.31.06-p.m.webp",
-   "r": "Alejandro Ordóñez anuncia revisión de más de 600 esquemas de seguridad para firmantes de paz &nbsp;&nbsp; Diario La Libertad"
   }
  ],
  "videos": [
@@ -600,7 +600,7 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-11-21T03:51:06.288Z"
+   "d": "2026-11-21T14:35:01.475Z"
   },
   {
    "id": "DeGa7gEpY6M",
@@ -640,36 +640,36 @@
   }
  ],
  "diagnostico": [
-  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 10",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 1 de 20",
   "✓ RSS Infobae — 1",
-  "✓ YouTube @NoticiasCaracol — 0",
-  "✓ Bing Noticias: UNP escoltas viáticos — 9",
-  "✓ YouTube búsqueda: UNP escoltas — 1 de 20",
   "✓ RSS Semana — 0",
   "✓ RSS El Espectador — 0",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 1",
+  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
   "✗ RSS El Colombiano — HTTP 404",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
+  "✓ Bing Noticias: UNP escoltas viáticos — 10",
+  "✓ YouTube @NoticiasCaracol — 0",
+  "✗ RSS Noticias Caracol — HTTP 404",
+  "✓ YouTube búsqueda: UNP escoltas — 1 de 20",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✓ YouTube @NoticiasRCN — 0",
   "✗ YouTube @RevistaSemana — HTTP 404",
-  "✗ Google Noticias: UNP viáticos — HTTP 429",
-  "✗ RSS Noticias Caracol — HTTP 404",
-  "✗ Google Noticias: UNP escoltas — HTTP 429",
-  "✓ Google Noticias: UNP presupuesto — 6",
   "✗ RSS Blu Radio — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
-  "✓ Google Noticias: Alejandro Murcia UNP — 1",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 32",
   "✗ RSS La FM — HTTP 404",
+  "✓ YouTube @eltiempo — 0",
   "✓ YouTube @ElEspectador — 0",
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 11 de 11",
-  "✓ Fotos encontradas — 67 de 70"
+  "✗ Google Noticias: \"Unidad Nacional de Protección\" — HTTP 503",
+  "✗ Google Noticias: UNP viáticos — HTTP 503",
+  "✗ Google Noticias: UNP escoltas — HTTP 503",
+  "✗ Google Noticias: UNP presupuesto — HTTP 503",
+  "✗ Google Noticias: Alejandro Murcia UNP — HTTP 503",
+  "✗ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — HTTP 503",
+  "✓ Enlaces reales de Google Noticias — 0 de 0",
+  "✓ Fotos encontradas — 68 de 70"
  ]
 }
