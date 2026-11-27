@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="es">
 <head>
+<script>/* datos-desde-github: los datos del robot se leen directo de GitHub para no gastar créditos de Netlify */
+(function(){var R="https://raw.githubusercontent.com/haroldco45/unp-al-dia/main/",P=["data/noticias.json"];if(location.hostname.indexOf('github.io')>=0)return;function m(p){p=decodeURIComponent(p).replace(/^\/+/,'');for(var i=0;i<P.length;i++){var x=P[i];if(x.slice(-1)==='/'?p.indexOf(x)===0:p===x)return p}return null}function g(a){try{var u=new URL(typeof a==='string'||a instanceof URL?String(a):a.url,location.href);if(u.origin!==location.origin)return null;var p=m(u.pathname);return p?R+p+u.search:null}catch(e){return null}}var F=window.fetch;if(F){window.fetch=function(a,o){var met=((o&&o.method)||(a&&a.method)||'GET').toUpperCase();var r=met==='GET'?g(a):null;if(!r)return F.apply(this,arguments);var s=this,A=arguments;return F.call(window,r,{cache:'no-store'}).then(function(x){return x.ok?x:F.apply(s,A)},function(){return F.apply(s,A)})}}addEventListener('error',function(e){var t=e.target;if(!t||t.tagName!=='IMG'||t.getAttribute('data-gh'))return;var r=g(t.getAttribute('src')||'');if(r){t.setAttribute('data-gh','1');t.src=r}},true);})();</script>
 <script id="vibras-datos-github">/* Las noticias se leen directo de GitHub para no gastar créditos de Netlify */
 (function(){var R='unp-al-dia',B='https://raw.githubusercontent.com/haroldco45/'+R+'/main/',f=window.fetch.bind(window);
 window.fetch=function(i,o){try{var u=new URL(typeof i==='string'?i:(i&&i.url)||String(i),location.href),m=(o&&o.method)||(i&&i.method)||'GET';
