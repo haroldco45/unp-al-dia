@@ -1,23 +1,7 @@
 {
- "actualizado": "2026-11-27T20:44:01.580Z",
+ "actualizado": "2026-11-28T03:06:07.242Z",
  "total": 70,
  "items": [
-  {
-   "t": "Camilo Romero denuncia retiro de su esquema de protección",
-   "u": "https://hsbnoticias.com/noticias/camilo-romero-denuncia-retiro-de-su-esquema-de-proteccion",
-   "f": "HSB Noticias",
-   "d": "2026-11-27T15:36:20.000Z",
-   "img": "https://gec.lbrluber.com/uploads/articles/e3a33c03-cf7a-4bb7-b46c-01c8a92e5edf.webp",
-   "r": "Camilo Romero denuncia retiro de su esquema de protección &nbsp;&nbsp; HSB Noticias"
-  },
-  {
-   "t": "Corte Constitucional advierte fallas en protección estatal a periodistas y cuestiona labor de la UNP en Colombia",
-   "u": "https://www.pulzo.com/nacion/libertad-de-prensa-en-colombia-corte-constitucional-cuestiona-proteccion-de-la-unp-a-periodistas-PP5366120A",
-   "f": "Pulzo",
-   "d": "2026-11-27T12:30:46.000Z",
-   "img": "https://hermes-files.pulzo2.com/images/4e81cb8e-04c5-41d2-b4e6-a46d43744948.jpg",
-   "r": "Corte Constitucional advierte fallas en protección estatal a periodistas y cuestiona labor de la UNP en Colombia &nbsp;&nbsp; Pulzo"
-  },
   {
    "t": "Corte Constitucional alerta sobre desprotección de periodistas por parte de la UNP",
    "u": "https://www.elespectador.com/judicial/corte-constitucional-alerta-sobre-desproteccion-de-periodistas-por-parte-de-la-unp/",
@@ -27,12 +11,28 @@
    "r": "Corte Constitucional alerta sobre desprotección de periodistas por parte de la UNP &nbsp;&nbsp; El Espectador"
   },
   {
+   "t": "Camilo Romero denuncia retiro de su esquema de protección",
+   "u": "https://www.diariodelsur.com.co/noticias/camilo-romero-denuncia-retiro-de-su-esquema-de-proteccion",
+   "f": "",
+   "d": "2026-11-27T07:35:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.yUdD2lGYYfrP9EFbRgLoYg&pid=News",
+   "r": "En Bogotá, Camilo Romero cuestionó la decisión de retirar su protección y expresó preocupación por las consecuencias para su seguridad."
+  },
+  {
    "t": "Retiran esquema de seguridad de Camilo Romero y responsabiliza al gobierno de su integridad",
    "u": "https://caracol.com.co/2026/11/27/retiran-esquema-de-seguridad-de-camilo-romero-y-responsabiliza-al-gobierno-de-su-integridad/",
    "f": "Caracol Radio",
    "d": "2026-11-27T05:00:26.000Z",
    "img": "https://caracol.com.co/resizer/v2/WKDRO32LAFBAHLYJLSPZPQV5YE.jpg?auth=04b670337a654aacab05a00e4f424dd5da8fd12270ad3d32acabf7bf3afa23ec&quality=70&width=1200&height=675&smart=true",
    "r": "Retiran esquema de seguridad de Camilo Romero y responsabiliza al gobierno de su integridad &nbsp;&nbsp; Caracol Radio"
+  },
+  {
+   "t": "Camilo Romero denuncia que le desmontaron la seguridad y lanza fuerte acusación contra De la Espriella; “miserable”",
+   "u": "https://www.publimetro.co/noticias/2026/11/27/camilo-romero-denuncia-que-le-desmontaron-la-seguridad-y-lanza-fuerte-acusacion-contra-de-la-espriella-miserable/",
+   "f": "",
+   "d": "2026-11-27T04:35:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.Ot3ZDS0L7ChDud9MOyduSw&pid=News",
+   "r": "El exgobernador de Nariño y dirigente político Camilo Romero denunció públicamente que la Unidad Nacional de Protección (UNP) desmontó su esquema de seguridad y lanzó fuertes señalamientos contra el ..."
   },
   {
    "t": "Periodistas en riesgo por interrupción de sus esquemas de protección",
@@ -67,12 +67,12 @@
    "r": "Alerta por seguridad de firmantes de paz luego de que empresas suspendieran a los escoltas por falta de contratos con la UNP: la entidad se pronunció &nbsp;&nbsp; Infobae"
   },
   {
-   "t": "FLIP alerta por desprotección de periodistas en cinco departamentos: esquemas de seguridad fueron suspendidos",
-   "u": "https://metropolitano.com.co/periodistas-quedan-sin-proteccion-de-la-unp-en-colombia/",
-   "f": "Metropolitano",
-   "d": "2026-11-26T22:59:47.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.V4pNQjypoi7oFBsHOf84bA&pid=News",
-   "r": "FLIP alerta por desprotección de periodistas en cinco departamentos: esquemas de seguridad fueron suspendidos &nbsp;&nbsp; Metropolitano"
+   "t": "Corte Constitucional advierte fallas en protección estatal a periodistas y cuestiona labor de la UNP en Colombia",
+   "u": "https://www.pulzo.com/nacion/libertad-de-prensa-en-colombia-corte-constitucional-cuestiona-proteccion-de-la-unp-a-periodistas-PP5366120A",
+   "f": "",
+   "d": "2026-11-26T23:30:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.g98h7woAPmksAnCqD7a-VA&pid=News",
+   "r": "Tensión entre gobierno y libertad de prensa: Corte Constitucional advierte fallas en la protección estatal a periodistas bajo amenaza."
   },
   {
    "t": "Flip rechaza que la UNP elimine esquemas de periodistas regionales",
@@ -131,14 +131,6 @@
    "r": "Gobierno reduce esquema de seguridad de Francia Márquez y asegura que seguirá costando $600 millones al mes &nbsp;&nbsp; Diario La Libertad"
   },
   {
-   "t": "Políticos y periodistas, indignados con el gobierno De la Espriella por retiro de sus esquemas de seguridad | El Colombiano",
-   "u": "https://www.elcolombiano.com/colombia/politicos-periodistas-indignados-retiro-esquemas-seguridad-BJ44097402",
-   "f": "El Colombiano",
-   "d": "2026-11-26T17:58:49.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.TtmXLlKeUtiKblmbeTV6Cg&pid=News",
-   "r": "Políticos y periodistas, indignados con el gobierno De la Espriella por retiro de sus esquemas de seguridad | El Colombiano &nbsp;&nbsp; El Colombiano"
-  },
-  {
    "t": "Gobierno respondió denuncia de Francia Márquez por reducción de su esquema de seguridad",
    "u": "https://www.boyacaradio.com/noticia.php?id=65341",
    "f": "Boyaca Radio",
@@ -179,12 +171,28 @@
    "r": "¿Por qué le redujeron el esquema de seguridad a Francia Márquez? Gobierno explicó sus razones &nbsp;&nbsp; CAMBIO Colombia"
   },
   {
+   "t": "FLIP alerta por desprotección de periodistas en cinco departamentos: esquemas de seguridad fueron suspendidos",
+   "u": "https://metropolitano.com.co/periodistas-quedan-sin-proteccion-de-la-unp-en-colombia/",
+   "f": "",
+   "d": "2026-11-26T14:59:00.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.V4pNQjypoi7oFBsHOf84bA&pid=News",
+   "r": "Periodistas amenazados quedaron sin protección de la UNP en cinco departamentos. La FLIP advierte que la situación podría extenderse a otras regiones del país."
+  },
+  {
    "t": "¿No le alcanzan 70 escoltas? Francia Márquez frenó recorte de su esquema de seguridad",
    "u": "https://www.chicanoticias.com/2026/11/26/70-escoltas-francia-marquez/",
    "f": "Chica Noticias",
    "d": "2026-11-26T14:51:54.000Z",
    "img": "https://www.chicanoticias.com/wp-content/uploads/2025/11/francia-marquez-renuncia.webp",
    "r": "¿No le alcanzan 70 escoltas? Francia Márquez frenó recorte de su esquema de seguridad &nbsp;&nbsp; Chica Noticias"
+  },
+  {
+   "t": "Políticos y periodistas, indignados con el gobierno De la Espriella por retiro de sus esquemas de seguridad | El Colombiano",
+   "u": "https://www.elcolombiano.com/colombia/politicos-periodistas-indignados-retiro-esquemas-seguridad-BJ44097402",
+   "f": "El Colombiano",
+   "d": "2026-11-26T14:07:04.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.TtmXLlKeUtiKblmbeTV6Cg&pid=News",
+   "r": "Políticos y periodistas, indignados con el gobierno De la Espriella por retiro de sus esquemas de seguridad | El Colombiano &nbsp;&nbsp; El Colombiano"
   },
   {
    "t": "Gobierno de Abelardo de la Espriella negó que le vaya a quitar el esquema de seguridad a Francia Márquez y reveló la millonaria cifra que cuesta su protección: “¡Paren de mentir!\"",
@@ -553,14 +561,6 @@
    "d": "2026-11-24T12:29:34.000Z",
    "img": "https://s3.wasabisys.com/assets.elcronista.co/assets/media/daniel-coronell-defendio-la-libertad-de-prensa-y-cuestiono-alpoder-politico-en-su-discurso-de-los-pr.jpg",
    "r": "La UNP en el centro de la polémica por retiro de seguridad a Daniel Coronell &nbsp;&nbsp; El Cronista"
-  },
-  {
-   "t": "Hollman Morris también perdería su esquema de seguridad por decisión de la UNP",
-   "u": "https://www.chicanoticias.com/2026/11/24/hollman-morris/",
-   "f": "Chica Noticias",
-   "d": "2026-11-24T11:24:38.000Z",
-   "img": "https://www.chicanoticias.com/wp-content/uploads/2026/06/IMG_8229-1.jpg",
-   "r": "Hollman Morris también perdería su esquema de seguridad por decisión de la UNP &nbsp;&nbsp; Chica Noticias"
   }
  ],
  "videos": [
@@ -575,7 +575,7 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-11-23T20:43:55.729Z"
+   "d": "2026-11-24T03:06:05.005Z"
   },
   {
    "id": "sGI4MHnJKoc",
@@ -641,36 +641,36 @@
   }
  ],
  "diagnostico": [
-  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 0",
   "✓ RSS Infobae — 0",
-  "✓ Bing Noticias: UNP escoltas viáticos — 11",
-  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
   "✓ RSS Semana — 0",
+  "✓ RSS El Espectador — 0",
+  "✗ RSS El Colombiano — HTTP 404",
+  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
+  "✓ Bing Noticias: UNP escoltas viáticos — 10",
+  "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
   "✓ Google Noticias: UNP viáticos — 2",
   "✓ YouTube @NoticiasCaracol — 0",
-  "✓ YouTube búsqueda: UNP escoltas — 1 de 20",
-  "✓ Google Noticias: UNP escoltas — 46",
-  "✓ RSS El Espectador — 0",
-  "✓ Google Noticias: UNP presupuesto — 8",
-  "✗ RSS El Colombiano — HTTP 404",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
-  "✓ Google Noticias: Alejandro Murcia UNP — 0",
-  "✓ YouTube @NoticiasRCN — 0",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 32",
   "✗ RSS Noticias Caracol — HTTP 404",
+  "✓ Google Noticias: UNP escoltas — 61",
+  "✓ Google Noticias: UNP presupuesto — 7",
+  "✓ YouTube búsqueda: UNP escoltas — 1 de 20",
+  "✓ YouTube @NoticiasRCN — 0",
   "✗ RSS Blu Radio — HTTP 404",
   "✗ YouTube @RevistaSemana — HTTP 404",
+  "✓ Google Noticias: Alejandro Murcia UNP — 0",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ YouTube @eltiempo — 0",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✗ RSS La FM — HTTP 404",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 32",
+  "✓ YouTube @eltiempo — 0",
   "✓ YouTube @ElEspectador — 0",
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
   "✗ YouTube @CambioColombia — HTTP 404",
-  "✓ Enlaces reales de Google Noticias — 3 de 3",
+  "✓ Enlaces reales de Google Noticias — 0 de 0",
   "✓ Fotos encontradas — 68 de 70"
  ]
 }
