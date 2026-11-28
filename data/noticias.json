@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T03:06:07.242Z",
+ "actualizado": "2026-11-28T12:09:30.120Z",
  "total": 70,
  "items": [
   {
@@ -73,6 +73,14 @@
    "d": "2026-11-26T23:30:00.000Z",
    "img": "http://www.bing.com/th?id=ONUT.g98h7woAPmksAnCqD7a-VA&pid=News",
    "r": "Tensión entre gobierno y libertad de prensa: Corte Constitucional advierte fallas en la protección estatal a periodistas bajo amenaza."
+  },
+  {
+   "t": "FLIP alerta por desprotección de periodistas en cinco departamentos: esquemas de seguridad fueron suspendidos",
+   "u": "https://metropolitano.com.co/periodistas-quedan-sin-proteccion-de-la-unp-en-colombia/",
+   "f": "Metropolitano",
+   "d": "2026-11-26T22:59:47.000Z",
+   "img": "http://www.bing.com/th?id=ONUT.V4pNQjypoi7oFBsHOf84bA&pid=News",
+   "r": "FLIP alerta por desprotección de periodistas en cinco departamentos: esquemas de seguridad fueron suspendidos &nbsp;&nbsp; Metropolitano"
   },
   {
    "t": "Flip rechaza que la UNP elimine esquemas de periodistas regionales",
@@ -169,14 +177,6 @@
    "d": "2026-11-26T15:00:40.000Z",
    "img": "https://d1x0qnenkl91hi.cloudfront.net/uploads/crops/full-width/article_42513_body_2_2c6d1c6974_full-width.webp",
    "r": "¿Por qué le redujeron el esquema de seguridad a Francia Márquez? Gobierno explicó sus razones &nbsp;&nbsp; CAMBIO Colombia"
-  },
-  {
-   "t": "FLIP alerta por desprotección de periodistas en cinco departamentos: esquemas de seguridad fueron suspendidos",
-   "u": "https://metropolitano.com.co/periodistas-quedan-sin-proteccion-de-la-unp-en-colombia/",
-   "f": "",
-   "d": "2026-11-26T14:59:00.000Z",
-   "img": "http://www.bing.com/th?id=ONUT.V4pNQjypoi7oFBsHOf84bA&pid=News",
-   "r": "Periodistas amenazados quedaron sin protección de la UNP en cinco departamentos. La FLIP advierte que la situación podría extenderse a otras regiones del país."
   },
   {
    "t": "¿No le alcanzan 70 escoltas? Francia Márquez frenó recorte de su esquema de seguridad",
@@ -575,7 +575,7 @@
    "id": "BtC3UlHkek0",
    "t": "Se tenía que decir: ¿Deicy Jiménez tenía esquema de la UNP cuando trabajaba en Mininterior?",
    "canal": "Noticias RCN",
-   "d": "2026-11-24T03:06:05.005Z"
+   "d": "2026-11-24T12:09:27.107Z"
   },
   {
    "id": "sGI4MHnJKoc",
@@ -642,30 +642,30 @@
  ],
  "diagnostico": [
   "✓ RSS Infobae — 0",
-  "✓ RSS Semana — 0",
-  "✓ RSS El Espectador — 0",
-  "✗ RSS El Colombiano — HTTP 404",
-  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 11",
-  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
-  "✓ Bing Noticias: UNP escoltas viáticos — 10",
+  "✓ Bing Noticias: Unidad Nacional de Protección Colombia — 10",
   "✓ YouTube búsqueda: UNP Unidad Nacional de Protección — 0 de 20",
+  "✓ Google Noticias: \"Unidad Nacional de Protección\" — 100",
+  "✓ RSS Semana — 0",
+  "✓ Bing Noticias: UNP escoltas viáticos — 11",
   "✓ Google Noticias: UNP viáticos — 2",
+  "✓ RSS El Espectador — 0",
   "✓ YouTube @NoticiasCaracol — 0",
-  "✗ RSS Noticias Caracol — HTTP 404",
-  "✓ Google Noticias: UNP escoltas — 61",
-  "✓ Google Noticias: UNP presupuesto — 7",
+  "✗ RSS El Colombiano — HTTP 404",
   "✓ YouTube búsqueda: UNP escoltas — 1 de 20",
+  "✓ Google Noticias: UNP escoltas — 58",
+  "✓ Google Noticias: UNP presupuesto — 7",
+  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✓ YouTube @NoticiasRCN — 0",
-  "✗ RSS Blu Radio — HTTP 404",
   "✗ YouTube @RevistaSemana — HTTP 404",
   "✓ Google Noticias: Alejandro Murcia UNP — 0",
+  "✗ RSS Noticias Caracol — HTTP 404",
+  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 50",
+  "✗ RSS Blu Radio — HTTP 404",
+  "✓ YouTube @eltiempo — 0",
   "✓ RSS Pulzo — 0",
   "✓ RSS El Tiempo — 0",
   "✗ RSS Noticias RCN — HTTP 404",
-  "✓ YouTube búsqueda: UNP viáticos Murcia — 0 de 3",
   "✗ RSS La FM — HTTP 404",
-  "✓ Google Noticias: UNP Contraloría OR Procuraduría OR Fiscalía — 32",
-  "✓ YouTube @eltiempo — 0",
   "✓ YouTube @ElEspectador — 0",
   "✓ YouTube @BluRadioCo — 0",
   "✗ YouTube @NoticiasUno — HTTP 404",
